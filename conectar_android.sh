@@ -5,17 +5,29 @@ CONTROL=0
 #PS1='\[$(tput setaf 1)(\t)$(tput sgr0)\][\u-\W]\$> '
 while [ $CONTROL -eq 0 ] ; do
 	cat /etc/mtab | grep media >> /dev/null
-	adb devices | grep -v 'List of devices attached' | grep 'device$' >> /dev/null
-	if [ $? -ne 0 ]; then
+	DISP_CONECTADO=`adb devices | grep -v 'List of devices attached' | grep 'device$' | wc -l`
+	UBICACION_MUSB_CONECTADO=`cat /etc/mtab | grep media | grep -v loop | grep -v  sda |  awk '{ print  $2 }'`
+	MUSB_CONECTADO_L=`cat /etc/mtab | grep media | grep -v loop | grep -v  sda |  awk '{ print  $2 }' | wc -l`
+	# comprobar dispositivo usb
+	if [ $MUSB_CONECTADO_L -eq 0 ]; then
+		echo -e "\e[0;31m usb no conectado \e[0m"; else echo "usb conectado"
+	fi
+	
+	if [ $DISP_CONECTADO -eq 0 ]; then
+		echo -e "\e[0;31m android no conectado \e[0m"; else echo "android conectado";
+	fi
+	
+	if [ $DISP_CONECTADO -eq 0 ] || [ $MUSB_CONECTADO_L -eq 0 ]; then
 		CONTROL=0
-		echo "nada"
+		echo "esperando..."
 		sleep 5
 	else
+		## existe android conectado
 		CONTROL=0
 		echo "volcando"
 		adb shell 'busybox' | grep 'copyright' 
 		if [ $? -ne 0 ]; then
-			if [! -f busybox ]; then 
+			if [ ! -f busybox ]; then 
 				wget https://busybox.net/downloads/binaries/1.28.1-defconfig-multiarch/busybox-armv8l
 				mv busybox-armv8l busybox
 			fi
@@ -31,25 +43,23 @@ while [ $CONTROL -eq 0 ] ; do
 			echo 'hash md5 - Comienzo `date +"%x - %X"`'
 			adb shell su < "hash_primario.sh" 
 			echo "hash md5 - Finalización `date +"%x - %X"`"
-			
-			#echo 'Volcano de imagen - Comienzo `date +"%x - %X"`'
-			
+						
 			adb forward tcp:8888 tcp:8888
 			adb shell su < trasferencia_imagen.sh >> /dev/null &
 			sleep 5
-			nc 127.0.0.1 8888 | bar | cat > device_image.dd
+			nc 127.0.0.1 8888 | bar | cat > $UBICACION_MUSB_CONECTADO"/"device_image.dd
+		
+			echo -e "\e[0;33m" 
+			cat $UBICACION_MUSB_CONECTADO"/"device_image.dd |  bar | md5sum  
+			echo -e "\e[0m" 
 			
-			#echo "volcado - Finalización `date +"%x - %X"`"
-					
+			#echo -e 'Así se escribe \e[1;34mG\e[0m\e[1;31mo\e[0m\e[1;33mo\e[0m\e[1;34mg\e[0m\e[1;32ml\e[0m\e[1;31me\e[0m'
+			
+			#https://www.cgsecurity.org/wiki/Scripted_run#Command_list
+			photorec /log /d $UBICACION_MUSB_CONECTADO"/"recuperados /cmd device_image.dd partition_none,options,mode_ext2,fileopt,everything,enable,search
+
 		fi
 		
-		echo -e "\e[0;33m" 
-		md5sum device_image.dd  
-		echo -e "\e[0m" 
-		
-		#echo -e 'Así se escribe \e[1;34mG\e[0m\e[1;31mo\e[0m\e[1;33mo\e[0m\e[1;34mg\e[0m\e[1;32ml\e[0m\e[1;31me\e[0m'
-		photorec /debug /log /d ./recuperados /cmd device_image.dd partition_none,options,mode_ext2,fileopt,everything,enable,search
-
 		read -n 1 -s -r -p 'Press any key to continue';
 	fi
 done
