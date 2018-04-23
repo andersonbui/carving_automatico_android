@@ -1,0 +1,347 @@
+015-01-01 00:00 shutdown
+
+/system/csc/common/system/media/video/shutdown/shutdown.qmg -> /system/media/video/shutdown/shutdown.qmg (185668 bytes) 
+transferred in writed time : 0.004s closed time : 0.021s progressed with 44.27M byte/sec
+src : -rw-r--r-- root     root       185668 2017-02-24 19:41 shutdown.qmg
+dst : -rw-r--r-- root     root       185668 2018-04-18 15:30 shutdown.qmg
+
+the directory '/system/priv-app'
+src : drwxr-xr-x root     root              2017-02-24 19:47 priv-app
+dst : drwxr-xr-x root     root              2018-01-20 04:38 priv-app
+
+the directory '/system/priv-app/ClaroApps_v1.1.2'
+src : drwxr-xr-x root     root              2016-09-19 21:43 ClaroApps_v1.1.2
+dst : drwxr-xr-x root     root              2018-04-12 05:22 ClaroApps_v1.1.2
+
+/system/csc/common/system/priv-app/ClaroApps_v1.1.2/ClaroApps_v1.1.2.apk -> /system/priv-app/ClaroApps_v1.1.2/ClaroApps_v1.1.2.apk (4566816 bytes) 
+transferred in writed time : 0.057s closed time : 0.250s progressed with 76.41M byte/sec
+src : -rw-r--r-- root     root      4566816 2008-08-01 12:00 ClaroApps_v1.1.2.apk
+dst : -rw-r--r-- root     root      4566816 2018-04-18 15:30 ClaroApps_v1.1.2.apk
+
+the directory '/system/priv-app/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210'
+src : drwxr-xr-x root     root              2016-09-19 21:43 ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210
+dst : drwxr-xr-x root     root              2018-04-12 05:22 ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210
+
+/system/csc/common/system/priv-app/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210.apk -> /system/priv-app/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210.apk (4434217 bytes) 
+transferred in writed time : 0.054s closed time : 1.142s progressed with 78.31M byte/sec
+src : -rw-r--r-- root     root      4434217 2008-08-01 12:00 ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210.apk
+dst : -rw-r--r-- root     root      4434217 2018-04-18 15:30 ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210.apk
+
+the directory '/system/priv-app/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210/lib'
+src : drwxr-xr-x root     root              2016-09-19 21:43 lib
+dst : drwxr-xr-x root     root              2016-09-19 21:44 lib
+
+the directory '/system/priv-app/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210/lib/arm'
+src : drwxr-xr-x root     root              2016-09-19 21:43 arm
+dst : drwxr-xr-x root     root              2015-01-01 00:00 arm
+
+/system/csc/common/system/priv-app/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210/lib/arm/libgenerator.so -> /system/priv-app/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210/lib/arm/libgenerator.so (447856 bytes) 
+transferred in writed time : 0.007s closed time : 0.035s progressed with 61.02M byte/sec
+src : -rw-r--r-- root     root       447856 2008-08-01 12:00 libgenerator.so
+dst : -rw-r--r-- root     root       447856 2018-04-18 15:30 libgenerator.so
+
+/system/csc/common/system/priv-app/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210/lib/arm/libnativeU.so -> /system/priv-app/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210/lib/arm/libnativeU.so (13432 bytes) 
+transferred in writed time : 0.000s closed time : 0.009s progressed with 4096.00M byte/sec
+src : -rw-r--r-- root     root        13432 2008-08-01 12:00 libnativeU.so
+dst : -rw-r--r-- root     root        13432 2018-04-18 15:30 libnativeU.so
+
+the directory '/system/priv-app/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210/lib/x86'
+src : drwxr-xr-x root     root              2016-09-19 21:43 x86
+dst : drwxr-xr-x root     root              2015-01-01 00:00 x86
+
+/system/csc/common/system/priv-app/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210/lib/x86/libgenerator.so -> /system/priv-app/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210/lib/x86/libgenerator.so (579324 bytes) 
+transferred in writed time : 0.010s closed time : 0.046s progressed with 55.25M byte/sec
+src : -rw-r--r-- root     root       579324 2008-08-01 12:00 libgenerator.so
+dst : -rw-r--r-- root     root       579324 2018-04-18 15:30 libgenerator.so
+
+/system/csc/common/system/priv-app/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210/lib/x86/libnativeU.so -> /system/priv-app/ClaroJuegos_WidgetApp4x4_Generic_AMX_PE40_upd51_2009_M_v210/lib/x86/libnativeU.so (13432 bytes) 
+transferred in writed time : 0.000s closed time : 0.008s progressed with 4096.00M byte/sec
+src : -rw-r--r-- root     root        13432 2008-08-01 12:00 libnativeU.so
+dst : -rw-r--r-- root     root        13432 2018-04-18 15:30 libnativeU.so
+
+the directory '/system/priv-app/ContenedorGlobalV8410F260216VC173'
+src : drwxr-xr-x root     root              2016-09-19 21:43 ContenedorGlobalV8410F260216VC173
+dst : drwxr-xr-x root     root              2018-04-12 05:22 ContenedorGlobalV8410F260216VC173
+
+/system/csc/common/system/priv-app/ContenedorGlobalV8410F260216VC173/ContenedorGlobalV8410F260216VC173.apk -> /system/priv-app/ContenedorGlobalV8410F260216VC173/ContenedorGlobalV8410F260216VC173.apk (13361294 bytes) 
+transferred in writed time : 0.167s closed time : 1.619s progressed with 76.30M byte/sec
+src : -rw-r--r-- root     root     13361294 2008-08-01 12:00 ContenedorGlobalV8410F260216VC173.apk
+dst : -rw-r--r-- root     root     13361294 2018-04-18 15:30 ContenedorGlobalV8410F260216VC173.apk
+
+the directory '/system/priv-app/MiClaro_CDR_v4.2'
+src : drwxr-xr-x root     root              2016-09-19 21:43 MiClaro_CDR_v4.2
+dst : drwxr-xr-x root     root              2015-01-01 00:00 MiClaro_CDR_v4.2
+
+/system/csc/common/system/priv-app/MiClaro_CDR_v4.2/MiClaro_CDR_v4.2.apk -> /system/priv-app/MiClaro_CDR_v4.2/MiClaro_CDR_v4.2.apk (0 bytes) 
+transferred in writed time : 0.000s closed time : 0.005s progressed with 0.00M byte/sec
+src : -rw-r--r-- root     root            0 2008-08-01 12:00 MiClaro_CDR_v4.2.apk
+dst : -rw-r--r-- root     root            0 2018-04-18 15:30 MiClaro_CDR_v4.2.apk
+
+the directory '/system/priv-app/MiClaro_CTI_v1.0.3-6'
+src : drwxr-xr-x root     root              2016-09-19 21:43 MiClaro_CTI_v1.0.3-6
+dst : drwxr-xr-x root     root              2015-01-01 00:00 MiClaro_CTI_v1.0.3-6
+
+/system/csc/common/system/priv-app/MiClaro_CTI_v1.0.3-6/MiClaro_CTI_v1.0.3-6.apk -> /system/priv-app/MiClaro_CTI_v1.0.3-6/MiClaro_CTI_v1.0.3-6.apk (0 bytes) 
+transferred in writed time : 0.000s closed time : 0.006s progressed with 0.00M byte/sec
+src : -rw-r--r-- root     root            0 2008-08-01 12:00 MiClaro_CTI_v1.0.3-6.apk
+dst : -rw-r--r-- root     root            0 2018-04-18 15:30 MiClaro_CTI_v1.0.3-6.apk
+
+the directory '/system/priv-app/MiClaro_PCT_v1.5.1'
+src : drwxr-xr-x root     root              2017-02-24 19:47 MiClaro_PCT_v1.5.1
+dst : drwxr-xr-x root     root              2015-01-01 00:00 MiClaro_PCT_v1.5.1
+
+/system/csc/common/system/priv-app/MiClaro_PCT_v1.5.1/MiClaro_PCT_v1.5.1.apk -> /system/priv-app/MiClaro_PCT_v1.5.1/MiClaro_PCT_v1.5.1.apk (0 bytes) 
+transferred in writed time : 0.000s closed time : 0.004s progressed with 0.00M byte/sec
+src : -rw-r--r-- root     root            0 2008-08-01 12:00 MiClaro_PCT_v1.5.1.apk
+dst : -rw-r--r-- root     root            0 2018-04-18 15:30 MiClaro_PCT_v1.5.1.apk
+
+the directory '/system/priv-app/MiClaro_PET_V241F151204VC47'
+src : drwxr-xr-x root     root              2016-09-19 21:43 MiClaro_PET_V241F151204VC47
+dst : drwxr-xr-x root     root              2015-01-01 00:00 MiClaro_PET_V241F151204VC47
+
+/system/csc/common/system/priv-app/MiClaro_PET_V241F151204VC47/MiClaro_PET_V241F151204VC47.apk -> /system/priv-app/MiClaro_PET_V241F151204VC47/MiClaro_PET_V241F151204VC47.apk (0 bytes) 
+transferred in writed time : 0.000s closed time : 0.004s progressed with 0.00M byte/sec
+src : -rw-r--r-- root     root            0 2008-08-01 12:00 MiClaro_PET_V241F151204VC47.apk
+dst : -rw-r--r-- root     root            0 2018-04-18 15:30 MiClaro_PET_V241F151204VC47.apk
+
+the directory '/system/priv-app/MiClaro_PGU_CRC_v1.2'
+src : drwxr-xr-x root     root              2016-09-19 21:43 MiClaro_PGU_CRC_v1.2
+dst : drwxr-xr-x root     root              2015-01-01 00:00 MiClaro_PGU_CRC_v1.2
+
+/system/csc/common/system/priv-app/MiClaro_PGU_CRC_v1.2/MiClaro_PGU_CRC_v1.2.apk -> /system/priv-app/MiClaro_PGU_CRC_v1.2/MiClaro_PGU_CRC_v1.2.apk (0 bytes) 
+transferred in writed time : 0.000s closed time : 0.005s progressed with 0.00M byte/sec
+src : -rw-r--r-- root     root            0 2008-08-01 12:00 MiClaro_PGU_CRC_v1.2.apk
+dst : -rw-r--r-- root     root            0 2018-04-18 15:30 MiClaro_PGU_CRC_v1.2.apk
+
+the directory '/system/priv-app/OnStartNotification_MM_v12'
+src : drwxr-xr-x root     root              2016-09-19 21:43 OnStartNotification_MM_v12
+dst : drwxr-xr-x root     root              2015-01-01 00:00 OnStartNotification_MM_v12
+
+/system/csc/common/system/priv-app/OnStartNotification_MM_v12/OnStartNotification_MM_v12.apk -> /system/priv-app/OnStartNotification_MM_v12/OnStartNotification_MM_v12.apk (1138349 bytes) 
+transferred in writed time : 0.015s closed time : 0.978s progressed with 72.37M byte/sec
+src : -rw-r--r-- root     root      1138349 2008-08-01 12:00 OnStartNotification_MM_v12.apk
+dst : -rw-r--r-- root     root      1138349 2018-04-18 15:30 OnStartNotification_MM_v12.apk
+
+the directory '/system/priv-app/Portal_v6.2'
+src : drwxr-xr-x root     root              2017-02-24 19:47 Portal_v6.2
+dst : drwxr-xr-x root     root              2018-04-12 05:22 Portal_v6.2
+
+/system/csc/common/system/priv-app/Portal_v6.2/Portal_v6.2.apk -> /system/priv-app/Portal_v6.2/Portal_v6.2.apk (1263571 bytes) 
+transferred in writed time : 0.017s closed time : 0.078s progressed with 70.88M byte/sec
+src : -rw-r--r-- root     root      1263571 2008-08-01 12:00 Portal_v6.2.apk
+dst : -rw-r--r-- root     root      1263571 2018-04-18 15:30 Portal_v6.2.apk
+
+the directory '/system/wallpaper'
+src : drwxr-xr-x root     root              2017-02-24 19:47 wallpaper
+dst : drwxr-xr-x root     root              2015-01-01 00:00 wallpaper
+
+the directory '/system/wallpaper/default_wallpaper'
+src : drwxr-xr-x root     root              2017-02-24 19:47 default_wallpaper
+dst : drwxr-xr-x root     root              2015-01-01 00:00 default_wallpaper
+
+/system/csc/common/system/wallpaper/default_wallpaper/default_wallpaper.png -> /system/wallpaper/default_wallpaper/default_wallpaper.png (1138792 bytes) 
+transferred in writed time : 0.015s closed time : 0.072s progressed with 72.40M byte/sec
+src : -rw-r--r-- root     root      1138792 2008-08-01 12:00 default_wallpaper.png
+dst : -rw-r--r-- root     root      1138792 2018-04-18 15:30 default_wallpaper.png
+
+the directory '/system/wallpaper/drawable'
+src : drwxr-xr-x root     root              2017-02-24 19:47 drawable
+dst : drwxr-xr-x root     root              2015-01-01 00:00 drawable
+
+/system/csc/common/system/wallpaper/drawable/ClaroWallpaper_24.jpg -> /system/wallpaper/drawable/ClaroWallpaper_24.jpg (832450 bytes) 
+transferred in writed time : 0.012s closed time : 0.051s progressed with 66.16M byte/sec
+src : -rw-r--r-- root     root       832450 2008-08-01 12:00 ClaroWallpaper_24.jpg
+dst : -rw-r--r-- root     root       832450 2018-04-18 15:30 ClaroWallpaper_24.jpg
+
+/system/csc/common/system/wallpaper/drawable/ClaroWallpaper_24_small.jpg -> /system/wallpaper/drawable/ClaroWallpaper_24_small.jpg (17923 bytes) 
+transferred in writed time : 0.001s closed time : 0.008s progressed with 17.09M byte/sec
+src : -rw-r--r-- root     root        17923 2008-08-01 12:00 ClaroWallpaper_24_small.jpg
+dst : -rw-r--r-- root     root        17923 2018-04-18 15:30 ClaroWallpaper_24_small.jpg
+
+/system/csc/common/system/wallpaper/drawable/ClaroWallpaper_66.jpg -> /system/wallpaper/drawable/ClaroWallpaper_66.jpg (944988 bytes) 
+transferred in writed time : 0.014s closed time : 0.062s progressed with 64.37M byte/sec
+src : -rw-r--r-- root     root       944988 2008-08-01 12:00 ClaroWallpaper_66.jpg
+dst : -rw-r--r-- root     root       944988 2018-04-18 15:30 ClaroWallpaper_66.jpg
+
+/system/csc/common/system/wallpaper/drawable/ClaroWallpaper_66_small.jpg -> /system/wallpaper/drawable/ClaroWallpaper_66_small.jpg (17923 bytes) 
+transferred in writed time : 0.002s closed time : 0.017s progressed with 8.55M byte/sec
+src : -rw-r--r-- root     root        17923 2008-08-01 12:00 ClaroWallpaper_66_small.jpg
+dst : -rw-r--r-- root     root        17923 2018-04-18 15:30 ClaroWallpaper_66_small.jpg
+
+/system/csc/common/system/wallpaper/drawable/ClaroWallpaper_80.jpg -> /system/wallpaper/drawable/ClaroWallpaper_80.jpg (408482 bytes) 
+transferred in writed time : 0.007s closed time : 0.033s progressed with 55.65M byte/sec
+src : -rw-r--r-- root     root       408482 2008-08-01 12:00 ClaroWallpaper_80.jpg
+dst : -rw-r--r-- root     root       408482 2018-04-18 15:30 ClaroWallpaper_80.jpg
+
+/system/csc/common/system/wallpaper/drawable/ClaroWallpaper_80_small.jpg -> /system/wallpaper/drawable/ClaroWallpaper_80_small.jpg (12325 bytes) 
+transferred in writed time : 0.001s closed time : 0.009s progressed with 11.75M byte/sec
+src : -rw-r--r-- root     root        12325 2008-08-01 12:00 ClaroWallpaper_80_small.jpg
+dst : -rw-r--r-- root     root        12325 2018-04-18 15:30 ClaroWallpaper_80_small.jpg
+
+/system/csc/common/system/wallpaper/drawable/ClaroWallpaper_82.jpg -> /system/wallpaper/drawable/ClaroWallpaper_82.jpg (967934 bytes) 
+transferred in writed time : 0.014s closed time : 0.065s progressed with 65.94M byte/sec
+src : -rw-r--r-- root     root       967934 2008-08-01 12:00 ClaroWallpaper_82.jpg
+dst : -rw-r--r-- root     root       967934 2018-04-18 15:30 ClaroWallpaper_82.jpg
+
+/system/csc/common/system/wallpaper/drawable/ClaroWallpaper_82_small.jpg -> /system/wallpaper/drawable/ClaroWallpaper_82_small.jpg (18677 bytes) 
+transferred in writed time : 0.001s closed time : 0.009s progressed with 17.81M byte/sec
+src : -rw-r--r-- root     root        18677 2008-08-01 12:00 ClaroWallpaper_82_small.jpg
+dst : -rw-r--r-- root     root        18677 2018-04-18 15:30 ClaroWallpaper_82_small.jpg
+
+/system/csc/common/system/wallpaper/lockscreen_default_wallpaper.png -> /system/wallpaper/lockscreen_default_wallpaper.png (1138792 bytes) 
+transferred in writed time : 0.015s closed time : 0.070s progressed with 72.40M byte/sec
+src : -rw-r--r-- root     root      1138792 2008-08-01 12:00 lockscreen_default_wallpaper.png
+dst : -rw-r--r-- root     root      1138792 2018-04-18 15:30 lockscreen_default_wallpaper.png
+
+the directory '/system/lib'
+src : drwxr-xr-x root     root              2017-02-24 19:44 lib
+dst : drwxr-xr-x root     root              2015-01-01 00:00 lib
+
+/system/csc/common/system/lib/libjzlibaa.so -> /system/lib/libjzlibaa.so (70956 bytes) 
+transferred in writed time : 0.002s closed time : 0.015s progressed with 33.83M byte/sec
+src : -rw-r--r-- root     root        70956 2017-02-24 19:44 libjzlibaa.so
+dst : -rw-r--r-- root     root        70956 2018-04-18 15:30 libjzlibaa.so
+
+/system/csc/common/system/lib/libpsrnaa.so -> /system/lib/libpsrnaa.so (999648 bytes) 
+transferred in writed time : 0.015s closed time : 0.973s progressed with 63.56M byte/sec
+src : -rw-r--r-- root     root       999648 2017-02-24 19:44 libpsrnaa.so
+dst : -rw-r--r-- root     root       999648 2018-04-18 15:30 libpsrnaa.so
+
+/system/csc/common/system/lib/libpsrnaa_neon.so -> /system/lib/libpsrnaa_neon.so (954612 bytes) 
+transferred in writed time : 0.014s closed time : 0.063s progressed with 65.03M byte/sec
+src : -rw-r--r-- root     root       954612 2017-02-24 19:44 libpsrnaa_neon.so
+dst : -rw-r--r-- root     root       954612 2018-04-18 15:30 libpsrnaa_neon.so
+
+
+#cmp -r -f /system/csc/common/system/app/ /system/app/ 
+compare '/system/csc/common/system/app/UserManualWebview/UserManualWebview.apk' '/system/app/UserManualWebview/UserManualWebview.apk' -> linked
+
+#ln -v -r --force-link -f /system/csc/COM/system/app/ /system/app/ 
+create link '/system/csc/COM/system/app/UserManualWebview/UserManualWebview.apk' -> '/system/app/UserManualWebview/UserManualWebview.apk'
+
+#cp -y -f -r -v /system/csc/COM/system /system 
+the directory '/system/csc'
+src : drwxr-xr-x root     root              2017-02-24 19:43 csc
+dst : drwxr-xr-x root     root              2018-04-18 15:30 csc
+
+/system/csc/COM/system/csc/amx_service_url.xml -> /system/csc/amx_service_url.xml (228 bytes) 
+transferred in writed time : 0.000s closed time : 0.009s progressed with 4096.00M byte/sec
+src : -rw-r--r-- root     root          228 2016-09-19 21:39 amx_service_url.xml
+dst : -rw-r--r-- root     root          228 2018-04-18 15:30 amx_service_url.xml
+
+/system/csc/COM/system/csc/contents.db -> /system/csc/contents.db (7168 bytes) 
+transferred in writed time : 0.000s closed time : 0.007s progressed with 4096.00M byte/sec
+src : -rw-r--r-- root     root         7168 2017-02-24 19:42 contents.db
+dst : -rw-r--r-- root     root         7168 2018-04-18 15:30 contents.db
+
+/system/csc/COM/system/csc/customer.xml -> /system/csc/customer.xml (14802 bytes) 
+transferred in writed time : 0.000s closed time : 0.009s progressed with 4096.00M byte/sec
+src : -rw-r--r-- root     root        14802 2017-02-24 19:42 customer.xml
+dst : -rw-r--r-- root     root        14802 2018-04-18 15:30 customer.xml
+
+/system/csc/COM/system/csc/others.xml -> /system/csc/others.xml (3364 bytes) 
+transferred in writed time : 0.000s closed time : 0.006s progressed with 4096.00M byte/sec
+src : -rw-r--r-- root     root         3364 2017-02-24 19:43 others.xml
+dst : -rw-r--r-- root     root         3364 2018-04-18 15:30 others.xml
+
+/system/csc/COM/system/csc/sales_code.dat -> /system/csc/sales_code.dat (4 bytes) 
+transferred in writed time : 0.000s closed time : 0.006s progressed with 4096.00M byte/sec
+src : -rw-r--r-- root     root            4 2008-08-01 12:00 sales_code.dat
+dst : -rw-r--r-- root     root            4 2018-04-18 15:30 sales_code.dat
+
+the directory '/system/etc'
+src : drwxr-xr-x root     root              2017-02-24 19:43 etc
+dst : drwxr-xr-x root     root              2018-04-18 15:30 etc
+
+/system/csc/COM/system/etc/COM_keystrings.dat -> /system/etc/COM_keystrings.dat (8064 bytes) 
+transferred in writed time : 0.000s closed time : 0.009s progressed with 4096.00M byte/sec
+src : -rw-r--r-- root     root         8064 2008-08-01 12:00 COM_keystrings.dat
+dst : -rw-r--r-- root     root         8064 2018-04-18 15:30 COM_keystrings.dat
+
+/system/csc/COM/system/etc/csc_apks_list.txt -> /system/etc/csc_apks_list.txt (457 bytes) 
+transferred in writed time : 0.000s closed time : 0.006s progressed with 4096.00M byte/sec
+src : -rw-r--r-- root     root          457 2017-02-24 19:43 csc_apks_list.txt
+dst : -rw-r--r-- root     root          457 2018-04-18 15:30 csc_apks_list.txt
+
+/system/csc/COM/system/etc/csc_remove_apks_list.txt -> /system/etc/csc_remove_apks_list.txt (317 bytes) 
+transferred in writed time : 0.000s closed time : 0.006s progressed with 4096.00M byte/sec
+src : -rw-r--r-- root     root          317 2017-02-24 19:43 csc_remove_apks_list.txt
+dst : -rw-r--r-- root     root          317 2018-04-18 15:30 csc_remove_apks_list.txt
+
+/system/csc/COM/system/etc/csc_ringtones_list.txt -> /system/etc/csc_ringtones_list.txt (0 bytes) 
+transferred in writed time : 0.000s closed time : 0.009s progressed with 0.00M byte/sec
+src : -rw-r--r-- root     root            0 2008-08-01 12:00 csc_ringtones_list.txt
+dst : -rw-r--r-- root     root            0 2018-04-18 15:30 csc_ringtones_list.txt
+
+/system/csc/COM/system/etc/csc_user_apks_list.txt -> /system/etc/csc_user_apks_list.txt (0 bytes) 
+transferred in writed time : 0.000s closed time : 0.007s progressed with 0.00M byte/sec
+src : -rw-r--r-- root     root            0 2008-08-01 12:00 csc_user_apks_list.txt
+dst : -rw-r--r-- root     root            0 2018-04-18 15:30 csc_user_apks_list.txt
+
+/system/csc/COM/system/etc/csc_user_remove_apks_list.txt -> /system/etc/csc_user_remove_apks_list.txt (0 bytes) 
+transferred in writed time : 0.000s closed time : 0.008s progressed with 0.00M byte/sec
+src : -rw-r--r-- root     root            0 2008-08-01 12:00 csc_user_remove_apks_list.txt
+dst : -rw-r--r-- root     root            0 2018-04-18 15:30 csc_user_remove_apks_list.txt
+
+/system/csc/COM/system/etc/hidden_apks_list.txt -> /system/etc/hidden_apks_list.txt (539 bytes) 
+transferred in writed time : 0.000s closed time : 0.007s progressed with 4096.00M byte/sec
+src : -rw-r--r-- root     root          539 2017-02-24 19:43 hidden_apks_list.txt
+dst : -rw-r--r-- root     root          539 2018-04-18 15:30 hidden_apks_list.txt
+
+/system/csc/COM/system/etc/plmn_delta.bin -> /system/etc/plmn_delta.bin (4501 bytes) 
+transferred in writed time : 0.000s closed time : 0.007s progressed with 4096.00M byte/sec
+src : -rw-r--r-- root     root         4501 2017-02-24 19:42 plmn_delta.bin
+dst : -rw-r--r-- root     root         4501 2018-04-18 15:30 plmn_delta.bin
+
+the directory '/system/app'
+src : drwxr-xr-x root     root              2016-09-19 21:43 app
+dst : drwxr-xr-x root     root              2018-01-20 04:37 app
+
+the directory '/system/app/UserManualWebview'
+src : drwxr-xr-x root     root              2016-09-19 21:43 UserManualWebview
+dst : drwxr-xr-x root     root              2018-04-18 15:30 UserManualWebview
+
+connected link '/system/csc/COM/system/app/UserManualWebview/UserManualWebview.apk' and '/system/app/UserManualWebview/UserManualWebview.apk'.. skip
+src : -rw-r--r-- root     root      6085595 2008-08-01 12:00 UserManualWebview.apk
+dst : -rw-r--r-- root     root      6085595 2008-08-01 12:00 UserManualWebview.apk
+
+
+#cmp -r -f /system/csc/common/csc/COM/system/app/ /system/app/ 
+trace: __vout_return: __scan_cmp_dir :: Can't open dir '/system/csc/common/csc/COM/system/app' .. skip (No such file or directory)
+
+#rm -v /system/csc_contents 
+removed symbolic '/system/csc_contents' 
+
+#ln -v -s /system/csc/COM/csc_contents /system/csc_contents 
+create symbolic '/system/csc/COM/csc_contents' -> '/system/csc_contents'
+
+#rm -v -r -f --limited-file-size=0 --type=file --except-root-dir /system/priv-app 
+removed '/system/priv-app/MiClaro_CDR_v4.2/MiClaro_CDR_v4.2.apk' 
+removed '/system/priv-app/MiClaro_CTI_v1.0.3-6/MiClaro_CTI_v1.0.3-6.apk' 
+removed '/system/priv-app/MiClaro_PCT_v1.5.1/MiClaro_PCT_v1.5.1.apk' 
+removed '/system/priv-app/MiClaro_PET_V241F151204VC47/MiClaro_PET_V241F151204VC47.apk' 
+removed '/system/priv-app/MiClaro_PGU_CRC_v1.2/MiClaro_PGU_CRC_v1.2.apk' 
+
+#rm -v -r -f --limited-file-size=0 --type=file --except-root-dir /system/app 
+
+#unmount /system 
+/system sucessfully unmounted
+
+#echo Successfully applied multi-CSC. 
+Successfully applied multi-CSC.
+running exec-multi-csc time : 7.269s
+
+[installing post-multi-csc]
+running post-multi-csc time : 0.000s
+copy log files to manual..
+copy_file '/proc/last_kmsg' '/cache/recovery/last_last_kernel'
+can't open '/proc/last_kmsg' - No such file or directory
+copy_file '/tmp/recovery_old.tmp' '/tmp/recovery_backup.tmp'
+append_file  '/tmp/recovery.log' '/tmp/recovery_backup.tmp' -1
+append_file offset 489500
+copy_file '/tmp/recovery_backup.tmp' '/cache/recovery/last_recovery'
+stat() of /dev/block/platform/soc.2/by-name/SYSTEM succeeded on try 1
+I:Saving locale "es_ES"
+stat() of /dev/block/platform/soc.2/by-name/CACHE succeeded on try 1
+void copy_log_file(const char*, const char*, int) :: create recovery log file '/cache/recovery/log' 
+void copy_log_file(const char*, const char*, int) :: create recovery log file '/cache/recovery/last_log' 

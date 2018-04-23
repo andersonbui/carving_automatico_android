@@ -1,0 +1,2740 @@
+Using locale 'es_CO.UTF-8'.
+
+
+Sun Apr 22 16:18:34 2018
+Command line: PhotoRec /debug /log /d ./recuperado_por /cmd ./device_image.dd partition_none,options,mode_ext2,fileopt,everything,enable,search
+
+PhotoRec 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.9.0-6-amd64 (#1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02)) x86_64
+Compiler: GCC 6.2
+ext2fs lib: 1.43.4, ntfs lib: libntfs-3g, ewf lib: none, libjpeg: libjpeg-turbo-1.5.1, curses lib: ncurses 6.0
+User is not root!
+Hard disk list
+Disk ./device_image.dd - 209 MB / 200 MiB - CHS 26 255 63 (RO), sector size=512
+
+Partition table type (auto): None
+Disk ./device_image.dd - 209 MB / 200 MiB (RO)
+Partition table type: None
+
+recover_EXT2: s_block_group_nr=0/1, s_mnt_count=146/4294967295, s_blocks_per_group=32768, s_inodes_per_group=6400
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 51200
+recover_EXT2: part_size 409600
+     Unknown                  0   0  1    25 126 37     409600 [Whole disk]
+   P ext4                     0   0  1    25 126 37     409600
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 209 MB / 200 MiB
+New options :
+ Paranoid : Yes
+ Brute force : No
+ Keep corrupted files : No
+ ext2/ext3 mode : Yes
+ Expert mode : No
+ Low memory : No
+
+Interface File Select
+650 first-level signatures enabled
+
+Analyse
+   P ext4                     0   0  1    25 126 37     409600
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 209 MB / 200 MiB
+Pass 0 (blocksize=512) STATUS_FIND_OFFSET
+* 0-409599: (null)
+409600 sectors contains unknown data, 0 invalid files found and rejected.
+blocksize=1024, offset=0
+Elapsed time 0h00m01s
+Pass 1 (blocksize=1024) STATUS_EXT2_ON
+* 0-1: ext
+2-3823: ext
+3824-3831: ext
+3832-4647: ext
+4648-4655: ext
+4656-262143: ext
+262144-265423: ext
+265424-265425: ext
+265426-265551: ext
+265552-409599: ext
+409600 sectors contains unknown data, 10 invalid files found and rejected.
+./recuperado_por.1/f0000002.ext	 2-3
+./recuperado_por.1/f0003824.ext	 3824-3825
+./recuperado_por.1/f0003832.ext	 3832-3833
+./recuperado_por.1/f0004648.ext	 4648-4649
+./recuperado_por.1/f0003328.txt	 3328-3569
+./recuperado_por.1/f0004656.ext	 4656-4657
+./recuperado_por.1/f0003840.txt	 3840-4081
+./recuperado_por.1/f0003584.txt	 3584-3807
+./recuperado_por.1/f0262144.ext	 262144-262145
+./recuperado_por.1/f0004096.txt	 4096-4369
+./recuperado_por.1/f0004376.txt	 4376-4461
+./recuperado_por.1/f0004464.txt	 4464-4639
+./recuperado_por.1/f0005120.txt	 5120-6071
+./recuperado_por.1/f0006144.txt	 6144-7269
+./recuperado_por.1/f0007272.txt	 7272-8043
+./recuperado_por.1/f0008272.txt	 8272-9313
+./recuperado_por.1/f0009728.txt	 9728-10003
+./recuperado_por.1/f0265426.ext	 265426-265427
+./recuperado_por.1/f0265552.ext	 265552-265553
+./recuperado_por.1/f0265562.ext	 265562-265563
+./recuperado_por.1/f0265608.ext	 265608-265609
+./recuperado_por.1/f0265626.ext	 265626-265627
+./recuperado_por.1/f0265664.ext	 265664-265665
+./recuperado_por.1/f0265682.ext	 265682-265683
+./recuperado_por.1/f0265730.ext	 265730-265731
+./recuperado_por.1/f0265752.ext	 265752-265753
+./recuperado_por.1/f0265810.ext	 265810-265811
+./recuperado_por.1/f0265920.ext	 265920-265921
+./recuperado_por.1/f0265930.ext	 265930-265931
+./recuperado_por.1/f0265984.ext	 265984-265985
+./recuperado_por.1/f0265994.ext	 265994-265995
+./recuperado_por.1/f0266048.ext	 266048-266049
+./recuperado_por.1/f0266066.ext	 266066-266067
+./recuperado_por.1/f0266120.ext	 266120-266121
+./recuperado_por.1/f0266130.ext	 266130-266131
+./recuperado_por.1/f0266186.ext	 266186-266187
+./recuperado_por.1/f0266208.ext	 266208-266209
+./recuperado_por.1/f0266240.ext	 266240-266241
+./recuperado_por.1/f0266258.ext	 266258-266259
+./recuperado_por.1/f0266336.ext	 266336-266337
+./recuperado_por.1/f0266346.ext	 266346-266347
+./recuperado_por.1/f0266386.ext	 266386-266387
+./recuperado_por.1/f0266416.ext	 266416-266417
+./recuperado_por.1/f0266440.ext	 266440-266441
+./recuperado_por.1/f0266458.ext	 266458-266459
+./recuperado_por.1/f0266512.ext	 266512-266513
+./recuperado_por.1/f0266530.ext	 266530-266531
+./recuperado_por.1/f0266634.ext	 266634-266635
+./recuperado_por.1/f0266784.ext	 266784-266785
+./recuperado_por.1/f0266794.ext	 266794-266795
+./recuperado_por.1/f0266872.ext	 266872-266873
+./recuperado_por.1/f0266882.ext	 266882-266883
+./recuperado_por.1/f0266962.ext	 266962-266963
+./recuperado_por.1/f0267024.ext	 267024-267025
+./recuperado_por.1/f0267034.ext	 267034-267035
+./recuperado_por.1/f0267088.ext	 267088-267089
+./recuperado_por.1/f0267098.ext	 267098-267099
+./recuperado_por.1/f0267144.ext	 267144-267145
+./recuperado_por.1/f0267162.ext	 267162-267163
+./recuperado_por.1/f0267210.ext	 267210-267211
+./recuperado_por.1/f0267272.ext	 267272-267273
+./recuperado_por.1/f0267282.ext	 267282-267283
+./recuperado_por.1/f0267336.ext	 267336-267337
+./recuperado_por.1/f0267346.ext	 267346-267347
+./recuperado_por.1/f0267400.ext	 267400-267401
+./recuperado_por.1/f0267410.ext	 267410-267411
+./recuperado_por.1/f0267464.ext	 267464-267465
+./recuperado_por.1/f0267474.ext	 267474-267475
+./recuperado_por.1/f0267528.ext	 267528-267529
+./recuperado_por.1/f0267538.ext	 267538-267539
+./recuperado_por.1/f0267616.ext	 267616-267617
+./recuperado_por.1/f0267626.ext	 267626-267627
+./recuperado_por.1/f0267680.ext	 267680-267681
+./recuperado_por.1/f0267690.ext	 267690-267691
+./recuperado_por.1/f0267744.ext	 267744-267745
+./recuperado_por.1/f0267754.ext	 267754-267755
+./recuperado_por.1/f0267810.ext	 267810-267811
+./recuperado_por.1/f0267872.ext	 267872-267873
+./recuperado_por.1/f0267882.ext	 267882-267883
+./recuperado_por.1/f0267936.ext	 267936-267937
+./recuperado_por.1/f0267946.ext	 267946-267947
+./recuperado_por.1/f0268000.ext	 268000-268001
+./recuperado_por.1/f0268010.ext	 268010-268011
+./recuperado_por.1/f0268040.ext	 268040-268041
+./recuperado_por.1/f0268058.ext	 268058-268059
+./recuperado_por.1/f0268144.ext	 268144-268145
+./recuperado_por.1/f0268154.ext	 268154-268155
+./recuperado_por.1/f0268210.ext	 268210-268211
+./recuperado_por.1/f0268272.ext	 268272-268273
+./recuperado_por.1/f0268282.ext	 268282-268283
+./recuperado_por.1/f0268336.ext	 268336-268337
+./recuperado_por.1/f0268346.ext	 268346-268347
+./recuperado_por.1/f0268434.ext	 268434-268435
+./recuperado_por.1/f0268496.ext	 268496-268497
+./recuperado_por.1/f0268506.ext	 268506-268507
+./recuperado_por.1/f0268688.ext	 268688-268689
+./recuperado_por.1/f0268720.ext	 268720-268721
+./recuperado_por.1/f0268738.ext	 268738-268739
+./recuperado_por.1/f0268802.ext	 268802-268803
+./recuperado_por.1/f0268856.ext	 268856-268857
+./recuperado_por.1/f0268866.ext	 268866-268867
+./recuperado_por.1/f0268920.ext	 268920-268921
+./recuperado_por.1/f0268930.ext	 268930-268931
+./recuperado_por.1/f0268984.ext	 268984-268985
+./recuperado_por.1/f0268994.ext	 268994-268995
+./recuperado_por.1/f0269048.ext	 269048-269049
+./recuperado_por.1/f0269058.ext	 269058-269059
+./recuperado_por.1/f0269112.ext	 269112-269113
+./recuperado_por.1/f0269122.ext	 269122-269123
+./recuperado_por.1/f0269208.ext	 269208-269209
+./recuperado_por.1/f0269218.ext	 269218-269219
+./recuperado_por.1/f0269296.ext	 269296-269297
+./recuperado_por.1/f0269306.ext	 269306-269307
+./recuperado_por.1/f0269360.ext	 269360-269361
+./recuperado_por.1/f0269370.ext	 269370-269371
+./recuperado_por.1/f0269448.ext	 269448-269449
+./recuperado_por.1/f0269458.ext	 269458-269459
+./recuperado_por.1/f0269552.ext	 269552-269553
+./recuperado_por.1/f0269562.ext	 269562-269563
+./recuperado_por.1/f0269616.ext	 269616-269617
+./recuperado_por.1/f0269626.ext	 269626-269627
+./recuperado_por.1/f0269682.ext	 269682-269683
+./recuperado_por.1/f0269744.ext	 269744-269745
+./recuperado_por.1/f0269754.ext	 269754-269755
+./recuperado_por.1/f0269808.ext	 269808-269809
+./recuperado_por.1/f0269818.ext	 269818-269819
+./recuperado_por.1/f0269872.ext	 269872-269873
+./recuperado_por.1/f0269882.ext	 269882-269883
+./recuperado_por.1/f0269912.ext	 269912-269913
+./recuperado_por.1/f0269930.ext	 269930-269931
+./recuperado_por.1/f0270016.ext	 270016-270017
+./recuperado_por.1/f0270026.ext	 270026-270027
+./recuperado_por.1/f0270080.ext	 270080-270081
+./recuperado_por.1/f0270090.ext	 270090-270091
+./recuperado_por.1/f0270144.ext	 270144-270145
+./recuperado_por.1/f0270154.ext	 270154-270155
+./recuperado_por.1/f0270208.ext	 270208-270209
+./recuperado_por.1/f0270218.ext	 270218-270219
+./recuperado_por.1/f0270280.ext	 270280-270281
+./recuperado_por.1/f0270290.ext	 270290-270291
+./recuperado_por.1/f0270344.ext	 270344-270345
+./recuperado_por.1/f0270362.ext	 270362-270363
+./recuperado_por.1/f0270424.ext	 270424-270425
+./recuperado_por.1/f0270434.ext	 270434-270435
+./recuperado_por.1/f0270474.ext	 270474-270475
+./recuperado_por.1/f0270528.ext	 270528-270529
+./recuperado_por.1/f0270538.ext	 270538-270539
+./recuperado_por.1/f0270600.ext	 270600-270601
+./recuperado_por.1/f0270610.ext	 270610-270611
+./recuperado_por.1/f0270664.ext	 270664-270665
+./recuperado_por.1/f0270674.ext	 270674-270675
+./recuperado_por.1/f0270736.ext	 270736-270737
+./recuperado_por.1/f0270746.ext	 270746-270747
+./recuperado_por.1/f0270808.ext	 270808-270809
+./recuperado_por.1/f0270818.ext	 270818-270819
+./recuperado_por.1/f0270920.ext	 270920-270921
+./recuperado_por.1/f0270930.ext	 270930-270931
+./recuperado_por.1/f0270992.ext	 270992-270993
+./recuperado_por.1/f0271002.ext	 271002-271003
+./recuperado_por.1/f0271104.ext	 271104-271105
+./recuperado_por.1/f0271114.ext	 271114-271115
+./recuperado_por.1/f0271216.ext	 271216-271217
+./recuperado_por.1/f0271226.ext	 271226-271227
+./recuperado_por.1/f0271288.ext	 271288-271289
+./recuperado_por.1/f0271298.ext	 271298-271299
+./recuperado_por.1/f0271360.ext	 271360-271361
+./recuperado_por.1/f0271370.ext	 271370-271371
+./recuperado_por.1/f0271472.ext	 271472-271473
+./recuperado_por.1/f0271482.ext	 271482-271483
+./recuperado_por.1/f0271584.ext	 271584-271585
+./recuperado_por.1/f0271594.ext	 271594-271595
+./recuperado_por.1/f0271656.ext	 271656-271657
+./recuperado_por.1/f0271666.ext	 271666-271667
+./recuperado_por.1/f0271728.ext	 271728-271729
+./recuperado_por.1/f0271738.ext	 271738-271739
+./recuperado_por.1/f0271800.ext	 271800-271801
+./recuperado_por.1/f0271810.ext	 271810-271811
+./recuperado_por.1/f0271872.ext	 271872-271873
+./recuperado_por.1/f0271882.ext	 271882-271883
+./recuperado_por.1/f0271984.ext	 271984-271985
+./recuperado_por.1/f0271994.ext	 271994-271995
+./recuperado_por.1/f0272056.ext	 272056-272057
+./recuperado_por.1/f0272066.ext	 272066-272067
+./recuperado_por.1/f0272128.ext	 272128-272129
+./recuperado_por.1/f0272138.ext	 272138-272139
+./recuperado_por.1/f0272200.ext	 272200-272201
+./recuperado_por.1/f0272210.ext	 272210-272211
+./recuperado_por.1/f0272272.ext	 272272-272273
+./recuperado_por.1/f0272282.ext	 272282-272283
+./recuperado_por.1/f0272344.ext	 272344-272345
+./recuperado_por.1/f0272354.ext	 272354-272355
+./recuperado_por.1/f0272416.ext	 272416-272417
+./recuperado_por.1/f0272426.ext	 272426-272427
+./recuperado_por.1/f0272488.ext	 272488-272489
+./recuperado_por.1/f0272498.ext	 272498-272499
+./recuperado_por.1/f0272560.ext	 272560-272561
+./recuperado_por.1/f0272570.ext	 272570-272571
+./recuperado_por.1/f0272632.ext	 272632-272633
+./recuperado_por.1/f0272642.ext	 272642-272643
+./recuperado_por.1/f0272704.ext	 272704-272705
+./recuperado_por.1/f0272714.ext	 272714-272715
+./recuperado_por.1/f0272816.ext	 272816-272817
+./recuperado_por.1/f0272826.ext	 272826-272827
+./recuperado_por.1/f0272888.ext	 272888-272889
+./recuperado_por.1/f0272898.ext	 272898-272899
+./recuperado_por.1/f0272960.ext	 272960-272961
+./recuperado_por.1/f0272970.ext	 272970-272971
+./recuperado_por.1/f0273032.ext	 273032-273033
+./recuperado_por.1/f0273042.ext	 273042-273043
+./recuperado_por.1/f0273104.ext	 273104-273105
+./recuperado_por.1/f0273114.ext	 273114-273115
+./recuperado_por.1/f0273176.ext	 273176-273177
+./recuperado_por.1/f0273186.ext	 273186-273187
+./recuperado_por.1/f0273248.ext	 273248-273249
+./recuperado_por.1/f0273258.ext	 273258-273259
+./recuperado_por.1/f0273320.ext	 273320-273321
+./recuperado_por.1/f0273330.ext	 273330-273331
+./recuperado_por.1/f0273392.ext	 273392-273393
+./recuperado_por.1/f0273402.ext	 273402-273403
+./recuperado_por.1/f0273464.ext	 273464-273465
+./recuperado_por.1/f0273474.ext	 273474-273475
+./recuperado_por.1/f0273536.ext	 273536-273537
+./recuperado_por.1/f0273546.ext	 273546-273547
+./recuperado_por.1/f0273568.ext	 273568-273569
+./recuperado_por.1/f0273576.ext	 273576-273577
+./recuperado_por.1/f0273584.ext	 273584-273585
+./recuperado_por.1/f0273592.txt	 273592-273709
+./recuperado_por.1/f0273712.txt	 273712-273889
+./recuperado_por.1/f0273896.txt	 273896-274055
+./recuperado_por.1/f0274144.txt	 274144-274469
+./recuperado_por.1/f0274472.txt	 274472-274519
+./recuperado_por.1/f0274520.txt	 274520-274523
+./recuperado_por.1/f0274528.txt	 274528-274815
+./recuperado_por.1/f0274816.txt	 274816-274825
+./recuperado_por.1/f0274864.txt	 274864-274883
+./recuperado_por.1/f0278536.txt	 278536-278621
+./recuperado_por.1/f0278624.txt	 278624-278703
+./recuperado_por.1/f0282632.txt	 282632-282713
+./recuperado_por.1/f0286728.txt	 286728-286807
+./recuperado_por.1/f0290824.txt	 290824-290903
+./recuperado_por.1/f0294920.txt	 294920-294999
+./recuperado_por.1/f0393224.txt	 393224-393307
+./recuperado_por.1/f0397312.java	 397312-397315
+./recuperado_por.1/f0397320.txt	 397320-397405
+./recuperado_por.1/f0401408.txt	 401408-401461
+./recuperado_por.1/f0401464.txt	 401464-401517
+./recuperado_por.1/f0405512.txt	 405512-405599
+Elapsed time 0h00m03s
+Pass 1 +32 files
+txt: 32/32 recovered
+ext: 0/109 recovered
+Total: 32 files found
+
+0-1: ext
+4-3327: (null)
+3570-3583: (null)
+3808-3823: (null)
+3826-3831: (null)
+3834-3839: (null)
+4082-4095: (null)
+4370-4375: (null)
+4462-4463: (null)
+4640-4647: (null)
+4650-4655: (null)
+4658-5119: (null)
+6072-6143: (null)
+7270-7271: (null)
+8044-8271: (null)
+9314-9727: (null)
+10004-262143: (null)
+262146-265423: (null)
+265424-265425: ext
+265428-265551: (null)
+265554-265559: (null)
+265560-265561: ext
+265564-265607: (null)
+265610-265623: (null)
+265624-265625: ext
+265628-265663: (null)
+265666-265679: (null)
+265680-265681: ext
+265684-265727: (null)
+265728-265729: ext
+265732-265751: (null)
+265754-265807: (null)
+265808-265809: ext
+265812-265919: (null)
+265922-265927: (null)
+265928-265929: ext
+265932-265983: (null)
+265986-265991: (null)
+265992-265993: ext
+265996-266047: (null)
+266050-266063: (null)
+266064-266065: ext
+266068-266119: (null)
+266122-266127: (null)
+266128-266129: ext
+266132-266183: (null)
+266184-266185: ext
+266188-266207: (null)
+266210-266239: (null)
+266242-266255: (null)
+266256-266257: ext
+266260-266335: (null)
+266338-266343: (null)
+266344-266345: ext
+266348-266383: (null)
+266384-266385: ext
+266388-266415: (null)
+266418-266439: (null)
+266442-266455: (null)
+266456-266457: ext
+266460-266511: (null)
+266514-266527: (null)
+266528-266529: ext
+266532-266631: (null)
+266632-266633: ext
+266636-266783: (null)
+266786-266791: (null)
+266792-266793: ext
+266796-266871: (null)
+266874-266879: (null)
+266880-266881: ext
+266884-266959: (null)
+266960-266961: ext
+266964-267023: (null)
+267026-267031: (null)
+267032-267033: ext
+267036-267087: (null)
+267090-267095: (null)
+267096-267097: ext
+267100-267143: (null)
+267146-267159: (null)
+267160-267161: ext
+267164-267207: (null)
+267208-267209: ext
+267212-267271: (null)
+267274-267279: (null)
+267280-267281: ext
+267284-267335: (null)
+267338-267343: (null)
+267344-267345: ext
+267348-267399: (null)
+267402-267407: (null)
+267408-267409: ext
+267412-267463: (null)
+267466-267471: (null)
+267472-267473: ext
+267476-267527: (null)
+267530-267535: (null)
+267536-267537: ext
+267540-267615: (null)
+267618-267623: (null)
+267624-267625: ext
+267628-267679: (null)
+267682-267687: (null)
+267688-267689: ext
+267692-267743: (null)
+267746-267751: (null)
+267752-267753: ext
+267756-267807: (null)
+267808-267809: ext
+267812-267871: (null)
+267874-267879: (null)
+267880-267881: ext
+267884-267935: (null)
+267938-267943: (null)
+267944-267945: ext
+267948-267999: (null)
+268002-268007: (null)
+268008-268009: ext
+268012-268039: (null)
+268042-268055: (null)
+268056-268057: ext
+268060-268143: (null)
+268146-268151: (null)
+268152-268153: ext
+268156-268207: (null)
+268208-268209: ext
+268212-268271: (null)
+268274-268279: (null)
+268280-268281: ext
+268284-268335: (null)
+268338-268343: (null)
+268344-268345: ext
+268348-268431: (null)
+268432-268433: ext
+268436-268495: (null)
+268498-268503: (null)
+268504-268505: ext
+268508-268687: (null)
+268690-268719: (null)
+268722-268735: (null)
+268736-268737: ext
+268740-268799: (null)
+268800-268801: ext
+268804-268855: (null)
+268858-268863: (null)
+268864-268865: ext
+268868-268919: (null)
+268922-268927: (null)
+268928-268929: ext
+268932-268983: (null)
+268986-268991: (null)
+268992-268993: ext
+268996-269047: (null)
+269050-269055: (null)
+269056-269057: ext
+269060-269111: (null)
+269114-269119: (null)
+269120-269121: ext
+269124-269207: (null)
+269210-269215: (null)
+269216-269217: ext
+269220-269295: (null)
+269298-269303: (null)
+269304-269305: ext
+269308-269359: (null)
+269362-269367: (null)
+269368-269369: ext
+269372-269447: (null)
+269450-269455: (null)
+269456-269457: ext
+269460-269551: (null)
+269554-269559: (null)
+269560-269561: ext
+269564-269615: (null)
+269618-269623: (null)
+269624-269625: ext
+269628-269679: (null)
+269680-269681: ext
+269684-269743: (null)
+269746-269751: (null)
+269752-269753: ext
+269756-269807: (null)
+269810-269815: (null)
+269816-269817: ext
+269820-269871: (null)
+269874-269879: (null)
+269880-269881: ext
+269884-269911: (null)
+269914-269927: (null)
+269928-269929: ext
+269932-270015: (null)
+270018-270023: (null)
+270024-270025: ext
+270028-270079: (null)
+270082-270087: (null)
+270088-270089: ext
+270092-270143: (null)
+270146-270151: (null)
+270152-270153: ext
+270156-270207: (null)
+270210-270215: (null)
+270216-270217: ext
+270220-270279: (null)
+270282-270287: (null)
+270288-270289: ext
+270292-270343: (null)
+270346-270359: (null)
+270360-270361: ext
+270364-270423: (null)
+270426-270431: (null)
+270432-270433: ext
+270436-270471: (null)
+270472-270473: ext
+270476-270527: (null)
+270530-270535: (null)
+270536-270537: ext
+270540-270599: (null)
+270602-270607: (null)
+270608-270609: ext
+270612-270663: (null)
+270666-270671: (null)
+270672-270673: ext
+270676-270735: (null)
+270738-270743: (null)
+270744-270745: ext
+270748-270807: (null)
+270810-270815: (null)
+270816-270817: ext
+270820-270919: (null)
+270922-270927: (null)
+270928-270929: ext
+270932-270991: (null)
+270994-270999: (null)
+271000-271001: ext
+271004-271103: (null)
+271106-271111: (null)
+271112-271113: ext
+271116-271215: (null)
+271218-271223: (null)
+271224-271225: ext
+271228-271287: (null)
+271290-271295: (null)
+271296-271297: ext
+271300-271359: (null)
+271362-271367: (null)
+271368-271369: ext
+271372-271471: (null)
+271474-271479: (null)
+271480-271481: ext
+271484-271583: (null)
+271586-271591: (null)
+271592-271593: ext
+271596-271655: (null)
+271658-271663: (null)
+271664-271665: ext
+271668-271727: (null)
+271730-271735: (null)
+271736-271737: ext
+271740-271799: (null)
+271802-271807: (null)
+271808-271809: ext
+271812-271871: (null)
+271874-271879: (null)
+271880-271881: ext
+271884-271983: (null)
+271986-271991: (null)
+271992-271993: ext
+271996-272055: (null)
+272058-272063: (null)
+272064-272065: ext
+272068-272127: (null)
+272130-272135: (null)
+272136-272137: ext
+272140-272199: (null)
+272202-272207: (null)
+272208-272209: ext
+272212-272271: (null)
+272274-272279: (null)
+272280-272281: ext
+272284-272343: (null)
+272346-272351: (null)
+272352-272353: ext
+272356-272415: (null)
+272418-272423: (null)
+272424-272425: ext
+272428-272487: (null)
+272490-272495: (null)
+272496-272497: ext
+272500-272559: (null)
+272562-272567: (null)
+272568-272569: ext
+272572-272631: (null)
+272634-272639: (null)
+272640-272641: ext
+272644-272703: (null)
+272706-272711: (null)
+272712-272713: ext
+272716-272815: (null)
+272818-272823: (null)
+272824-272825: ext
+272828-272887: (null)
+272890-272895: (null)
+272896-272897: ext
+272900-272959: (null)
+272962-272967: (null)
+272968-272969: ext
+272972-273031: (null)
+273034-273039: (null)
+273040-273041: ext
+273044-273103: (null)
+273106-273111: (null)
+273112-273113: ext
+273116-273175: (null)
+273178-273183: (null)
+273184-273185: ext
+273188-273247: (null)
+273250-273255: (null)
+273256-273257: ext
+273260-273319: (null)
+273322-273327: (null)
+273328-273329: ext
+273332-273391: (null)
+273394-273399: (null)
+273400-273401: ext
+273404-273463: (null)
+273466-273471: (null)
+273472-273473: ext
+273476-273535: (null)
+273538-273543: (null)
+273544-273545: ext
+273548-273567: (null)
+273570-273575: (null)
+273578-273583: (null)
+273586-273591: (null)
+273710-273711: (null)
+273890-273893: (null)
+273894-273895: (null)
+274056-274143: (null)
+274470-274471: (null)
+274524-274527: (null)
+274826-274863: (null)
+274884-278535: (null)
+278622-278623: (null)
+278704-282631: (null)
+282714-286727: (null)
+286808-290823: (null)
+290904-294919: (null)
+295000-393223: (null)
+393308-397311: (null)
+397316-397319: (null)
+397406-401407: (null)
+401462-401463: (null)
+401518-405511: (null)
+405600-409599: (null)
+401748 sectors contains unknown data, 109 invalid files found and rejected.
+PhotoRec exited normally.
+Using locale 'es_CO.UTF-8'.
+Terminal has only 16 lines
+Using locale 'es_CO.UTF-8'.
+
+
+Sun Apr 22 21:38:35 2018
+Command line: PhotoRec /debug /log /d ./recuperados /cmd device_image.dd partition_none,options,mode_ext2,fileopt,everything,enable,search
+
+PhotoRec 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.9.0-6-amd64 (#1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02)) x86_64
+Compiler: GCC 6.2
+ext2fs lib: 1.43.4, ntfs lib: libntfs-3g, ewf lib: none, libjpeg: libjpeg-turbo-1.5.1, curses lib: ncurses 6.0
+User is not root!
+Hard disk list
+Disk device_image.dd - 23 MB / 22 MiB - CHS 3 255 63 (RO), sector size=512
+
+Partition table type (auto): None
+Disk device_image.dd - 23 MB / 22 MiB (RO)
+Partition table type: None
+
+recover_EXT2: s_block_group_nr=0/1, s_mnt_count=146/4294967295, s_blocks_per_group=32768, s_inodes_per_group=6400
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 51200
+recover_EXT2: part_size 409600
+     Unknown                  0   0  1     2 219 49      45976 [Whole disk]
+   P ext4                     0   0  1     2 219 49      45976
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 23 MB / 22 MiB
+New options :
+ Paranoid : Yes
+ Brute force : No
+ Keep corrupted files : No
+ ext2/ext3 mode : Yes
+ Expert mode : No
+ Low memory : No
+
+Interface File Select
+650 first-level signatures enabled
+
+Analyse
+   P ext4                     0   0  1     2 219 49      45976
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 23 MB / 22 MiB
+Pass 0 (blocksize=512) STATUS_FIND_OFFSET
+* 0-45975: (null)
+45976 sectors contains unknown data, 0 invalid files found and rejected.
+blocksize=1024, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=1024) STATUS_EXT2_ON
+* 0-1: ext
+2-3823: ext
+3824-3831: ext
+3832-4647: ext
+4648-4655: ext
+4656-45975: ext
+45976 sectors contains unknown data, 6 invalid files found and rejected.
+./recuperados.1/f0000002.ext	 2-3
+./recuperados.1/f0003824.ext	 3824-3825
+./recuperados.1/f0003832.ext	 3832-3833
+./recuperados.1/f0004648.ext	 4648-4649
+./recuperados.1/f0003328.txt	 3328-3569
+./recuperados.1/f0004656.ext	 4656-4657
+./recuperados.1/f0003840.txt	 3840-4081
+./recuperados.1/f0003584.txt	 3584-3807
+Elapsed time 0h00m00s
+Pass 1 +3 files
+txt: 3/3 recovered
+ext: 0/1 recovered
+Total: 3 files found
+
+0-1: ext
+4-3327: (null)
+3570-3583: (null)
+3808-3823: (null)
+3826-3831: (null)
+3834-3839: (null)
+4082-4647: (null)
+4650-4655: (null)
+4658-45975: (null)
+45258 sectors contains unknown data, 1 invalid files found and rejected.
+PhotoRec exited normally.
+Using locale 'es_CO.UTF-8'.
+
+
+Sun Apr 22 21:41:40 2018
+Command line: PhotoRec /debug /log /d ./recuperados /cmd device_image.dd partition_none,options,mode_ext2,fileopt,everything,enable,search
+
+PhotoRec 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.9.0-6-amd64 (#1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02)) x86_64
+Compiler: GCC 6.2
+ext2fs lib: 1.43.4, ntfs lib: libntfs-3g, ewf lib: none, libjpeg: libjpeg-turbo-1.5.1, curses lib: ncurses 6.0
+User is not root!
+Hard disk list
+Disk device_image.dd - 209 MB / 200 MiB - CHS 26 255 63 (RO), sector size=512
+
+Partition table type (auto): None
+Disk device_image.dd - 209 MB / 200 MiB (RO)
+Partition table type: None
+
+recover_EXT2: s_block_group_nr=0/1, s_mnt_count=146/4294967295, s_blocks_per_group=32768, s_inodes_per_group=6400
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 51200
+recover_EXT2: part_size 409600
+     Unknown                  0   0  1    25 126 37     409600 [Whole disk]
+   P ext4                     0   0  1    25 126 37     409600
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 209 MB / 200 MiB
+New options :
+ Paranoid : Yes
+ Brute force : No
+ Keep corrupted files : No
+ ext2/ext3 mode : Yes
+ Expert mode : No
+ Low memory : No
+
+Interface File Select
+650 first-level signatures enabled
+
+Analyse
+   P ext4                     0   0  1    25 126 37     409600
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 209 MB / 200 MiB
+Pass 0 (blocksize=512) STATUS_FIND_OFFSET
+* 0-409599: (null)
+409600 sectors contains unknown data, 0 invalid files found and rejected.
+blocksize=1024, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=1024) STATUS_EXT2_ON
+* 0-1: ext
+2-3823: ext
+3824-3831: ext
+3832-4647: ext
+4648-4655: ext
+4656-262143: ext
+262144-265423: ext
+265424-265425: ext
+265426-265551: ext
+265552-409599: ext
+409600 sectors contains unknown data, 10 invalid files found and rejected.
+./recuperados.2/f0000002.ext	 2-3
+./recuperados.2/f0003824.ext	 3824-3825
+./recuperados.2/f0003832.ext	 3832-3833
+./recuperados.2/f0004648.ext	 4648-4649
+./recuperados.2/f0003328.txt	 3328-3569
+./recuperados.2/f0004656.ext	 4656-4657
+./recuperados.2/f0003840.txt	 3840-4081
+./recuperados.2/f0003584.txt	 3584-3807
+./recuperados.2/f0262144.ext	 262144-262145
+./recuperados.2/f0004096.txt	 4096-4369
+./recuperados.2/f0004376.txt	 4376-4461
+./recuperados.2/f0004464.txt	 4464-4639
+./recuperados.2/f0005120.txt	 5120-6071
+./recuperados.2/f0006144.txt	 6144-7269
+./recuperados.2/f0007272.txt	 7272-8043
+./recuperados.2/f0008272.txt	 8272-9313
+./recuperados.2/f0009728.txt	 9728-10003
+./recuperados.2/f0265426.ext	 265426-265427
+./recuperados.2/f0265552.ext	 265552-265553
+./recuperados.2/f0265562.ext	 265562-265563
+./recuperados.2/f0265608.ext	 265608-265609
+./recuperados.2/f0265626.ext	 265626-265627
+./recuperados.2/f0265664.ext	 265664-265665
+./recuperados.2/f0265682.ext	 265682-265683
+./recuperados.2/f0265730.ext	 265730-265731
+./recuperados.2/f0265752.ext	 265752-265753
+./recuperados.2/f0265810.ext	 265810-265811
+./recuperados.2/f0265920.ext	 265920-265921
+./recuperados.2/f0265930.ext	 265930-265931
+./recuperados.2/f0265984.ext	 265984-265985
+./recuperados.2/f0265994.ext	 265994-265995
+./recuperados.2/f0266048.ext	 266048-266049
+./recuperados.2/f0266066.ext	 266066-266067
+./recuperados.2/f0266120.ext	 266120-266121
+./recuperados.2/f0266130.ext	 266130-266131
+./recuperados.2/f0266186.ext	 266186-266187
+./recuperados.2/f0266208.ext	 266208-266209
+./recuperados.2/f0266240.ext	 266240-266241
+./recuperados.2/f0266258.ext	 266258-266259
+./recuperados.2/f0266336.ext	 266336-266337
+./recuperados.2/f0266346.ext	 266346-266347
+./recuperados.2/f0266386.ext	 266386-266387
+./recuperados.2/f0266416.ext	 266416-266417
+./recuperados.2/f0266440.ext	 266440-266441
+./recuperados.2/f0266458.ext	 266458-266459
+./recuperados.2/f0266512.ext	 266512-266513
+./recuperados.2/f0266530.ext	 266530-266531
+./recuperados.2/f0266634.ext	 266634-266635
+./recuperados.2/f0266784.ext	 266784-266785
+./recuperados.2/f0266794.ext	 266794-266795
+./recuperados.2/f0266872.ext	 266872-266873
+./recuperados.2/f0266882.ext	 266882-266883
+./recuperados.2/f0266962.ext	 266962-266963
+./recuperados.2/f0267024.ext	 267024-267025
+./recuperados.2/f0267034.ext	 267034-267035
+./recuperados.2/f0267112.ext	 267112-267113
+./recuperados.2/f0267130.ext	 267130-267131
+./recuperados.2/f0267152.ext	 267152-267153
+./recuperados.2/f0267170.ext	 267170-267171
+./recuperados.2/f0267248.ext	 267248-267249
+./recuperados.2/f0267258.ext	 267258-267259
+./recuperados.2/f0267336.ext	 267336-267337
+./recuperados.2/f0267346.ext	 267346-267347
+./recuperados.2/f0267448.ext	 267448-267449
+./recuperados.2/f0267458.ext	 267458-267459
+./recuperados.2/f0267474.ext	 267474-267475
+./recuperados.2/f0267528.ext	 267528-267529
+./recuperados.2/f0267538.ext	 267538-267539
+./recuperados.2/f0267616.ext	 267616-267617
+./recuperados.2/f0267626.ext	 267626-267627
+./recuperados.2/f0267680.ext	 267680-267681
+./recuperados.2/f0267690.ext	 267690-267691
+./recuperados.2/f0267744.ext	 267744-267745
+./recuperados.2/f0267754.ext	 267754-267755
+./recuperados.2/f0267810.ext	 267810-267811
+./recuperados.2/f0267872.ext	 267872-267873
+./recuperados.2/f0267882.ext	 267882-267883
+./recuperados.2/f0267936.ext	 267936-267937
+./recuperados.2/f0267946.ext	 267946-267947
+./recuperados.2/f0268000.ext	 268000-268001
+./recuperados.2/f0268010.ext	 268010-268011
+./recuperados.2/f0268040.ext	 268040-268041
+./recuperados.2/f0268058.ext	 268058-268059
+./recuperados.2/f0268144.ext	 268144-268145
+./recuperados.2/f0268154.ext	 268154-268155
+./recuperados.2/f0268210.ext	 268210-268211
+./recuperados.2/f0268272.ext	 268272-268273
+./recuperados.2/f0268282.ext	 268282-268283
+./recuperados.2/f0268336.ext	 268336-268337
+./recuperados.2/f0268346.ext	 268346-268347
+./recuperados.2/f0268434.ext	 268434-268435
+./recuperados.2/f0268496.ext	 268496-268497
+./recuperados.2/f0268506.ext	 268506-268507
+./recuperados.2/f0268688.ext	 268688-268689
+./recuperados.2/f0268720.ext	 268720-268721
+./recuperados.2/f0268738.ext	 268738-268739
+./recuperados.2/f0268802.ext	 268802-268803
+./recuperados.2/f0268856.ext	 268856-268857
+./recuperados.2/f0268866.ext	 268866-268867
+./recuperados.2/f0268920.ext	 268920-268921
+./recuperados.2/f0268930.ext	 268930-268931
+./recuperados.2/f0268984.ext	 268984-268985
+./recuperados.2/f0268994.ext	 268994-268995
+./recuperados.2/f0269048.ext	 269048-269049
+./recuperados.2/f0269058.ext	 269058-269059
+./recuperados.2/f0269112.ext	 269112-269113
+./recuperados.2/f0269122.ext	 269122-269123
+./recuperados.2/f0269208.ext	 269208-269209
+./recuperados.2/f0269218.ext	 269218-269219
+./recuperados.2/f0269296.ext	 269296-269297
+./recuperados.2/f0269306.ext	 269306-269307
+./recuperados.2/f0269360.ext	 269360-269361
+./recuperados.2/f0269370.ext	 269370-269371
+./recuperados.2/f0269448.ext	 269448-269449
+./recuperados.2/f0269458.ext	 269458-269459
+./recuperados.2/f0269552.ext	 269552-269553
+./recuperados.2/f0269562.ext	 269562-269563
+./recuperados.2/f0269616.ext	 269616-269617
+./recuperados.2/f0269626.ext	 269626-269627
+./recuperados.2/f0269682.ext	 269682-269683
+./recuperados.2/f0269744.ext	 269744-269745
+./recuperados.2/f0269754.ext	 269754-269755
+./recuperados.2/f0269808.ext	 269808-269809
+./recuperados.2/f0269818.ext	 269818-269819
+./recuperados.2/f0269872.ext	 269872-269873
+./recuperados.2/f0269882.ext	 269882-269883
+./recuperados.2/f0269912.ext	 269912-269913
+./recuperados.2/f0269930.ext	 269930-269931
+./recuperados.2/f0270016.ext	 270016-270017
+./recuperados.2/f0270026.ext	 270026-270027
+./recuperados.2/f0270080.ext	 270080-270081
+./recuperados.2/f0270090.ext	 270090-270091
+./recuperados.2/f0270144.ext	 270144-270145
+./recuperados.2/f0270154.ext	 270154-270155
+./recuperados.2/f0270208.ext	 270208-270209
+./recuperados.2/f0270218.ext	 270218-270219
+./recuperados.2/f0270280.ext	 270280-270281
+./recuperados.2/f0270290.ext	 270290-270291
+./recuperados.2/f0270344.ext	 270344-270345
+./recuperados.2/f0270362.ext	 270362-270363
+./recuperados.2/f0270424.ext	 270424-270425
+./recuperados.2/f0270434.ext	 270434-270435
+./recuperados.2/f0270474.ext	 270474-270475
+./recuperados.2/f0270528.ext	 270528-270529
+./recuperados.2/f0270538.ext	 270538-270539
+./recuperados.2/f0270600.ext	 270600-270601
+./recuperados.2/f0270610.ext	 270610-270611
+./recuperados.2/f0270664.ext	 270664-270665
+./recuperados.2/f0270674.ext	 270674-270675
+./recuperados.2/f0270736.ext	 270736-270737
+./recuperados.2/f0270746.ext	 270746-270747
+./recuperados.2/f0270808.ext	 270808-270809
+./recuperados.2/f0270818.ext	 270818-270819
+./recuperados.2/f0270920.ext	 270920-270921
+./recuperados.2/f0270930.ext	 270930-270931
+./recuperados.2/f0270992.ext	 270992-270993
+./recuperados.2/f0271002.ext	 271002-271003
+./recuperados.2/f0271104.ext	 271104-271105
+./recuperados.2/f0271114.ext	 271114-271115
+./recuperados.2/f0271216.ext	 271216-271217
+./recuperados.2/f0271226.ext	 271226-271227
+./recuperados.2/f0271288.ext	 271288-271289
+./recuperados.2/f0271298.ext	 271298-271299
+./recuperados.2/f0271360.ext	 271360-271361
+./recuperados.2/f0271370.ext	 271370-271371
+./recuperados.2/f0271472.ext	 271472-271473
+./recuperados.2/f0271482.ext	 271482-271483
+./recuperados.2/f0271584.ext	 271584-271585
+./recuperados.2/f0271594.ext	 271594-271595
+./recuperados.2/f0271656.ext	 271656-271657
+./recuperados.2/f0271666.ext	 271666-271667
+./recuperados.2/f0271728.ext	 271728-271729
+./recuperados.2/f0271738.ext	 271738-271739
+./recuperados.2/f0271800.ext	 271800-271801
+./recuperados.2/f0271810.ext	 271810-271811
+./recuperados.2/f0271872.ext	 271872-271873
+./recuperados.2/f0271882.ext	 271882-271883
+./recuperados.2/f0271984.ext	 271984-271985
+./recuperados.2/f0271994.ext	 271994-271995
+./recuperados.2/f0272056.ext	 272056-272057
+./recuperados.2/f0272066.ext	 272066-272067
+./recuperados.2/f0272128.ext	 272128-272129
+./recuperados.2/f0272138.ext	 272138-272139
+./recuperados.2/f0272200.ext	 272200-272201
+./recuperados.2/f0272210.ext	 272210-272211
+./recuperados.2/f0272272.ext	 272272-272273
+./recuperados.2/f0272282.ext	 272282-272283
+./recuperados.2/f0272344.ext	 272344-272345
+./recuperados.2/f0272354.ext	 272354-272355
+./recuperados.2/f0272416.ext	 272416-272417
+./recuperados.2/f0272426.ext	 272426-272427
+./recuperados.2/f0272488.ext	 272488-272489
+./recuperados.2/f0272498.ext	 272498-272499
+./recuperados.2/f0272560.ext	 272560-272561
+./recuperados.2/f0272570.ext	 272570-272571
+./recuperados.2/f0272632.ext	 272632-272633
+./recuperados.2/f0272642.ext	 272642-272643
+./recuperados.2/f0272704.ext	 272704-272705
+./recuperados.2/f0272714.ext	 272714-272715
+./recuperados.2/f0272816.ext	 272816-272817
+./recuperados.2/f0272826.ext	 272826-272827
+./recuperados.2/f0272888.ext	 272888-272889
+./recuperados.2/f0272898.ext	 272898-272899
+./recuperados.2/f0272960.ext	 272960-272961
+./recuperados.2/f0272970.ext	 272970-272971
+./recuperados.2/f0273032.ext	 273032-273033
+./recuperados.2/f0273042.ext	 273042-273043
+./recuperados.2/f0273104.ext	 273104-273105
+./recuperados.2/f0273114.ext	 273114-273115
+./recuperados.2/f0273176.ext	 273176-273177
+./recuperados.2/f0273186.ext	 273186-273187
+./recuperados.2/f0273248.ext	 273248-273249
+./recuperados.2/f0273258.ext	 273258-273259
+./recuperados.2/f0273320.ext	 273320-273321
+./recuperados.2/f0273330.ext	 273330-273331
+./recuperados.2/f0273392.ext	 273392-273393
+./recuperados.2/f0273402.ext	 273402-273403
+./recuperados.2/f0273464.ext	 273464-273465
+./recuperados.2/f0273474.ext	 273474-273475
+./recuperados.2/f0273536.ext	 273536-273537
+./recuperados.2/f0273546.ext	 273546-273547
+./recuperados.2/f0273568.ext	 273568-273569
+./recuperados.2/f0273576.ext	 273576-273577
+./recuperados.2/f0273584.ext	 273584-273585
+./recuperados.2/f0273592.txt	 273592-273709
+./recuperados.2/f0273712.txt	 273712-273889
+./recuperados.2/f0273896.txt	 273896-274055
+./recuperados.2/f0274144.txt	 274144-274469
+./recuperados.2/f0274472.txt	 274472-274519
+./recuperados.2/f0274520.txt	 274520-274523
+./recuperados.2/f0274528.txt	 274528-274815
+./recuperados.2/f0274816.txt	 274816-274825
+./recuperados.2/f0274864.txt	 274864-274883
+./recuperados.2/f0278536.txt	 278536-278621
+./recuperados.2/f0278624.txt	 278624-278703
+./recuperados.2/f0282632.txt	 282632-282713
+./recuperados.2/f0286728.txt	 286728-286807
+./recuperados.2/f0290824.txt	 290824-290903
+./recuperados.2/f0294920.txt	 294920-294999
+./recuperados.2/f0393224.txt	 393224-393307
+./recuperados.2/f0397312.java	 397312-397315
+./recuperados.2/f0397320.txt	 397320-397405
+./recuperados.2/f0401408.txt	 401408-401461
+./recuperados.2/f0401464.txt	 401464-401517
+./recuperados.2/f0405512.txt	 405512-405599
+Elapsed time 0h00m04s
+Pass 1 +32 files
+txt: 32/32 recovered
+ext: 0/108 recovered
+Total: 32 files found
+
+0-1: ext
+4-3327: (null)
+3570-3583: (null)
+3808-3823: (null)
+3826-3831: (null)
+3834-3839: (null)
+4082-4095: (null)
+4370-4375: (null)
+4462-4463: (null)
+4640-4647: (null)
+4650-4655: (null)
+4658-5119: (null)
+6072-6143: (null)
+7270-7271: (null)
+8044-8271: (null)
+9314-9727: (null)
+10004-262143: (null)
+262146-265423: (null)
+265424-265425: ext
+265428-265551: (null)
+265554-265559: (null)
+265560-265561: ext
+265564-265607: (null)
+265610-265623: (null)
+265624-265625: ext
+265628-265663: (null)
+265666-265679: (null)
+265680-265681: ext
+265684-265727: (null)
+265728-265729: ext
+265732-265751: (null)
+265754-265807: (null)
+265808-265809: ext
+265812-265919: (null)
+265922-265927: (null)
+265928-265929: ext
+265932-265983: (null)
+265986-265991: (null)
+265992-265993: ext
+265996-266047: (null)
+266050-266063: (null)
+266064-266065: ext
+266068-266119: (null)
+266122-266127: (null)
+266128-266129: ext
+266132-266183: (null)
+266184-266185: ext
+266188-266207: (null)
+266210-266239: (null)
+266242-266255: (null)
+266256-266257: ext
+266260-266335: (null)
+266338-266343: (null)
+266344-266345: ext
+266348-266383: (null)
+266384-266385: ext
+266388-266415: (null)
+266418-266439: (null)
+266442-266455: (null)
+266456-266457: ext
+266460-266511: (null)
+266514-266527: (null)
+266528-266529: ext
+266532-266631: (null)
+266632-266633: ext
+266636-266783: (null)
+266786-266791: (null)
+266792-266793: ext
+266796-266871: (null)
+266874-266879: (null)
+266880-266881: ext
+266884-266959: (null)
+266960-266961: ext
+266964-267023: (null)
+267026-267031: (null)
+267032-267033: ext
+267036-267111: (null)
+267114-267127: (null)
+267128-267129: ext
+267132-267151: (null)
+267154-267167: (null)
+267168-267169: ext
+267172-267247: (null)
+267250-267255: (null)
+267256-267257: ext
+267260-267335: (null)
+267338-267343: (null)
+267344-267345: ext
+267348-267447: (null)
+267450-267455: (null)
+267456-267457: ext
+267460-267471: (null)
+267472-267473: ext
+267476-267527: (null)
+267530-267535: (null)
+267536-267537: ext
+267540-267615: (null)
+267618-267623: (null)
+267624-267625: ext
+267628-267679: (null)
+267682-267687: (null)
+267688-267689: ext
+267692-267743: (null)
+267746-267751: (null)
+267752-267753: ext
+267756-267807: (null)
+267808-267809: ext
+267812-267871: (null)
+267874-267879: (null)
+267880-267881: ext
+267884-267935: (null)
+267938-267943: (null)
+267944-267945: ext
+267948-267999: (null)
+268002-268007: (null)
+268008-268009: ext
+268012-268039: (null)
+268042-268055: (null)
+268056-268057: ext
+268060-268143: (null)
+268146-268151: (null)
+268152-268153: ext
+268156-268207: (null)
+268208-268209: ext
+268212-268271: (null)
+268274-268279: (null)
+268280-268281: ext
+268284-268335: (null)
+268338-268343: (null)
+268344-268345: ext
+268348-268431: (null)
+268432-268433: ext
+268436-268495: (null)
+268498-268503: (null)
+268504-268505: ext
+268508-268687: (null)
+268690-268719: (null)
+268722-268735: (null)
+268736-268737: ext
+268740-268799: (null)
+268800-268801: ext
+268804-268855: (null)
+268858-268863: (null)
+268864-268865: ext
+268868-268919: (null)
+268922-268927: (null)
+268928-268929: ext
+268932-268983: (null)
+268986-268991: (null)
+268992-268993: ext
+268996-269047: (null)
+269050-269055: (null)
+269056-269057: ext
+269060-269111: (null)
+269114-269119: (null)
+269120-269121: ext
+269124-269207: (null)
+269210-269215: (null)
+269216-269217: ext
+269220-269295: (null)
+269298-269303: (null)
+269304-269305: ext
+269308-269359: (null)
+269362-269367: (null)
+269368-269369: ext
+269372-269447: (null)
+269450-269455: (null)
+269456-269457: ext
+269460-269551: (null)
+269554-269559: (null)
+269560-269561: ext
+269564-269615: (null)
+269618-269623: (null)
+269624-269625: ext
+269628-269679: (null)
+269680-269681: ext
+269684-269743: (null)
+269746-269751: (null)
+269752-269753: ext
+269756-269807: (null)
+269810-269815: (null)
+269816-269817: ext
+269820-269871: (null)
+269874-269879: (null)
+269880-269881: ext
+269884-269911: (null)
+269914-269927: (null)
+269928-269929: ext
+269932-270015: (null)
+270018-270023: (null)
+270024-270025: ext
+270028-270079: (null)
+270082-270087: (null)
+270088-270089: ext
+270092-270143: (null)
+270146-270151: (null)
+270152-270153: ext
+270156-270207: (null)
+270210-270215: (null)
+270216-270217: ext
+270220-270279: (null)
+270282-270287: (null)
+270288-270289: ext
+270292-270343: (null)
+270346-270359: (null)
+270360-270361: ext
+270364-270423: (null)
+270426-270431: (null)
+270432-270433: ext
+270436-270471: (null)
+270472-270473: ext
+270476-270527: (null)
+270530-270535: (null)
+270536-270537: ext
+270540-270599: (null)
+270602-270607: (null)
+270608-270609: ext
+270612-270663: (null)
+270666-270671: (null)
+270672-270673: ext
+270676-270735: (null)
+270738-270743: (null)
+270744-270745: ext
+270748-270807: (null)
+270810-270815: (null)
+270816-270817: ext
+270820-270919: (null)
+270922-270927: (null)
+270928-270929: ext
+270932-270991: (null)
+270994-270999: (null)
+271000-271001: ext
+271004-271103: (null)
+271106-271111: (null)
+271112-271113: ext
+271116-271215: (null)
+271218-271223: (null)
+271224-271225: ext
+271228-271287: (null)
+271290-271295: (null)
+271296-271297: ext
+271300-271359: (null)
+271362-271367: (null)
+271368-271369: ext
+271372-271471: (null)
+271474-271479: (null)
+271480-271481: ext
+271484-271583: (null)
+271586-271591: (null)
+271592-271593: ext
+271596-271655: (null)
+271658-271663: (null)
+271664-271665: ext
+271668-271727: (null)
+271730-271735: (null)
+271736-271737: ext
+271740-271799: (null)
+271802-271807: (null)
+271808-271809: ext
+271812-271871: (null)
+271874-271879: (null)
+271880-271881: ext
+271884-271983: (null)
+271986-271991: (null)
+271992-271993: ext
+271996-272055: (null)
+272058-272063: (null)
+272064-272065: ext
+272068-272127: (null)
+272130-272135: (null)
+272136-272137: ext
+272140-272199: (null)
+272202-272207: (null)
+272208-272209: ext
+272212-272271: (null)
+272274-272279: (null)
+272280-272281: ext
+272284-272343: (null)
+272346-272351: (null)
+272352-272353: ext
+272356-272415: (null)
+272418-272423: (null)
+272424-272425: ext
+272428-272487: (null)
+272490-272495: (null)
+272496-272497: ext
+272500-272559: (null)
+272562-272567: (null)
+272568-272569: ext
+272572-272631: (null)
+272634-272639: (null)
+272640-272641: ext
+272644-272703: (null)
+272706-272711: (null)
+272712-272713: ext
+272716-272815: (null)
+272818-272823: (null)
+272824-272825: ext
+272828-272887: (null)
+272890-272895: (null)
+272896-272897: ext
+272900-272959: (null)
+272962-272967: (null)
+272968-272969: ext
+272972-273031: (null)
+273034-273039: (null)
+273040-273041: ext
+273044-273103: (null)
+273106-273111: (null)
+273112-273113: ext
+273116-273175: (null)
+273178-273183: (null)
+273184-273185: ext
+273188-273247: (null)
+273250-273255: (null)
+273256-273257: ext
+273260-273319: (null)
+273322-273327: (null)
+273328-273329: ext
+273332-273391: (null)
+273394-273399: (null)
+273400-273401: ext
+273404-273463: (null)
+273466-273471: (null)
+273472-273473: ext
+273476-273535: (null)
+273538-273543: (null)
+273544-273545: ext
+273548-273567: (null)
+273570-273575: (null)
+273578-273583: (null)
+273586-273591: (null)
+273710-273711: (null)
+273890-273893: (null)
+273894-273895: (null)
+274056-274143: (null)
+274470-274471: (null)
+274524-274527: (null)
+274826-274863: (null)
+274884-278535: (null)
+278622-278623: (null)
+278704-282631: (null)
+282714-286727: (null)
+286808-290823: (null)
+290904-294919: (null)
+295000-393223: (null)
+393308-397311: (null)
+397316-397319: (null)
+397406-401407: (null)
+401462-401463: (null)
+401518-405511: (null)
+405600-409599: (null)
+401752 sectors contains unknown data, 108 invalid files found and rejected.
+PhotoRec exited normally.
+Using locale 'es_CO.UTF-8'.
+Terminal has only 10 lines
+Using locale 'es_CO.UTF-8'.
+
+
+Sun Apr 22 21:47:44 2018
+Command line: PhotoRec /debug /log /d ./recuperados /cmd device_image.dd partition_none,options,mode_ext2,fileopt,everything,enable,search
+
+PhotoRec 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.9.0-6-amd64 (#1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02)) x86_64
+Compiler: GCC 6.2
+ext2fs lib: 1.43.4, ntfs lib: libntfs-3g, ewf lib: none, libjpeg: libjpeg-turbo-1.5.1, curses lib: ncurses 6.0
+User is not root!
+Hard disk list
+Disk device_image.dd - 209 MB / 200 MiB - CHS 26 255 63 (RO), sector size=512
+
+Partition table type (auto): None
+Disk device_image.dd - 209 MB / 200 MiB (RO)
+Partition table type: None
+
+recover_EXT2: s_block_group_nr=0/1, s_mnt_count=146/4294967295, s_blocks_per_group=32768, s_inodes_per_group=6400
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 51200
+recover_EXT2: part_size 409600
+     Unknown                  0   0  1    25 126 37     409600 [Whole disk]
+   P ext4                     0   0  1    25 126 37     409600
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 209 MB / 200 MiB
+New options :
+ Paranoid : Yes
+ Brute force : No
+ Keep corrupted files : No
+ ext2/ext3 mode : Yes
+ Expert mode : No
+ Low memory : No
+
+Interface File Select
+650 first-level signatures enabled
+
+Analyse
+   P ext4                     0   0  1    25 126 37     409600
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 209 MB / 200 MiB
+Pass 0 (blocksize=512) STATUS_FIND_OFFSET
+* 0-409599: (null)
+409600 sectors contains unknown data, 0 invalid files found and rejected.
+blocksize=1024, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=1024) STATUS_EXT2_ON
+* 0-1: ext
+2-3823: ext
+3824-3831: ext
+3832-4647: ext
+4648-4655: ext
+4656-262143: ext
+262144-265423: ext
+265424-265425: ext
+265426-265551: ext
+265552-409599: ext
+409600 sectors contains unknown data, 10 invalid files found and rejected.
+./recuperados.1/f0000002.ext	 2-3
+./recuperados.1/f0003824.ext	 3824-3825
+./recuperados.1/f0003832.ext	 3832-3833
+./recuperados.1/f0004648.ext	 4648-4649
+./recuperados.1/f0003328.txt	 3328-3569
+./recuperados.1/f0004656.ext	 4656-4657
+./recuperados.1/f0003840.txt	 3840-4081
+./recuperados.1/f0003584.txt	 3584-3807
+./recuperados.1/f0262144.ext	 262144-262145
+./recuperados.1/f0004096.txt	 4096-4369
+./recuperados.1/f0004376.txt	 4376-4461
+./recuperados.1/f0004464.txt	 4464-4639
+./recuperados.1/f0005120.txt	 5120-6071
+./recuperados.1/f0006144.txt	 6144-7269
+./recuperados.1/f0007272.txt	 7272-8043
+./recuperados.1/f0008272.txt	 8272-9313
+./recuperados.1/f0009728.txt	 9728-10003
+./recuperados.1/f0265426.ext	 265426-265427
+./recuperados.1/f0265552.ext	 265552-265553
+./recuperados.1/f0265562.ext	 265562-265563
+./recuperados.1/f0265608.ext	 265608-265609
+./recuperados.1/f0265626.ext	 265626-265627
+./recuperados.1/f0265664.ext	 265664-265665
+./recuperados.1/f0265682.ext	 265682-265683
+./recuperados.1/f0265730.ext	 265730-265731
+./recuperados.1/f0265752.ext	 265752-265753
+./recuperados.1/f0265810.ext	 265810-265811
+./recuperados.1/f0265920.ext	 265920-265921
+./recuperados.1/f0265930.ext	 265930-265931
+./recuperados.1/f0265984.ext	 265984-265985
+./recuperados.1/f0265994.ext	 265994-265995
+./recuperados.1/f0266048.ext	 266048-266049
+./recuperados.1/f0266066.ext	 266066-266067
+./recuperados.1/f0266120.ext	 266120-266121
+./recuperados.1/f0266130.ext	 266130-266131
+./recuperados.1/f0266186.ext	 266186-266187
+./recuperados.1/f0266208.ext	 266208-266209
+./recuperados.1/f0266240.ext	 266240-266241
+./recuperados.1/f0266258.ext	 266258-266259
+./recuperados.1/f0266336.ext	 266336-266337
+./recuperados.1/f0266346.ext	 266346-266347
+./recuperados.1/f0266386.ext	 266386-266387
+./recuperados.1/f0266416.ext	 266416-266417
+./recuperados.1/f0266440.ext	 266440-266441
+./recuperados.1/f0266458.ext	 266458-266459
+./recuperados.1/f0266512.ext	 266512-266513
+./recuperados.1/f0266530.ext	 266530-266531
+./recuperados.1/f0266634.ext	 266634-266635
+./recuperados.1/f0266784.ext	 266784-266785
+./recuperados.1/f0266794.ext	 266794-266795
+./recuperados.1/f0266872.ext	 266872-266873
+./recuperados.1/f0266882.ext	 266882-266883
+./recuperados.1/f0266962.ext	 266962-266963
+./recuperados.1/f0267024.ext	 267024-267025
+./recuperados.1/f0267034.ext	 267034-267035
+./recuperados.1/f0267112.ext	 267112-267113
+./recuperados.1/f0267130.ext	 267130-267131
+./recuperados.1/f0267152.ext	 267152-267153
+./recuperados.1/f0267170.ext	 267170-267171
+./recuperados.1/f0267248.ext	 267248-267249
+./recuperados.1/f0267258.ext	 267258-267259
+./recuperados.1/f0267336.ext	 267336-267337
+./recuperados.1/f0267346.ext	 267346-267347
+./recuperados.1/f0267448.ext	 267448-267449
+./recuperados.1/f0267458.ext	 267458-267459
+./recuperados.1/f0267474.ext	 267474-267475
+./recuperados.1/f0267528.ext	 267528-267529
+./recuperados.1/f0267538.ext	 267538-267539
+./recuperados.1/f0267616.ext	 267616-267617
+./recuperados.1/f0267626.ext	 267626-267627
+./recuperados.1/f0267680.ext	 267680-267681
+./recuperados.1/f0267690.ext	 267690-267691
+./recuperados.1/f0267744.ext	 267744-267745
+./recuperados.1/f0267754.ext	 267754-267755
+./recuperados.1/f0267810.ext	 267810-267811
+./recuperados.1/f0267872.ext	 267872-267873
+./recuperados.1/f0267882.ext	 267882-267883
+./recuperados.1/f0267936.ext	 267936-267937
+./recuperados.1/f0267946.ext	 267946-267947
+./recuperados.1/f0268000.ext	 268000-268001
+./recuperados.1/f0268010.ext	 268010-268011
+./recuperados.1/f0268040.ext	 268040-268041
+./recuperados.1/f0268058.ext	 268058-268059
+./recuperados.1/f0268144.ext	 268144-268145
+./recuperados.1/f0268154.ext	 268154-268155
+./recuperados.1/f0268210.ext	 268210-268211
+./recuperados.1/f0268272.ext	 268272-268273
+./recuperados.1/f0268282.ext	 268282-268283
+./recuperados.1/f0268336.ext	 268336-268337
+./recuperados.1/f0268346.ext	 268346-268347
+./recuperados.1/f0268434.ext	 268434-268435
+./recuperados.1/f0268496.ext	 268496-268497
+./recuperados.1/f0268506.ext	 268506-268507
+./recuperados.1/f0268688.ext	 268688-268689
+./recuperados.1/f0268720.ext	 268720-268721
+./recuperados.1/f0268738.ext	 268738-268739
+./recuperados.1/f0268802.ext	 268802-268803
+./recuperados.1/f0268856.ext	 268856-268857
+./recuperados.1/f0268866.ext	 268866-268867
+./recuperados.1/f0268920.ext	 268920-268921
+./recuperados.1/f0268930.ext	 268930-268931
+./recuperados.1/f0268984.ext	 268984-268985
+./recuperados.1/f0268994.ext	 268994-268995
+./recuperados.1/f0269048.ext	 269048-269049
+./recuperados.1/f0269058.ext	 269058-269059
+./recuperados.1/f0269112.ext	 269112-269113
+./recuperados.1/f0269122.ext	 269122-269123
+./recuperados.1/f0269208.ext	 269208-269209
+./recuperados.1/f0269218.ext	 269218-269219
+./recuperados.1/f0269296.ext	 269296-269297
+./recuperados.1/f0269306.ext	 269306-269307
+./recuperados.1/f0269360.ext	 269360-269361
+./recuperados.1/f0269370.ext	 269370-269371
+./recuperados.1/f0269448.ext	 269448-269449
+./recuperados.1/f0269458.ext	 269458-269459
+./recuperados.1/f0269552.ext	 269552-269553
+./recuperados.1/f0269562.ext	 269562-269563
+./recuperados.1/f0269616.ext	 269616-269617
+./recuperados.1/f0269626.ext	 269626-269627
+./recuperados.1/f0269682.ext	 269682-269683
+./recuperados.1/f0269744.ext	 269744-269745
+./recuperados.1/f0269754.ext	 269754-269755
+./recuperados.1/f0269808.ext	 269808-269809
+./recuperados.1/f0269818.ext	 269818-269819
+./recuperados.1/f0269872.ext	 269872-269873
+./recuperados.1/f0269882.ext	 269882-269883
+./recuperados.1/f0269912.ext	 269912-269913
+./recuperados.1/f0269930.ext	 269930-269931
+./recuperados.1/f0270016.ext	 270016-270017
+./recuperados.1/f0270026.ext	 270026-270027
+./recuperados.1/f0270080.ext	 270080-270081
+./recuperados.1/f0270090.ext	 270090-270091
+./recuperados.1/f0270144.ext	 270144-270145
+./recuperados.1/f0270154.ext	 270154-270155
+./recuperados.1/f0270208.ext	 270208-270209
+./recuperados.1/f0270218.ext	 270218-270219
+./recuperados.1/f0270280.ext	 270280-270281
+./recuperados.1/f0270290.ext	 270290-270291
+./recuperados.1/f0270344.ext	 270344-270345
+./recuperados.1/f0270362.ext	 270362-270363
+./recuperados.1/f0270424.ext	 270424-270425
+./recuperados.1/f0270434.ext	 270434-270435
+./recuperados.1/f0270474.ext	 270474-270475
+./recuperados.1/f0270528.ext	 270528-270529
+./recuperados.1/f0270538.ext	 270538-270539
+./recuperados.1/f0270600.ext	 270600-270601
+./recuperados.1/f0270610.ext	 270610-270611
+./recuperados.1/f0270664.ext	 270664-270665
+./recuperados.1/f0270674.ext	 270674-270675
+./recuperados.1/f0270736.ext	 270736-270737
+./recuperados.1/f0270746.ext	 270746-270747
+./recuperados.1/f0270808.ext	 270808-270809
+./recuperados.1/f0270818.ext	 270818-270819
+./recuperados.1/f0270920.ext	 270920-270921
+./recuperados.1/f0270930.ext	 270930-270931
+./recuperados.1/f0270992.ext	 270992-270993
+./recuperados.1/f0271002.ext	 271002-271003
+./recuperados.1/f0271104.ext	 271104-271105
+./recuperados.1/f0271114.ext	 271114-271115
+./recuperados.1/f0271216.ext	 271216-271217
+./recuperados.1/f0271226.ext	 271226-271227
+./recuperados.1/f0271288.ext	 271288-271289
+./recuperados.1/f0271298.ext	 271298-271299
+./recuperados.1/f0271360.ext	 271360-271361
+./recuperados.1/f0271370.ext	 271370-271371
+./recuperados.1/f0271472.ext	 271472-271473
+./recuperados.1/f0271482.ext	 271482-271483
+./recuperados.1/f0271584.ext	 271584-271585
+./recuperados.1/f0271594.ext	 271594-271595
+./recuperados.1/f0271656.ext	 271656-271657
+./recuperados.1/f0271666.ext	 271666-271667
+./recuperados.1/f0271728.ext	 271728-271729
+./recuperados.1/f0271738.ext	 271738-271739
+./recuperados.1/f0271800.ext	 271800-271801
+./recuperados.1/f0271810.ext	 271810-271811
+./recuperados.1/f0271872.ext	 271872-271873
+./recuperados.1/f0271882.ext	 271882-271883
+./recuperados.1/f0271984.ext	 271984-271985
+./recuperados.1/f0271994.ext	 271994-271995
+./recuperados.1/f0272056.ext	 272056-272057
+./recuperados.1/f0272066.ext	 272066-272067
+./recuperados.1/f0272128.ext	 272128-272129
+./recuperados.1/f0272138.ext	 272138-272139
+./recuperados.1/f0272200.ext	 272200-272201
+./recuperados.1/f0272210.ext	 272210-272211
+./recuperados.1/f0272272.ext	 272272-272273
+./recuperados.1/f0272282.ext	 272282-272283
+./recuperados.1/f0272344.ext	 272344-272345
+./recuperados.1/f0272354.ext	 272354-272355
+./recuperados.1/f0272416.ext	 272416-272417
+./recuperados.1/f0272426.ext	 272426-272427
+./recuperados.1/f0272488.ext	 272488-272489
+./recuperados.1/f0272498.ext	 272498-272499
+./recuperados.1/f0272560.ext	 272560-272561
+./recuperados.1/f0272570.ext	 272570-272571
+./recuperados.1/f0272632.ext	 272632-272633
+./recuperados.1/f0272642.ext	 272642-272643
+./recuperados.1/f0272704.ext	 272704-272705
+./recuperados.1/f0272714.ext	 272714-272715
+./recuperados.1/f0272816.ext	 272816-272817
+./recuperados.1/f0272826.ext	 272826-272827
+./recuperados.1/f0272888.ext	 272888-272889
+./recuperados.1/f0272898.ext	 272898-272899
+./recuperados.1/f0272960.ext	 272960-272961
+./recuperados.1/f0272970.ext	 272970-272971
+./recuperados.1/f0273032.ext	 273032-273033
+./recuperados.1/f0273042.ext	 273042-273043
+./recuperados.1/f0273104.ext	 273104-273105
+./recuperados.1/f0273114.ext	 273114-273115
+./recuperados.1/f0273176.ext	 273176-273177
+./recuperados.1/f0273186.ext	 273186-273187
+./recuperados.1/f0273248.ext	 273248-273249
+./recuperados.1/f0273258.ext	 273258-273259
+./recuperados.1/f0273320.ext	 273320-273321
+./recuperados.1/f0273330.ext	 273330-273331
+./recuperados.1/f0273392.ext	 273392-273393
+./recuperados.1/f0273402.ext	 273402-273403
+./recuperados.1/f0273464.ext	 273464-273465
+./recuperados.1/f0273474.ext	 273474-273475
+./recuperados.1/f0273536.ext	 273536-273537
+./recuperados.1/f0273546.ext	 273546-273547
+./recuperados.1/f0273568.ext	 273568-273569
+./recuperados.1/f0273576.ext	 273576-273577
+./recuperados.1/f0273584.ext	 273584-273585
+./recuperados.1/f0273592.txt	 273592-273709
+./recuperados.1/f0273712.txt	 273712-273889
+./recuperados.1/f0273896.txt	 273896-274055
+./recuperados.1/f0274144.txt	 274144-274469
+./recuperados.1/f0274472.txt	 274472-274519
+./recuperados.1/f0274520.txt	 274520-274523
+./recuperados.1/f0274528.txt	 274528-274815
+./recuperados.1/f0274816.txt	 274816-274825
+./recuperados.1/f0274864.txt	 274864-274883
+./recuperados.1/f0278536.txt	 278536-278621
+./recuperados.1/f0278624.txt	 278624-278703
+./recuperados.1/f0282632.txt	 282632-282713
+./recuperados.1/f0286728.txt	 286728-286807
+./recuperados.1/f0290824.txt	 290824-290903
+./recuperados.1/f0294920.txt	 294920-294999
+./recuperados.1/f0393224.txt	 393224-393307
+./recuperados.1/f0397312.java	 397312-397315
+./recuperados.1/f0397320.txt	 397320-397405
+./recuperados.1/f0401408.txt	 401408-401461
+./recuperados.1/f0401464.txt	 401464-401517
+./recuperados.1/f0405512.txt	 405512-405599
+Elapsed time 0h00m03s
+Pass 1 +32 files
+txt: 32/32 recovered
+ext: 0/108 recovered
+Total: 32 files found
+
+0-1: ext
+4-3327: (null)
+3570-3583: (null)
+3808-3823: (null)
+3826-3831: (null)
+3834-3839: (null)
+4082-4095: (null)
+4370-4375: (null)
+4462-4463: (null)
+4640-4647: (null)
+4650-4655: (null)
+4658-5119: (null)
+6072-6143: (null)
+7270-7271: (null)
+8044-8271: (null)
+9314-9727: (null)
+10004-262143: (null)
+262146-265423: (null)
+265424-265425: ext
+265428-265551: (null)
+265554-265559: (null)
+265560-265561: ext
+265564-265607: (null)
+265610-265623: (null)
+265624-265625: ext
+265628-265663: (null)
+265666-265679: (null)
+265680-265681: ext
+265684-265727: (null)
+265728-265729: ext
+265732-265751: (null)
+265754-265807: (null)
+265808-265809: ext
+265812-265919: (null)
+265922-265927: (null)
+265928-265929: ext
+265932-265983: (null)
+265986-265991: (null)
+265992-265993: ext
+265996-266047: (null)
+266050-266063: (null)
+266064-266065: ext
+266068-266119: (null)
+266122-266127: (null)
+266128-266129: ext
+266132-266183: (null)
+266184-266185: ext
+266188-266207: (null)
+266210-266239: (null)
+266242-266255: (null)
+266256-266257: ext
+266260-266335: (null)
+266338-266343: (null)
+266344-266345: ext
+266348-266383: (null)
+266384-266385: ext
+266388-266415: (null)
+266418-266439: (null)
+266442-266455: (null)
+266456-266457: ext
+266460-266511: (null)
+266514-266527: (null)
+266528-266529: ext
+266532-266631: (null)
+266632-266633: ext
+266636-266783: (null)
+266786-266791: (null)
+266792-266793: ext
+266796-266871: (null)
+266874-266879: (null)
+266880-266881: ext
+266884-266959: (null)
+266960-266961: ext
+266964-267023: (null)
+267026-267031: (null)
+267032-267033: ext
+267036-267111: (null)
+267114-267127: (null)
+267128-267129: ext
+267132-267151: (null)
+267154-267167: (null)
+267168-267169: ext
+267172-267247: (null)
+267250-267255: (null)
+267256-267257: ext
+267260-267335: (null)
+267338-267343: (null)
+267344-267345: ext
+267348-267447: (null)
+267450-267455: (null)
+267456-267457: ext
+267460-267471: (null)
+267472-267473: ext
+267476-267527: (null)
+267530-267535: (null)
+267536-267537: ext
+267540-267615: (null)
+267618-267623: (null)
+267624-267625: ext
+267628-267679: (null)
+267682-267687: (null)
+267688-267689: ext
+267692-267743: (null)
+267746-267751: (null)
+267752-267753: ext
+267756-267807: (null)
+267808-267809: ext
+267812-267871: (null)
+267874-267879: (null)
+267880-267881: ext
+267884-267935: (null)
+267938-267943: (null)
+267944-267945: ext
+267948-267999: (null)
+268002-268007: (null)
+268008-268009: ext
+268012-268039: (null)
+268042-268055: (null)
+268056-268057: ext
+268060-268143: (null)
+268146-268151: (null)
+268152-268153: ext
+268156-268207: (null)
+268208-268209: ext
+268212-268271: (null)
+268274-268279: (null)
+268280-268281: ext
+268284-268335: (null)
+268338-268343: (null)
+268344-268345: ext
+268348-268431: (null)
+268432-268433: ext
+268436-268495: (null)
+268498-268503: (null)
+268504-268505: ext
+268508-268687: (null)
+268690-268719: (null)
+268722-268735: (null)
+268736-268737: ext
+268740-268799: (null)
+268800-268801: ext
+268804-268855: (null)
+268858-268863: (null)
+268864-268865: ext
+268868-268919: (null)
+268922-268927: (null)
+268928-268929: ext
+268932-268983: (null)
+268986-268991: (null)
+268992-268993: ext
+268996-269047: (null)
+269050-269055: (null)
+269056-269057: ext
+269060-269111: (null)
+269114-269119: (null)
+269120-269121: ext
+269124-269207: (null)
+269210-269215: (null)
+269216-269217: ext
+269220-269295: (null)
+269298-269303: (null)
+269304-269305: ext
+269308-269359: (null)
+269362-269367: (null)
+269368-269369: ext
+269372-269447: (null)
+269450-269455: (null)
+269456-269457: ext
+269460-269551: (null)
+269554-269559: (null)
+269560-269561: ext
+269564-269615: (null)
+269618-269623: (null)
+269624-269625: ext
+269628-269679: (null)
+269680-269681: ext
+269684-269743: (null)
+269746-269751: (null)
+269752-269753: ext
+269756-269807: (null)
+269810-269815: (null)
+269816-269817: ext
+269820-269871: (null)
+269874-269879: (null)
+269880-269881: ext
+269884-269911: (null)
+269914-269927: (null)
+269928-269929: ext
+269932-270015: (null)
+270018-270023: (null)
+270024-270025: ext
+270028-270079: (null)
+270082-270087: (null)
+270088-270089: ext
+270092-270143: (null)
+270146-270151: (null)
+270152-270153: ext
+270156-270207: (null)
+270210-270215: (null)
+270216-270217: ext
+270220-270279: (null)
+270282-270287: (null)
+270288-270289: ext
+270292-270343: (null)
+270346-270359: (null)
+270360-270361: ext
+270364-270423: (null)
+270426-270431: (null)
+270432-270433: ext
+270436-270471: (null)
+270472-270473: ext
+270476-270527: (null)
+270530-270535: (null)
+270536-270537: ext
+270540-270599: (null)
+270602-270607: (null)
+270608-270609: ext
+270612-270663: (null)
+270666-270671: (null)
+270672-270673: ext
+270676-270735: (null)
+270738-270743: (null)
+270744-270745: ext
+270748-270807: (null)
+270810-270815: (null)
+270816-270817: ext
+270820-270919: (null)
+270922-270927: (null)
+270928-270929: ext
+270932-270991: (null)
+270994-270999: (null)
+271000-271001: ext
+271004-271103: (null)
+271106-271111: (null)
+271112-271113: ext
+271116-271215: (null)
+271218-271223: (null)
+271224-271225: ext
+271228-271287: (null)
+271290-271295: (null)
+271296-271297: ext
+271300-271359: (null)
+271362-271367: (null)
+271368-271369: ext
+271372-271471: (null)
+271474-271479: (null)
+271480-271481: ext
+271484-271583: (null)
+271586-271591: (null)
+271592-271593: ext
+271596-271655: (null)
+271658-271663: (null)
+271664-271665: ext
+271668-271727: (null)
+271730-271735: (null)
+271736-271737: ext
+271740-271799: (null)
+271802-271807: (null)
+271808-271809: ext
+271812-271871: (null)
+271874-271879: (null)
+271880-271881: ext
+271884-271983: (null)
+271986-271991: (null)
+271992-271993: ext
+271996-272055: (null)
+272058-272063: (null)
+272064-272065: ext
+272068-272127: (null)
+272130-272135: (null)
+272136-272137: ext
+272140-272199: (null)
+272202-272207: (null)
+272208-272209: ext
+272212-272271: (null)
+272274-272279: (null)
+272280-272281: ext
+272284-272343: (null)
+272346-272351: (null)
+272352-272353: ext
+272356-272415: (null)
+272418-272423: (null)
+272424-272425: ext
+272428-272487: (null)
+272490-272495: (null)
+272496-272497: ext
+272500-272559: (null)
+272562-272567: (null)
+272568-272569: ext
+272572-272631: (null)
+272634-272639: (null)
+272640-272641: ext
+272644-272703: (null)
+272706-272711: (null)
+272712-272713: ext
+272716-272815: (null)
+272818-272823: (null)
+272824-272825: ext
+272828-272887: (null)
+272890-272895: (null)
+272896-272897: ext
+272900-272959: (null)
+272962-272967: (null)
+272968-272969: ext
+272972-273031: (null)
+273034-273039: (null)
+273040-273041: ext
+273044-273103: (null)
+273106-273111: (null)
+273112-273113: ext
+273116-273175: (null)
+273178-273183: (null)
+273184-273185: ext
+273188-273247: (null)
+273250-273255: (null)
+273256-273257: ext
+273260-273319: (null)
+273322-273327: (null)
+273328-273329: ext
+273332-273391: (null)
+273394-273399: (null)
+273400-273401: ext
+273404-273463: (null)
+273466-273471: (null)
+273472-273473: ext
+273476-273535: (null)
+273538-273543: (null)
+273544-273545: ext
+273548-273567: (null)
+273570-273575: (null)
+273578-273583: (null)
+273586-273591: (null)
+273710-273711: (null)
+273890-273893: (null)
+273894-273895: (null)
+274056-274143: (null)
+274470-274471: (null)
+274524-274527: (null)
+274826-274863: (null)
+274884-278535: (null)
+278622-278623: (null)
+278704-282631: (null)
+282714-286727: (null)
+286808-290823: (null)
+290904-294919: (null)
+295000-393223: (null)
+393308-397311: (null)
+397316-397319: (null)
+397406-401407: (null)
+401462-401463: (null)
+401518-405511: (null)
+405600-409599: (null)
+401752 sectors contains unknown data, 108 invalid files found and rejected.
+PhotoRec exited normally.
+Using locale 'es_CO.UTF-8'.
+
+
+Sun Apr 22 21:50:47 2018
+Command line: PhotoRec /debug /log /d ./recuperados /cmd device_image.dd partition_none,options,mode_ext2,fileopt,everything,enable,search^C
+
+PhotoRec 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.9.0-6-amd64 (#1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02)) x86_64
+Compiler: GCC 6.2
+ext2fs lib: 1.43.4, ntfs lib: libntfs-3g, ewf lib: none, libjpeg: libjpeg-turbo-1.5.1, curses lib: ncurses 6.0
+User is not root!
+Hard disk list
+Disk device_image.dd - 209 MB / 200 MiB - CHS 26 255 63 (RO), sector size=512
+
+Partition table type (auto): None
+Disk device_image.dd - 209 MB / 200 MiB (RO)
+Partition table type: None
+
+recover_EXT2: s_block_group_nr=0/1, s_mnt_count=146/4294967295, s_blocks_per_group=32768, s_inodes_per_group=6400
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 51200
+recover_EXT2: part_size 409600
+     Unknown                  0   0  1    25 126 37     409600 [Whole disk]
+   P ext4                     0   0  1    25 126 37     409600
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 209 MB / 200 MiB
+New options :
+ Paranoid : Yes
+ Brute force : No
+ Keep corrupted files : No
+ ext2/ext3 mode : Yes
+ Expert mode : No
+ Low memory : No
+
+Interface File Select
+650 first-level signatures enabled
+
+Analyse
+   P ext4                     0   0  1    25 126 37     409600
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 209 MB / 200 MiB
+Pass 0 (blocksize=512) STATUS_FIND_OFFSET
+* 0-409599: (null)
+409600 sectors contains unknown data, 0 invalid files found and rejected.
+blocksize=1024, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=1024) STATUS_EXT2_ON
+* 0-1: ext
+2-3823: ext
+3824-3831: ext
+3832-4647: ext
+4648-4655: ext
+4656-262143: ext
+262144-265423: ext
+265424-265425: ext
+265426-265551: ext
+265552-409599: ext
+409600 sectors contains unknown data, 10 invalid files found and rejected.
+./recuperados.1/f0000002.ext	 2-3
+./recuperados.1/f0003824.ext	 3824-3825
+./recuperados.1/f0003832.ext	 3832-3833
+./recuperados.1/f0004648.ext	 4648-4649
+./recuperados.1/f0003328.txt	 3328-3569
+./recuperados.1/f0004656.ext	 4656-4657
+./recuperados.1/f0003840.txt	 3840-4081
+./recuperados.1/f0003584.txt	 3584-3807
+./recuperados.1/f0262144.ext	 262144-262145
+./recuperados.1/f0004096.txt	 4096-4369
+./recuperados.1/f0004376.txt	 4376-4461
+./recuperados.1/f0004464.txt	 4464-4639
+./recuperados.1/f0005120.txt	 5120-6071
+./recuperados.1/f0006144.txt	 6144-7269
+./recuperados.1/f0007272.txt	 7272-8043
+./recuperados.1/f0008272.txt	 8272-9313
+./recuperados.1/f0009728.txt	 9728-10003
+./recuperados.1/f0265426.ext	 265426-265427
+./recuperados.1/f0265552.ext	 265552-265553
+./recuperados.1/f0265562.ext	 265562-265563
+./recuperados.1/f0265608.ext	 265608-265609
+./recuperados.1/f0265626.ext	 265626-265627
+./recuperados.1/f0265664.ext	 265664-265665
+./recuperados.1/f0265682.ext	 265682-265683
+./recuperados.1/f0265730.ext	 265730-265731
+./recuperados.1/f0265752.ext	 265752-265753
+./recuperados.1/f0265810.ext	 265810-265811
+./recuperados.1/f0265920.ext	 265920-265921
+./recuperados.1/f0265930.ext	 265930-265931
+./recuperados.1/f0265984.ext	 265984-265985
+./recuperados.1/f0265994.ext	 265994-265995
+./recuperados.1/f0266048.ext	 266048-266049
+./recuperados.1/f0266066.ext	 266066-266067
+./recuperados.1/f0266120.ext	 266120-266121
+./recuperados.1/f0266130.ext	 266130-266131
+./recuperados.1/f0266186.ext	 266186-266187
+./recuperados.1/f0266208.ext	 266208-266209
+./recuperados.1/f0266240.ext	 266240-266241
+./recuperados.1/f0266258.ext	 266258-266259
+./recuperados.1/f0266336.ext	 266336-266337
+./recuperados.1/f0266346.ext	 266346-266347
+./recuperados.1/f0266386.ext	 266386-266387
+./recuperados.1/f0266416.ext	 266416-266417
+./recuperados.1/f0266440.ext	 266440-266441
+./recuperados.1/f0266458.ext	 266458-266459
+./recuperados.1/f0266512.ext	 266512-266513
+./recuperados.1/f0266530.ext	 266530-266531
+./recuperados.1/f0266634.ext	 266634-266635
+./recuperados.1/f0266784.ext	 266784-266785
+./recuperados.1/f0266794.ext	 266794-266795
+./recuperados.1/f0266872.ext	 266872-266873
+./recuperados.1/f0266882.ext	 266882-266883
+./recuperados.1/f0266962.ext	 266962-266963
+./recuperados.1/f0267024.ext	 267024-267025
+./recuperados.1/f0267034.ext	 267034-267035
+./recuperados.1/f0267112.ext	 267112-267113
+./recuperados.1/f0267130.ext	 267130-267131
+./recuperados.1/f0267152.ext	 267152-267153
+./recuperados.1/f0267170.ext	 267170-267171
+./recuperados.1/f0267248.ext	 267248-267249
+./recuperados.1/f0267258.ext	 267258-267259
+./recuperados.1/f0267336.ext	 267336-267337
+./recuperados.1/f0267346.ext	 267346-267347
+./recuperados.1/f0267448.ext	 267448-267449
+./recuperados.1/f0267458.ext	 267458-267459
+./recuperados.1/f0267474.ext	 267474-267475
+./recuperados.1/f0267528.ext	 267528-267529
+./recuperados.1/f0267538.ext	 267538-267539
+./recuperados.1/f0267616.ext	 267616-267617
+./recuperados.1/f0267626.ext	 267626-267627
+./recuperados.1/f0267680.ext	 267680-267681
+./recuperados.1/f0267690.ext	 267690-267691
+./recuperados.1/f0267744.ext	 267744-267745
+./recuperados.1/f0267754.ext	 267754-267755
+./recuperados.1/f0267810.ext	 267810-267811
+./recuperados.1/f0267872.ext	 267872-267873
+./recuperados.1/f0267882.ext	 267882-267883
+./recuperados.1/f0267936.ext	 267936-267937
+./recuperados.1/f0267946.ext	 267946-267947
+./recuperados.1/f0268000.ext	 268000-268001
+./recuperados.1/f0268010.ext	 268010-268011
+./recuperados.1/f0268040.ext	 268040-268041
+./recuperados.1/f0268058.ext	 268058-268059
+./recuperados.1/f0268144.ext	 268144-268145
+./recuperados.1/f0268154.ext	 268154-268155
+./recuperados.1/f0268210.ext	 268210-268211
+./recuperados.1/f0268272.ext	 268272-268273
+./recuperados.1/f0268282.ext	 268282-268283
+./recuperados.1/f0268336.ext	 268336-268337
+./recuperados.1/f0268346.ext	 268346-268347
+./recuperados.1/f0268434.ext	 268434-268435
+./recuperados.1/f0268496.ext	 268496-268497
+./recuperados.1/f0268506.ext	 268506-268507
+./recuperados.1/f0268688.ext	 268688-268689
+./recuperados.1/f0268720.ext	 268720-268721
+./recuperados.1/f0268738.ext	 268738-268739
+./recuperados.1/f0268802.ext	 268802-268803
+./recuperados.1/f0268856.ext	 268856-268857
+./recuperados.1/f0268866.ext	 268866-268867
+./recuperados.1/f0268920.ext	 268920-268921
+./recuperados.1/f0268930.ext	 268930-268931
+./recuperados.1/f0268984.ext	 268984-268985
+./recuperados.1/f0268994.ext	 268994-268995
+./recuperados.1/f0269048.ext	 269048-269049
+./recuperados.1/f0269058.ext	 269058-269059
+./recuperados.1/f0269112.ext	 269112-269113
+./recuperados.1/f0269122.ext	 269122-269123
+./recuperados.1/f0269208.ext	 269208-269209
+./recuperados.1/f0269218.ext	 269218-269219
+./recuperados.1/f0269296.ext	 269296-269297
+./recuperados.1/f0269306.ext	 269306-269307
+./recuperados.1/f0269360.ext	 269360-269361
+./recuperados.1/f0269370.ext	 269370-269371
+./recuperados.1/f0269448.ext	 269448-269449
+./recuperados.1/f0269458.ext	 269458-269459
+./recuperados.1/f0269552.ext	 269552-269553
+./recuperados.1/f0269562.ext	 269562-269563
+./recuperados.1/f0269616.ext	 269616-269617
+./recuperados.1/f0269626.ext	 269626-269627
+./recuperados.1/f0269682.ext	 269682-269683
+./recuperados.1/f0269744.ext	 269744-269745
+./recuperados.1/f0269754.ext	 269754-269755
+./recuperados.1/f0269808.ext	 269808-269809
+./recuperados.1/f0269818.ext	 269818-269819
+./recuperados.1/f0269872.ext	 269872-269873
+./recuperados.1/f0269882.ext	 269882-269883
+./recuperados.1/f0269912.ext	 269912-269913
+./recuperados.1/f0269930.ext	 269930-269931
+./recuperados.1/f0270016.ext	 270016-270017
+./recuperados.1/f0270026.ext	 270026-270027
+./recuperados.1/f0270080.ext	 270080-270081
+./recuperados.1/f0270090.ext	 270090-270091
+./recuperados.1/f0270144.ext	 270144-270145
+./recuperados.1/f0270154.ext	 270154-270155
+./recuperados.1/f0270208.ext	 270208-270209
+./recuperados.1/f0270218.ext	 270218-270219
+./recuperados.1/f0270280.ext	 270280-270281
+./recuperados.1/f0270290.ext	 270290-270291
+./recuperados.1/f0270344.ext	 270344-270345
+./recuperados.1/f0270362.ext	 270362-270363
+./recuperados.1/f0270424.ext	 270424-270425
+./recuperados.1/f0270434.ext	 270434-270435
+./recuperados.1/f0270474.ext	 270474-270475
+./recuperados.1/f0270528.ext	 270528-270529
+./recuperados.1/f0270538.ext	 270538-270539
+./recuperados.1/f0270600.ext	 270600-270601
+./recuperados.1/f0270610.ext	 270610-270611
+./recuperados.1/f0270664.ext	 270664-270665
+./recuperados.1/f0270674.ext	 270674-270675
+./recuperados.1/f0270736.ext	 270736-270737
+./recuperados.1/f0270746.ext	 270746-270747
+./recuperados.1/f0270808.ext	 270808-270809
+./recuperados.1/f0270818.ext	 270818-270819
+./recuperados.1/f0270920.ext	 270920-270921
+./recuperados.1/f0270930.ext	 270930-270931
+./recuperados.1/f0270992.ext	 270992-270993
+./recuperados.1/f0271002.ext	 271002-271003
+./recuperados.1/f0271104.ext	 271104-271105
+./recuperados.1/f0271114.ext	 271114-271115
+./recuperados.1/f0271216.ext	 271216-271217
+./recuperados.1/f0271226.ext	 271226-271227
+./recuperados.1/f0271288.ext	 271288-271289
+./recuperados.1/f0271298.ext	 271298-271299
+./recuperados.1/f0271360.ext	 271360-271361
+./recuperados.1/f0271370.ext	 271370-271371
+./recuperados.1/f0271472.ext	 271472-271473
+./recuperados.1/f0271482.ext	 271482-271483
+./recuperados.1/f0271584.ext	 271584-271585
+./recuperados.1/f0271594.ext	 271594-271595
+./recuperados.1/f0271656.ext	 271656-271657
+./recuperados.1/f0271666.ext	 271666-271667
+./recuperados.1/f0271728.ext	 271728-271729
+./recuperados.1/f0271738.ext	 271738-271739
+./recuperados.1/f0271800.ext	 271800-271801
+./recuperados.1/f0271810.ext	 271810-271811
+./recuperados.1/f0271872.ext	 271872-271873
+./recuperados.1/f0271882.ext	 271882-271883
+./recuperados.1/f0271984.ext	 271984-271985
+./recuperados.1/f0271994.ext	 271994-271995
+./recuperados.1/f0272056.ext	 272056-272057
+./recuperados.1/f0272066.ext	 272066-272067
+./recuperados.1/f0272128.ext	 272128-272129
+./recuperados.1/f0272138.ext	 272138-272139
+./recuperados.1/f0272200.ext	 272200-272201
+./recuperados.1/f0272210.ext	 272210-272211
+./recuperados.1/f0272272.ext	 272272-272273
+./recuperados.1/f0272282.ext	 272282-272283
+./recuperados.1/f0272344.ext	 272344-272345
+./recuperados.1/f0272354.ext	 272354-272355
+./recuperados.1/f0272416.ext	 272416-272417
+./recuperados.1/f0272426.ext	 272426-272427
+./recuperados.1/f0272488.ext	 272488-272489
+./recuperados.1/f0272498.ext	 272498-272499
+./recuperados.1/f0272560.ext	 272560-272561
+./recuperados.1/f0272570.ext	 272570-272571
+./recuperados.1/f0272632.ext	 272632-272633
+./recuperados.1/f0272642.ext	 272642-272643
+./recuperados.1/f0272704.ext	 272704-272705
+./recuperados.1/f0272714.ext	 272714-272715
+./recuperados.1/f0272816.ext	 272816-272817
+./recuperados.1/f0272826.ext	 272826-272827
+./recuperados.1/f0272888.ext	 272888-272889
+./recuperados.1/f0272898.ext	 272898-272899
+./recuperados.1/f0272960.ext	 272960-272961
+./recuperados.1/f0272970.ext	 272970-272971
+./recuperados.1/f0273032.ext	 273032-273033
+./recuperados.1/f0273042.ext	 273042-273043
+./recuperados.1/f0273104.ext	 273104-273105
+./recuperados.1/f0273114.ext	 273114-273115
+./recuperados.1/f0273176.ext	 273176-273177
+./recuperados.1/f0273186.ext	 273186-273187
+./recuperados.1/f0273248.ext	 273248-273249
+./recuperados.1/f0273258.ext	 273258-273259
+./recuperados.1/f0273320.ext	 273320-273321
+./recuperados.1/f0273330.ext	 273330-273331
+./recuperados.1/f0273392.ext	 273392-273393
+./recuperados.1/f0273402.ext	 273402-273403
+./recuperados.1/f0273464.ext	 273464-273465
+./recuperados.1/f0273474.ext	 273474-273475
+./recuperados.1/f0273536.ext	 273536-273537
+./recuperados.1/f0273546.ext	 273546-273547
+./recuperados.1/f0273568.ext	 273568-273569
+./recuperados.1/f0273576.ext	 273576-273577
+./recuperados.1/f0273584.ext	 273584-273585
+./recuperados.1/f0273592.txt	 273592-273709
+./recuperados.1/f0273712.txt	 273712-273889
+./recuperados.1/f0273896.txt	 273896-274055
+./recuperados.1/f0274144.txt	 274144-274469
+./recuperados.1/f0274472.txt	 274472-274519
+./recuperados.1/f0274520.txt	 274520-274523
+./recuperados.1/f0274528.txt	 274528-274815
+./recuperados.1/f0274816.txt	 274816-274825
+./recuperados.1/f0274864.txt	 274864-274883
+./recuperados.1/f0278536.txt	 278536-278621
+./recuperados.1/f0278624.txt	 278624-278703
+./recuperados.1/f0282632.txt	 282632-282713
+./recuperados.1/f0286728.txt	 286728-286807
+./recuperados.1/f0290824.txt	 290824-290903
+./recuperados.1/f0294920.txt	 294920-294999
+./recuperados.1/f0393224.txt	 393224-393307
+./recuperados.1/f0397312.java	 397312-397315
+./recuperados.1/f0397320.txt	 397320-397405
+./recuperados.1/f0401408.txt	 401408-401461
+./recuperados.1/f0401464.txt	 401464-401517
+./recuperados.1/f0405512.txt	 405512-405599
+Elapsed time 0h00m04s
+Pass 1 +32 files
+txt: 32/32 recovered
+ext: 0/108 recovered
+Total: 32 files found
+
+0-1: ext
+4-3327: (null)
+3570-3583: (null)
+3808-3823: (null)
+3826-3831: (null)
+3834-3839: (null)
+4082-4095: (null)
+4370-4375: (null)
+4462-4463: (null)
+4640-4647: (null)
+4650-4655: (null)
+4658-5119: (null)
+6072-6143: (null)
+7270-7271: (null)
+8044-8271: (null)
+9314-9727: (null)
+10004-262143: (null)
+262146-265423: (null)
+265424-265425: ext
+265428-265551: (null)
+265554-265559: (null)
+265560-265561: ext
+265564-265607: (null)
+265610-265623: (null)
+265624-265625: ext
+265628-265663: (null)
+265666-265679: (null)
+265680-265681: ext
+265684-265727: (null)
+265728-265729: ext
+265732-265751: (null)
+265754-265807: (null)
+265808-265809: ext
+265812-265919: (null)
+265922-265927: (null)
+265928-265929: ext
+265932-265983: (null)
+265986-265991: (null)
+265992-265993: ext
+265996-266047: (null)
+266050-266063: (null)
+266064-266065: ext
+266068-266119: (null)
+266122-266127: (null)
+266128-266129: ext
+266132-266183: (null)
+266184-266185: ext
+266188-266207: (null)
+266210-266239: (null)
+266242-266255: (null)
+266256-266257: ext
+266260-266335: (null)
+266338-266343: (null)
+266344-266345: ext
+266348-266383: (null)
+266384-266385: ext
+266388-266415: (null)
+266418-266439: (null)
+266442-266455: (null)
+266456-266457: ext
+266460-266511: (null)
+266514-266527: (null)
+266528-266529: ext
+266532-266631: (null)
+266632-266633: ext
+266636-266783: (null)
+266786-266791: (null)
+266792-266793: ext
+266796-266871: (null)
+266874-266879: (null)
+266880-266881: ext
+266884-266959: (null)
+266960-266961: ext
+266964-267023: (null)
+267026-267031: (null)
+267032-267033: ext
+267036-267111: (null)
+267114-267127: (null)
+267128-267129: ext
+267132-267151: (null)
+267154-267167: (null)
+267168-267169: ext
+267172-267247: (null)
+267250-267255: (null)
+267256-267257: ext
+267260-267335: (null)
+267338-267343: (null)
+267344-267345: ext
+267348-267447: (null)
+267450-267455: (null)
+267456-267457: ext
+267460-267471: (null)
+267472-267473: ext
+267476-267527: (null)
+267530-267535: (null)
+267536-267537: ext
+267540-267615: (null)
+267618-267623: (null)
+267624-267625: ext
+267628-267679: (null)
+267682-267687: (null)
+267688-267689: ext
+267692-267743: (null)
+267746-267751: (null)
+267752-267753: ext
+267756-267807: (null)
+267808-267809: ext
+267812-267871: (null)
+267874-267879: (null)
+267880-267881: ext
+267884-267935: (null)
+267938-267943: (null)
+267944-267945: ext
+267948-267999: (null)
+268002-268007: (null)
+268008-268009: ext
+268012-268039: (null)
+268042-268055: (null)
+268056-268057: ext
+268060-268143: (null)
+268146-268151: (null)
+268152-268153: ext
+268156-268207: (null)
+268208-268209: ext
+268212-268271: (null)
+268274-268279: (null)
+268280-268281: ext
+268284-268335: (null)
+268338-268343: (null)
+268344-268345: ext
+268348-268431: (null)
+268432-268433: ext
+268436-268495: (null)
+268498-268503: (null)
+268504-268505: ext
+268508-268687: (null)
+268690-268719: (null)
+268722-268735: (null)
+268736-268737: ext
+268740-268799: (null)
+268800-268801: ext
+268804-268855: (null)
+268858-268863: (null)
+268864-268865: ext
+268868-268919: (null)
+268922-268927: (null)
+268928-268929: ext
+268932-268983: (null)
+268986-268991: (null)
+268992-268993: ext
+268996-269047: (null)
+269050-269055: (null)
+269056-269057: ext
+269060-269111: (null)
+269114-269119: (null)
+269120-269121: ext
+269124-269207: (null)
+269210-269215: (null)
+269216-269217: ext
+269220-269295: (null)
+269298-269303: (null)
+269304-269305: ext
+269308-269359: (null)
+269362-269367: (null)
+269368-269369: ext
+269372-269447: (null)
+269450-269455: (null)
+269456-269457: ext
+269460-269551: (null)
+269554-269559: (null)
+269560-269561: ext
+269564-269615: (null)
+269618-269623: (null)
+269624-269625: ext
+269628-269679: (null)
+269680-269681: ext
+269684-269743: (null)
+269746-269751: (null)
+269752-269753: ext
+269756-269807: (null)
+269810-269815: (null)
+269816-269817: ext
+269820-269871: (null)
+269874-269879: (null)
+269880-269881: ext
+269884-269911: (null)
+269914-269927: (null)
+269928-269929: ext
+269932-270015: (null)
+270018-270023: (null)
+270024-270025: ext
+270028-270079: (null)
+270082-270087: (null)
+270088-270089: ext
+270092-270143: (null)
+270146-270151: (null)
+270152-270153: ext
+270156-270207: (null)
+270210-270215: (null)
+270216-270217: ext
+270220-270279: (null)
+270282-270287: (null)
+270288-270289: ext
+270292-270343: (null)
+270346-270359: (null)
+270360-270361: ext
+270364-270423: (null)
+270426-270431: (null)
+270432-270433: ext
+270436-270471: (null)
+270472-270473: ext
+270476-270527: (null)
+270530-270535: (null)
+270536-270537: ext
+270540-270599: (null)
+270602-270607: (null)
+270608-270609: ext
+270612-270663: (null)
+270666-270671: (null)
+270672-270673: ext
+270676-270735: (null)
+270738-270743: (null)
+270744-270745: ext
+270748-270807: (null)
+270810-270815: (null)
+270816-270817: ext
+270820-270919: (null)
+270922-270927: (null)
+270928-270929: ext
+270932-270991: (null)
+270994-270999: (null)
+271000-271001: ext
+271004-271103: (null)
+271106-271111: (null)
+271112-271113: ext
+271116-271215: (null)
+271218-271223: (null)
+271224-271225: ext
+271228-271287: (null)
+271290-271295: (null)
+271296-271297: ext
+271300-271359: (null)
+271362-271367: (null)
+271368-271369: ext
+271372-271471: (null)
+271474-271479: (null)
+271480-271481: ext
+271484-271583: (null)
+271586-271591: (null)
+271592-271593: ext
+271596-271655: (null)
+271658-271663: (null)
+271664-271665: ext
+271668-271727: (null)
+271730-271735: (null)
+271736-271737: ext
+271740-271799: (null)
+271802-271807: (null)
+271808-271809: ext
+271812-271871: (null)
+271874-271879: (null)
+271880-271881: ext
+271884-271983: (null)
+271986-271991: (null)
+271992-271993: ext
+271996-272055: (null)
+272058-272063: (null)
+272064-272065: ext
+272068-272127: (null)
+272130-272135: (null)
+272136-272137: ext
+272140-272199: (null)
+272202-272207: (null)
+272208-272209: ext
+272212-272271: (null)
+272274-272279: (null)
+272280-272281: ext
+272284-272343: (null)
+272346-272351: (null)
+272352-272353: ext
+272356-272415: (null)
+272418-272423: (null)
+272424-272425: ext
+272428-272487: (null)
+272490-272495: (null)
+272496-272497: ext
+272500-272559: (null)
+272562-272567: (null)
+272568-272569: ext
+272572-272631: (null)
+272634-272639: (null)
+272640-272641: ext
+272644-272703: (null)
+272706-272711: (null)
+272712-272713: ext
+272716-272815: (null)
+272818-272823: (null)
+272824-272825: ext
+272828-272887: (null)
+272890-272895: (null)
+272896-272897: ext
+272900-272959: (null)
+272962-272967: (null)
+272968-272969: ext
+272972-273031: (null)
+273034-273039: (null)
+273040-273041: ext
+273044-273103: (null)
+273106-273111: (null)
+273112-273113: ext
+273116-273175: (null)
+273178-273183: (null)
+273184-273185: ext
+273188-273247: (null)
+273250-273255: (null)
+273256-273257: ext
+273260-273319: (null)
+273322-273327: (null)
+273328-273329: ext
+273332-273391: (null)
+273394-273399: (null)
+273400-273401: ext
+273404-273463: (null)
+273466-273471: (null)
+273472-273473: ext
+273476-273535: (null)
+273538-273543: (null)
+273544-273545: ext
+273548-273567: (null)
+273570-273575: (null)
+273578-273583: (null)
+273586-273591: (null)
+273710-273711: (null)
+273890-273893: (null)
+273894-273895: (null)
+274056-274143: (null)
+274470-274471: (null)
+274524-274527: (null)
+274826-274863: (null)
+274884-278535: (null)
+278622-278623: (null)
+278704-282631: (null)
+282714-286727: (null)
+286808-290823: (null)
+290904-294919: (null)
+295000-393223: (null)
+393308-397311: (null)
+397316-397319: (null)
+397406-401407: (null)
+401462-401463: (null)
+401518-405511: (null)
+405600-409599: (null)
+401752 sectors contains unknown data, 108 invalid files found and rejected.
+PhotoRec exited normally.

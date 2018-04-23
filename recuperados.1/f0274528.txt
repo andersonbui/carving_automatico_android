@@ -1,0 +1,1576 @@
+00 - 0xffffffbbffff0000   (245759 MB)
+<5>[    0.000000]     modules : 0xffffffbffc000000 - 0xffffffc000000000   (    64 MB)
+<5>[    0.000000]     memory  : 0xffffffc000000000 - 0xffffffc03f000000   (  1008 MB)
+<5>[    0.000000]     dmamap  : 0xffffffe000000000 - 0xffffffe03f000000   (  1008 MB)
+<5>[    0.000000]       .init : 0xffffffc000c45000 - 0xffffffc000ce3840   (   635 kB)
+<5>[    0.000000]       .text : 0xffffffc000000000 - 0xffffffc000c44e64   ( 12564 kB)
+<5>[    0.000000]       .data : 0xffffffc000ce4000 - 0xffffffc000de4730   (  1026 kB)
+<6>[    0.000000] C0     0 (        swapper) SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+<3>[    0.000000] C0     0 (        swapper) Failed to find axi-bus
+<6>[    0.000000] C0     0 (      swapper/0) Preemptible hierarchical RCU implementation.
+<6>[    0.000000] C0     0 (      swapper/0) 	RCU debugfs-based tracing is enabled.
+<6>[    0.000000] C0     0 (      swapper/0) 	Additional per-CPU info printed with stalls.
+<6>[    0.000000] C0     0 (      swapper/0) NR_IRQS:64 nr_irqs:64 0
+<6>[    0.000000] C0     0 (      swapper/0) timekeeping: old time 0s 0ns, new time 0s 0ns
+<6>[    0.000000] C0     0 (      swapper/0) Architected cp15 timer(s) running at 26.00MHz (phys).
+<6>[    0.000011] C0     0 (      swapper/0) sched_clock: 56 bits at 26MHz, resolution 38ns, wraps every 2643056787456ns
+<6>[    0.000500] C0     0 (      swapper/0) Console: colour dummy device 80x25
+<6>[    0.000508] C0     0 (      swapper/0) console [tty0] enabled
+<6>[    0.000514] C0     0 (      swapper/0) bootconsole [earlycon0] disabled
+<6>[    0.000520] C0     0 (      swapper/0) kmemleak: Kernel memory leak detector disabled
+<6>[    0.000529] C0     0 (      swapper/0) Calibrating delay loop (skipped), value calculated using timer frequency.. 52.00 BogoMIPS (lpj=260000)
+<6>[    0.000539] C0     0 (      swapper/0) pid_max: default: 32768 minimum: 301
+<6>[    0.000560] C0     0 (      swapper/0) thread_info mempool reserved : 426 
+<6>[    0.000951] C0     0 (      swapper/0) Security Framework initialized
+<6>[    0.000973] C0     0 (      swapper/0) SELinux:  Initializing.
+<7>[    0.000997] C0     0 (      swapper/0) SELinux:  Starting in enforcing mode
+<6>[    0.001029] C0     0 (      swapper/0) Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+<6>[    0.001036] C0     0 (      swapper/0) Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+<4>[    0.007921] C0     0 (      swapper/0) device-tree: Duplicate name in /panel, renamed to "gen-panel#1"
+<6>[    0.008586] C0     0 (      swapper/0) Initializing cgroup subsys debug
+<6>[    0.008596] C0     0 (      swapper/0) Initializing cgroup subsys memory
+<6>[    0.008612] C0     0 (      swapper/0) Initializing cgroup subsys freezer
+<6>[    0.008826] C0     1 (      swapper/0) hw perfevents: enabled with arm/armv8-pmuv3 PMU driver, 7 counters available
+<6>[    0.008849] C0     1 (      swapper/0) Initialize pxa1908 low power controller.
+<6>[    0.008909] C0     1 (      swapper/0) probing function IDs from device-tree
+<6>[    0.009323] C0     1 (      swapper/0) ftrace: Allocated trace_printk buffers
+<4>[    0.012740] C1     0 (      swapper/1) CPU1: Booted secondary processor
+<4>[    0.014563] C2     0 (      swapper/2) CPU2: Booted secondary processor
+<4>[    0.016382] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<6>[    0.016515] C0     1 (      swapper/0) Brought up 4 CPUs
+<6>[    0.016530] C0     1 (      swapper/0) SMP: Total of 4 processors activated.
+<6>[    0.016995] C0     1 (      swapper/0) devtmpfs: initialized
+<6>[    0.020978] C0     1 (      swapper/0) atomic64 test passed
+<6>[    0.020988] C0     1 (      swapper/0) pinctrl core: initialized pinctrl subsystem
+<6>[    0.021486] C0     1 (      swapper/0) regulator-dummy: no parameters
+<6>[    0.022144] C0     1 (      swapper/0) NET: Registered protocol family 16
+<6>[    0.023684] C0     1 (      swapper/0) cpuidle: using governor ladder
+<6>[    0.023691] C0     1 (      swapper/0) cpuidle: using governor menu
+<6>[    0.024756] C0     1 (      swapper/0) pll2_vco is enabled @ 2115000000
+<6>[    0.024770] C0     1 (      swapper/0) pll2 is enabled @ 1057000000
+<6>[    0.024780] C0     1 (      swapper/0) pll2p is enabled @ 528000000
+<6>[    0.024791] C0     1 (      swapper/0) pll3_vco is not enabled
+<6>[    0.024808] C0     1 (      swapper/0) pll3 is not enabled
+<6>[    0.024821] C0     1 (      swapper/0) pll3p is not enabled
+<6>[    0.024837] C0     1 (      swapper/0) pll4_vco is enabled @ 1907000000
+<6>[    0.024848] C0     1 (      swapper/0) pll4 is enabled @ 476000000
+<6>[    0.024859] C0     1 (      swapper/0) pll4p is enabled @ 476000000
+<3>[    0.024893] C0     1 (      swapper/0) clk_cpu_recalc_rate: cur_cpu_op NULL
+<6>[    0.024909] C0     1 (      swapper/0) pclk(src:sel,div)   pdclk(div)  baclk(div)  l1_xtc:l2_xtc   
+<6>[    0.024919] C0     1 (      swapper/0) 624 (624 :0,0)      312 (1)     156 (3)     0x55555555:0x5555
+<6>[    0.024928] C0     1 (      swapper/0) 832 (832 :3,0)      416 (1)     208 (3)     0x55555555:0x5555
+<6>[    0.024937] C0     1 (      swapper/0) 1057(1057:2,0)      528 (1)     264 (3)     0x55555555:0x555a
+<6>[    0.024946] C0     1 (      swapper/0) 1248(1248:1,0)      624 (1)     312 (3)     0xaaaaaaaa:0xaaaa
+<6>[    0.024958] C0     1 (      swapper/0)  CPU boot up @1248000000HZ
+<6>[    0.024976] C0     1 (      swapper/0) dclk(src:sel,div,tblindex)
+<6>[    0.024982] C0     1 (      swapper/0) 156(624:0,1,2)
+<6>[    0.024988] C0     1 (      swapper/0) 312(624:0,0,4)
+<6>[    0.024994] C0     1 (      swapper/0) 416(832:1,0,6)
+<6>[    0.025000] C0     1 (      swapper/0) 528(1057:4,0,8)
+<3>[    0.025007] C0     1 (      swapper/0) get_cur_ddr_op ddr clk tsrc:1057 csel:4 parent:pll2
+<6>[    0.025028] C0     1 (      swapper/0)  DDR boot up @528000000HZ
+<3>[    0.025064] C0     1 (      swapper/0) clk_axi_recalc_rate: cur_axi_op NULL
+<6>[    0.025076] C0     1 (      swapper/0) aclk(src:sel,div)
+<6>[    0.025082] C0     1 (      swapper/0) 156(624:1,3)
+<6>[    0.025088] C0     1 (      swapper/0) 208(416:0,1)
+<3>[    0.025094] C0     1 (      swapper/0) get_cur_axi_op axi clk tsrc:416 csel:0 parent:pll1_416
+<6>[    0.025117] C0     1 (      swapper/0)  AXI boot up @208000000HZ
+<6>[    0.025963] C0     1 (      swapper/0) FUSE 627b179 5f0e0694 1df1d 7ff4040 2800 6000
+<6>[    0.025970] C0     1 (      swapper/0) convert_fuse2profile fuse[2047]->profile[11]
+<6>[    0.025973] C0     1 (      swapper/0)  
+<6>[    0.025978] C0     1 (      swapper/0) 	*********************************
+<6>[    0.025984] C0     1 (      swapper/0) 	*	ULT: 5F0E06940627B179	*
+<6>[    0.025988] C0     1 (      swapper/0) 	*********************************
+<6>[    0.025992] C0     1 (      swapper/0) 	 ULT decoded below
+<6>[    0.025997] C0     1 (      swapper/0) 		alloc_rev[2:0]	= 1
+<6>[    0.026001] C0     1 (      swapper/0) 		fab [ 7: 3]	= 15
+<6>[    0.026007] C0     1 (      swapper/0) 		run [33: 8]	= 403377 (0x627B1)
+<6>[    0.026011] C0     1 (      swapper/0) 		wafer [38:34]	= 5
+<6>[    0.026016] C0     1 (      swapper/0) 		x [46:39]	= 13
+<6>[    0.026020] C0     1 (      swapper/0) 		y [54:47]	= 28
+<6>[    0.026025] C0     1 (      swapper/0) 		parity [55:55]	= 0
+<6>[    0.026029] C0     1 (      swapper/0) 		skusetting [174:179]	= 7
+<6>[    0.026034] C0     1 (      swapper/0) 	*********************************
+<6>[    0.026038] C0     1 (      swapper/0) 	*********************************
+<6>[    0.026042] C0     1 (      swapper/0) 		LVTDRO [77:68]	= 497
+<6>[    0.026047] C0     1 (      swapper/0) 		SVTDRO [9:0]	= 351
+<6>[    0.026051] C0     1 (      swapper/0) 		Profile	= 11
+<6>[    0.026056] C0     1 (      swapper/0) 		SVCver	= 2
+<6>[    0.026060] C0     1 (      swapper/0) 		SIDD1P05 = 48
+<6>[    0.026065] C0     1 (      swapper/0) 	*********************************
+<6>[    0.026069] C0     1 (      swapper/0) 
+<6>[    0.026421] C0     1 (      swapper/0) allocating 262152 bytes at ffffffc03c380000 (274894684160 physical) for avc log
+<6>[    0.038007] C0     1 (      swapper/0) vdso: 2 pages (1 code, 1 data) at base ffffffc000ce9000
+<6>[    0.038042] C0     1 (      swapper/0) hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+<6>[    0.038150] C0     1 (      swapper/0) DMA: preallocated 256 KiB pool for atomic allocations
+<3>[    0.039008] C0     1 (      swapper/0) mmp_log_buf_init: base missing
+<6>[    0.062586] C0     1 (      swapper/0) bio: create slab <bio-0> at 0
+<6>[    0.063874] C0     1 (      swapper/0) pinctrl-single d401e000.pinmux: 204 pins at pa ffffff800005a000 size 816
+<6>[    0.074252] C0     1 (      swapper/0) MFP Configuration is inited in MFP init driver
+<5>[    0.077759] C0     1 (      swapper/0) SCSI subsystem initialized
+<6>[    0.078216] C0     1 (      swapper/0) usbcore: registered new interface driver usbfs
+<6>[    0.078314] C0     1 (      swapper/0) usbcore: registered new interface driver hub
+<6>[    0.078421] C0     1 (      swapper/0) usbcore: registered new device driver usb
+<6>[    0.079286] C0     1 (      swapper/0) i2c-gpio i2c-gpio.19: using pins 30 (SDA) and 29 (SCL)
+<6>[    0.080136] C0     1 (      swapper/0) i2c-gpio i2c-gpio.21: using pins 52 (SDA) and 51 (SCL)
+<6>[    0.080636] C0     1 (      swapper/0) I2C: i2c-0: PXA I2C adapter
+<6>[    0.081108] C0     1 (      swapper/0) I2C: i2c-1: PXA I2C adapter
+<6>[    0.081261] C0     1 (      swapper/0) pxa2xx-i2c d4037000.i2c: hardware lock address: 0xffffff800007e300
+<6>[    0.082614] C0     1 (      swapper/0) 88pm88x 2-0030: PM88X chip ID = 0xa1
+<6>[    0.083921] C0     1 (      swapper/0) 88pm88x 2-0030: powerup log 0x17: 0x20
+<6>[    0.083928] C0     1 (      swapper/0) 88pm88x 2-0030:  ----------------------------
+<6>[    0.083934] C0     1 (      swapper/0) 88pm88x 2-0030: |  name(power up) |  status  |
+<6>[    0.083940] C0     1 (      swapper/0) 88pm88x 2-0030: |-----------------|----------|
+<6>[    0.083948] C0     1 (      swapper/0) 88pm88x 2-0030: |  ONKEY_WAKEUP	  |    0     |
+<6>[    0.083954] C0     1 (      swapper/0) 88pm88x 2-0030: |  CHG_WAKEUP	  |    0     |
+<6>[    0.083960] C0     1 (      swapper/0) 88pm88x 2-0030: |  EXTON_WAKEUP	  |    0     |
+<6>[    0.083967] C0     1 (      swapper/0) 88pm88x 2-0030: |  SMPL_WAKEUP	  |    0     |
+<6>[    0.083974] C0     1 (      swapper/0) 88pm88x 2-0030: |  ALARM_WAKEUP	  |    0     |
+<6>[    0.083980] C0     1 (      swapper/0) 88pm88x 2-0030: |  FAULT_WAKEUP	  |    1     |
+<6>[    0.083987] C0     1 (      swapper/0) 88pm88x 2-0030: |  BAT_WAKEUP	  |    0     |
+<6>[    0.083993] C0     1 (      swapper/0) 88pm88x 2-0030:  ----------------------------
+<6>[    0.084000] C0     1 (      swapper/0) 88pm88x 2-0030: PowerDW Log1 0xe5: 0x10
+<6>[    0.084006] C0     1 (      swapper/0) 88pm88x 2-0030:  -------------------------------
+<6>[    0.084012] C0     1 (      swapper/0) 88pm88x 2-0030: | name(power down1)  |  status  |
+<6>[    0.084018] C0     1 (      swapper/0) 88pm88x 2-0030: |--------------------|----------|
+<6>[    0.084025] C0     1 (      swapper/0) 88pm88x 2-0030: |    OVER_TEMP       |    0     |
+<6>[    0.084031] C0     1 (      swapper/0) 88pm88x 2-0030: |    UV_VANA5        |    0     |
+<6>[    0.084038] C0     1 (      swapper/0) 88pm88x 2-0030: |    SW_PDOWN        |    0     |
+<6>[    0.084044] C0     1 (      swapper/0) 88pm88x 2-0030: |    FL_ALARM        |    0     |
+<6>[    0.084051] C0     1 (      swapper/0) 88pm88x 2-0030: |    WD              |    1     |
+<6>[    0.084057] C0     1 (      swapper/0) 88pm88x 2-0030: |    LONG_ONKEY      |    0     |
+<6>[    0.084064] C0     1 (      swapper/0) 88pm88x 2-0030: |    OV_VSYS         |    0     |
+<6>[    0.084070] C0     1 (      swapper/0) 88pm88x 2-0030: |    RTC_RESET       |    0     |
+<6>[    0.084076] C0     1 (      swapper/0) 88pm88x 2-0030:  -------------------------------
+<6>[    0.084083] C0     1 (      swapper/0) 88pm88x 2-0030: PowerDW Log2 0xe6: 0x1
+<6>[    0.084089] C0     1 (      swapper/0) 88pm88x 2-0030:  -------------------------------
+<6>[    0.084095] C0     1 (      swapper/0) 88pm88x 2-0030: |  name(power down2) |  status  |
+<6>[    0.084101] C0     1 (      swapper/0) 88pm88x 2-0030: |--------------------|----------|
+<6>[    0.084107] C0     1 (      swapper/0) 88pm88x 2-0030: |    HYB_DONE        |    1     |
+<6>[    0.084114] C0     1 (      swapper/0) 88pm88x 2-0030: |    UV_VBAT         |    0     |
+<6>[    0.084121] C0     1 (      swapper/0) 88pm88x 2-0030: |    HW_RESET2       |    0     |
+<6>[    0.084127] C0     1 (      swapper/0) 88pm88x 2-0030: |    PGOOD_PDOWN     |    0     |
+<6>[    0.084134] C0     1 (      swapper/0) 88pm88x 2-0030: |    LONKEY_RTC      |    0     |
+<6>[    0.084140] C0     1 (      swapper/0) 88pm88x 2-0030:  -------------------------------
+<6>[    0.085063] C0     1 (      swapper/0) pm88x_post_init_chip read register PMIC_GENERAL_USE_REGISTER [168]
+<6>[    0.091367] C0     1 (      swapper/0) BUCK1: 600 <--> 1800 mV at 1250 mV at 3000 mA 
+<6>[    0.092714] C0     1 (      swapper/0) BUCK2: 600 <--> 3300 mV at 1800 mV at 1200 mA 
+<6>[    0.094075] C0     1 (      swapper/0) BUCK3: 600 <--> 3300 mV at 1200 mV at 1200 mA 
+<6>[    0.095456] C0     1 (      swapper/0) BUCK4: 600 <--> 3300 mV at 1800 mV at 1200 mA 
+<6>[    0.097084] C0     1 (      swapper/0) BUCK5: 600 <--> 3300 mV at 3300 mV at 1200 mA 
+<6>[    0.098420] C0     1 (      swapper/0) LDO1: 1700 <--> 3300 mV at 1800 mV at 100 mA 
+<6>[    0.099425] C0     1 (      swapper/0) LDO2: 1700 <--> 3300 mV at 1800 mV at 100 mA 
+<6>[    0.100447] C0     1 (      swapper/0) LDO3: 1700 <--> 3300 mV at 1800 mV at 100 mA 
+<6>[    0.101780] C0     1 (      swapper/0) LDO4: 1200 <--> 3300 mV at 3300 mV at 400 mA 
+<6>[    0.103113] C0     1 (      swapper/0) LDO5: 1200 <--> 3300 mV at 2800 mV at 400 mA 
+<6>[    0.104447] C0     1 (      swapper/0) LDO6: 1200 <--> 3300 mV at 3000 mV at 400 mA 
+<6>[    0.105453] C0     1 (      swapper/0) LDO7: 1200 <--> 3300 mV at 1800 mV at 400 mA 
+<6>[    0.106464] C0     1 (      swapper/0) LDO8: 1200 <--> 3300 mV at 1200 mV at 400 mA 
+<6>[    0.107474] C0     1 (      swapper/0) LDO9: 1200 <--> 3300 mV at 2800 mV at 400 mA 
+<6>[    0.108505] C0     1 (      swapper/0) LDO10: 1200 <--> 3300 mV at 2800 mV at 200 mA 
+<6>[    0.109848] C0     1 (      swapper/0) LDO11: 1200 <--> 3300 mV at 3000 mV at 200 mA 
+<6>[    0.110864] C0     1 (      swapper/0) LDO12: 1200 <--> 3300 mV at 1800 mV at 200 mA 
+<6>[    0.112203] C0     1 (      swapper/0) LDO13: 1200 <--> 3300 mV at 3100 mV at 200 mA 
+<6>[    0.113545] C0     1 (      swapper/0) LDO14: 1200 <--> 3300 mV at 3000 mV at 200 mA 
+<6>[    0.115188] C0     1 (      swapper/0) LDO15: 1200 <--> 3300 mV at 3300 mV at 200 mA 
+<6>[    0.116203] C0     1 (      swapper/0) LDO16: 1700 <--> 2800 mV at 1700 mV at 200 mA 
+<6>[    0.117872] C0     1 (      swapper/0) BUCK1_SLP: 600 <--> 1800 mV at 1100 mV 
+<6>[    0.123655] C0     1 (      swapper/0) 88pm88x 2-0030: pmic board specific configuration.
+<6>[    0.131690] C0     1 (      swapper/0) I2C: i2c-2: PXA I2C adapter
+<6>[    0.132459] C0     1 (      swapper/0) I2C: i2c-3: PXA I2C adapter
+<6>[    0.132770] C0     1 (      swapper/0) media: Linux media interface: v0.10
+<6>[    0.132860] C0     1 (      swapper/0) Linux video capture interface: v2.00
+<6>[    0.134676] C0     1 (      swapper/0) power-domain-smmu: add to pm domain power-domain-common-vpu
+<6>[    0.134962] C0     1 (      swapper/0) Rail vcc_main_ap_active
+<6>[    0.134980] C0     1 (      swapper/0) clk[cpu] rate[0] volt[0]
+<6>[    0.134986] C0     1 (      swapper/0) clk[cpu] rate[624000000] volt[1]
+<6>[    0.134992] C0     1 (      swapper/0) clk[cpu] rate[624000000] volt[2]
+<6>[    0.134997] C0     1 (      swapper/0) clk[cpu] rate[832000000] volt[3]
+<6>[    0.135002] C0     1 (      swapper/0) clk[cpu] rate[832000000] volt[4]
+<6>[    0.135008] C0     1 (      swapper/0) clk[cpu] rate[1057000000] volt[5]
+<6>[    0.135013] C0     1 (      swapper/0) clk[cpu] rate[1248000000] volt[6]
+<6>[    0.135018] C0     1 (      swapper/0) clk[cpu] rate[1526000000] volt[7]
+<6>[    0.135038] C0     1 (      swapper/0) Rail vcc_main_ap_active
+<6>[    0.135045] C0     1 (      swapper/0) clk[ddr] rate[0] volt[0]
+<6>[    0.135050] C0     1 (      swapper/0) clk[ddr] rate[312000000] volt[1]
+<6>[    0.135055] C0     1 (      swapper/0) clk[ddr] rate[312000000] volt[2]
+<6>[    0.135061] C0     1 (      swapper/0) clk[ddr] rate[416000000] volt[3]
+<6>[    0.135066] C0     1 (      swapper/0) clk[ddr] rate[528000000] volt[4]
+<6>[    0.135071] C0     1 (      swapper/0) clk[ddr] rate[528000000] volt[5]
+<6>[    0.135076] C0     1 (      swapper/0) clk[ddr] rate[624000000] volt[6]
+<6>[    0.135082] C0     1 (      swapper/0) clk[ddr] rate[667000000] volt[7]
+<6>[    0.135088] C0     1 (      swapper/0) Rail vcc_main_ap_active
+<6>[    0.135103] C0     1 (      swapper/0) clk[axi] rate[208000000] volt[0]
+<6>[    0.135108] C0     1 (      swapper/0) clk[axi] rate[208000000] volt[1]
+<6>[    0.135114] C0     1 (      swapper/0) clk[axi] rate[208000000] volt[2]
+<6>[    0.135119] C0     1 (      swapper/0) clk[axi] rate[312000000] volt[3]
+<6>[    0.135124] C0     1 (      swapper/0) clk[axi] rate[312000000] volt[4]
+<6>[    0.135129] C0     1 (      swapper/0) clk[axi] rate[312000000] volt[5]
+<6>[    0.135134] C0     1 (      swapper/0) clk[axi] rate[312000000] volt[6]
+<6>[    0.135140] C0     1 (      swapper/0) clk[axi] rate[312000000] volt[7]
+<6>[    0.135145] C0     1 (      swapper/0) Rail vcc_main_ap_active
+<6>[    0.135164] C0     1 (      swapper/0) clk[gc3d_clk] rate[312000000] volt[0]
+<6>[    0.135169] C0     1 (      swapper/0) clk[gc3d_clk] rate[312000000] volt[1]
+<6>[    0.135174] C0     1 (      swapper/0) clk[gc3d_clk] rate[312000000] volt[2]
+<6>[    0.135180] C0     1 (      swapper/0) clk[gc3d_clk] rate[416000000] volt[3]
+<6>[    0.135185] C0     1 (      swapper/0) clk[gc3d_clk] rate[624000000] volt[4]
+<6>[    0.135190] C0     1 (      swapper/0) clk[gc3d_clk] rate[705000000] volt[5]
+<6>[    0.135195] C0     1 (      swapper/0) clk[gc3d_clk] rate[705000000] volt[6]
+<6>[    0.135200] C0     1 (      swapper/0) clk[gc3d_clk] rate[832000000] volt[7]
+<6>[    0.135206] C0     1 (      swapper/0) Rail vcc_main_ap_active
+<6>[    0.135215] C0     1 (      swapper/0) clk[gc2d_clk] rate[156000000] volt[0]
+<6>[    0.135220] C0     1 (      swapper/0) clk[gc2d_clk] rate[156000000] volt[1]
+<6>[    0.135226] C0     1 (      swapper/0) clk[gc2d_clk] rate[156000000] volt[2]
+<6>[    0.135231] C0     1 (      swapper/0) clk[gc2d_clk] rate[312000000] volt[3]
+<6>[    0.135236] C0     1 (      swapper/0) clk[gc2d_clk] rate[312000000] volt[4]
+<6>[    0.135241] C0     1 (      swapper/0) clk[gc2d_clk] rate[312000000] volt[5]
+<6>[    0.135247] C0     1 (      swapper/0) clk[gc2d_clk] rate[416000000] volt[6]
+<6>[    0.135252] C0     1 (      swapper/0) clk[gc2d_clk] rate[624000000] volt[7]
+<6>[    0.135257] C0     1 (      swapper/0) Rail vcc_main_ap_active
+<6>[    0.135270] C0     1 (      swapper/0) clk[gcsh_clk] rate[312000000] volt[0]
+<6>[    0.135276] C0     1 (      swapper/0) clk[gcsh_clk] rate[312000000] volt[1]
+<6>[    0.135281] C0     1 (      swapper/0) clk[gcsh_clk] rate[416000000] volt[2]
+<6>[    0.135286] C0     1 (      swapper/0) clk[gcsh_clk] rate[416000000] volt[3]
+<6>[    0.135292] C0     1 (      swapper/0) clk[gcsh_clk] rate[624000000] volt[4]
+<6>[    0.135297] C0     1 (      swapper/0) clk[gcsh_clk] rate[624000000] volt[5]
+<6>[    0.135302] C0     1 (      swapper/0) clk[gcsh_clk] rate[705000000] volt[6]
+<6>[    0.135308] C0     1 (      swapper/0) clk[gcsh_clk] rate[832000000] volt[7]
+<6>[    0.135313] C0     1 (      swapper/0) Rail vcc_main_ap_active
+<6>[    0.135322] C0     1 (      swapper/0) clk[gcbus_clk] rate[0] volt[0]
+<6>[    0.135327] C0     1 (      swapper/0) clk[gcbus_clk] rate[312000000] volt[1]
+<6>[    0.135332] C0     1 (      swapper/0) clk[gcbus_clk] rate[416000000] volt[2]
+<6>[    0.135338] C0     1 (      swapper/0) clk[gcbus_clk] rate[416000000] volt[3]
+<6>[    0.135343] C0     1 (      swapper/0) clk[gcbus_clk] rate[416000000] volt[4]
+<6>[    0.135348] C0     1 (      swapper/0) clk[gcbus_clk] rate[416000000] volt[5]
+<6>[    0.135354] C0     1 (      swapper/0) clk[gcbus_clk] rate[624000000] volt[6]
+<6>[    0.135359] C0     1 (      swapper/0) clk[gcbus_clk] rate[624000000] volt[7]
+<6>[    0.135370] C0     1 (      swapper/0) Rail vcc_main_ap_active
+<6>[    0.135379] C0     1 (      swapper/0) clk[vpufunc_clk] rate[208000000] volt[0]
+<6>[    0.135385] C0     1 (      swapper/0) clk[vpufunc_clk] rate[312000000] volt[1]
+<6>[    0.135390] C0     1 (      swapper/0) clk[vpufunc_clk] rate[312000000] volt[2]
+<6>[    0.135395] C0     1 (      swapper/0) clk[vpufunc_clk] rate[416000000] volt[3]
+<6>[    0.135400] C0     1 (      swapper/0) clk[vpufunc_clk] rate[416000000] volt[4]
+<6>[    0.135406] C0     1 (      swapper/0) clk[vpufunc_clk] rate[416000000] volt[5]
+<6>[    0.135411] C0     1 (      swapper/0) clk[vpufunc_clk] rate[533000000] volt[6]
+<6>[    0.135416] C0     1 (      swapper/0) clk[vpufunc_clk] rate[533000000] volt[7]
+<6>[    0.135421] C0     1 (      swapper/0) Rail vcc_main_ap_active
+<6>[    0.135430] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[0] volt[0]
+<6>[    0.135435] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[208000000] volt[1]
+<6>[    0.135440] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[208000000] volt[2]
+<6>[    0.135445] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[3]
+<6>[    0.135451] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[4]
+<6>[    0.135456] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[5]
+<6>[    0.135461] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[6]
+<6>[    0.135467] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[7]
+<6>[    0.135477] C0     1 (      swapper/0) Rail vcc_main_ap_active
+<6>[    0.135484] C0     1 (      swapper/0) clk[sdh0_dummy] rate[1000000] volt[0]
+<6>[    0.135489] C0     1 (      swapper/0) clk[sdh0_dummy] rate[2000000] volt[1]
+<6>[    0.135494] C0     1 (      swapper/0) clk[sdh0_dummy] rate[3000000] volt[2]
+<6>[    0.135499] C0     1 (      swapper/0) clk[sdh0_dummy] rate[4000000] volt[3]
+<6>[    0.135505] C0     1 (      swapper/0) clk[sdh0_dummy] rate[5000000] volt[4]
+<6>[    0.135510] C0     1 (      swapper/0) clk[sdh0_dummy] rate[6000000] volt[5]
+<6>[    0.135515] C0     1 (      swapper/0) clk[sdh0_dummy] rate[7000000] volt[6]
+<6>[    0.135520] C0     1 (      swapper/0) clk[sdh0_dummy] rate[8000000] volt[7]
+<6>[    0.135531] C0     1 (      swapper/0) Rail vcc_main_ap_active
+<6>[    0.135537] C0     1 (      swapper/0) clk[sdh1_dummy] rate[1000000] volt[0]
+<6>[    0.135542] C0     1 (      swapper/0) clk[sdh1_dummy] rate[2000000] volt[1]
+<6>[    0.135547] C0     1 (      swapper/0) clk[sdh1_dummy] rate[3000000] volt[2]
+<6>[    0.135553] C0     1 (      swapper/0) clk[sdh1_dummy] rate[4000000] volt[3]
+<6>[    0.135558] C0     1 (      swapper/0) clk[sdh1_dummy] rate[5000000] volt[4]
+<6>[    0.135563] C0     1 (      swapper/0) clk[sdh1_dummy] rate[6000000] volt[5]
+<6>[    0.135568] C0     1 (      swapper/0) clk[sdh1_dummy] rate[7000000] volt[6]
+<6>[    0.135573] C0     1 (      swapper/0) clk[sdh1_dummy] rate[8000000] volt[7]
+<6>[    0.135584] C0     1 (      swapper/0) Rail vcc_main_ap_active
+<6>[    0.135590] C0     1 (      swapper/0) clk[sdh2_dummy] rate[1000000] volt[0]
+<6>[    0.135595] C0     1 (      swapper/0) clk[sdh2_dummy] rate[2000000] volt[1]
+<6>[    0.135601] C0     1 (      swapper/0) clk[sdh2_dummy] rate[3000000] volt[2]
+<6>[    0.135606] C0     1 (      swapper/0) clk[sdh2_dummy] rate[4000000] volt[3]
+<6>[    0.135611] C0     1 (      swapper/0) clk[sdh2_dummy] rate[5000000] volt[4]
+<6>[    0.135616] C0     1 (      swapper/0) clk[sdh2_dummy] rate[6000000] volt[5]
+<6>[    0.135621] C0     1 (      swapper/0) clk[sdh2_dummy] rate[7000000] volt[6]
+<6>[    0.135627] C0     1 (      swapper/0) clk[sdh2_dummy] rate[8000000] volt[7]
+<6>[    0.135637] C0     1 (      swapper/0) Rail vcc_main_ap_lpm
+<6>[    0.135644] C0     1 (      swapper/0) clk[cpu] rate[0] volt[0]
+<6>[    0.135650] C0     1 (      swapper/0) clk[cpu] rate[624000000] volt[1]
+<6>[    0.135655] C0     1 (      swapper/0) clk[cpu] rate[624000000] volt[2]
+<6>[    0.135660] C0     1 (      swapper/0) clk[cpu] rate[832000000] volt[3]
+<6>[    0.135665] C0     1 (      swapper/0) clk[cpu] rate[832000000] volt[4]
+<6>[    0.135671] C0     1 (      swapper/0) clk[cpu] rate[1057000000] volt[5]
+<6>[    0.135676] C0     1 (      swapper/0) clk[cpu] rate[1248000000] volt[6]
+<6>[    0.135681] C0     1 (      swapper/0) clk[cpu] rate[1526000000] volt[7]
+<6>[    0.135686] C0     1 (      swapper/0) Rail vcc_main_ap_lpm
+<6>[    0.135693] C0     1 (      swapper/0) clk[ddr] rate[0] volt[0]
+<6>[    0.135699] C0     1 (      swapper/0) clk[ddr] rate[312000000] volt[1]
+<6>[    0.135704] C0     1 (      swapper/0) clk[ddr] rate[312000000] volt[2]
+<6>[    0.135709] C0     1 (      swapper/0) clk[ddr] rate[416000000] volt[3]
+<6>[    0.135714] C0     1 (      swapper/0) clk[ddr] rate[528000000] volt[4]
+<6>[    0.135719] C0     1 (      swapper/0) clk[ddr] rate[528000000] volt[5]
+<6>[    0.135724] C0     1 (      swapper/0) clk[ddr] rate[624000000] volt[6]
+<6>[    0.135730] C0     1 (      swapper/0) clk[ddr] rate[667000000] volt[7]
+<6>[    0.135735] C0     1 (      swapper/0) Rail vcc_main_ap_lpm
+<6>[    0.135743] C0     1 (      swapper/0) clk[axi] rate[208000000] volt[0]
+<6>[    0.135748] C0     1 (      swapper/0) clk[axi] rate[208000000] volt[1]
+<6>[    0.135753] C0     1 (      swapper/0) clk[axi] rate[208000000] volt[2]
+<6>[    0.135758] C0     1 (      swapper/0) clk[axi] rate[312000000] volt[3]
+<6>[    0.135764] C0     1 (      swapper/0) clk[axi] rate[312000000] volt[4]
+<6>[    0.135769] C0     1 (      swapper/0) clk[axi] rate[312000000] volt[5]
+<6>[    0.135774] C0     1 (      swapper/0) clk[axi] rate[312000000] volt[6]
+<6>[    0.135779] C0     1 (      swapper/0) clk[axi] rate[312000000] volt[7]
+<6>[    0.135785] C0     1 (      swapper/0) Rail vcc_main_ap_lpm
+<6>[    0.135794] C0     1 (      swapper/0) clk[gc3d_clk] rate[312000000] volt[0]
+<6>[    0.135800] C0     1 (      swapper/0) clk[gc3d_clk] rate[312000000] volt[1]
+<6>[    0.135805] C0     1 (      swapper/0) clk[gc3d_clk] rate[312000000] volt[2]
+<6>[    0.135810] C0     1 (      swapper/0) clk[gc3d_clk] rate[416000000] volt[3]
+<6>[    0.135815] C0     1 (      swapper/0) clk[gc3d_clk] rate[624000000] volt[4]
+<6>[    0.135821] C0     1 (      swapper/0) clk[gc3d_clk] rate[705000000] volt[5]
+<6>[    0.135826] C0     1 (      swapper/0) clk[gc3d_clk] rate[705000000] volt[6]
+<6>[    0.135831] C0     1 (      swapper/0) clk[gc3d_clk] rate[832000000] volt[7]
+<6>[    0.135836] C0     1 (      swapper/0) Rail vcc_main_ap_lpm
+<6>[    0.135845] C0     1 (      swapper/0) clk[gc2d_clk] rate[156000000] volt[0]
+<6>[    0.135851] C0     1 (      swapper/0) clk[gc2d_clk] rate[156000000] volt[1]
+<6>[    0.135856] C0     1 (      swapper/0) clk[gc2d_clk] rate[156000000] volt[2]
+<6>[    0.135861] C0     1 (      swapper/0) clk[gc2d_clk] rate[312000000] volt[3]
+<6>[    0.135866] C0     1 (      swapper/0) clk[gc2d_clk] rate[312000000] volt[4]
+<6>[    0.135871] C0     1 (      swapper/0) clk[gc2d_clk] rate[312000000] volt[5]
+<6>[    0.135876] C0     1 (      swapper/0) clk[gc2d_clk] rate[416000000] volt[6]
+<6>[    0.135882] C0     1 (      swapper/0) clk[gc2d_clk] rate[624000000] volt[7]
+<6>[    0.135887] C0     1 (      swapper/0) Rail vcc_main_ap_lpm
+<6>[    0.135896] C0     1 (      swapper/0) clk[gcsh_clk] rate[312000000] volt[0]
+<6>[    0.135901] C0     1 (      swapper/0) clk[gcsh_clk] rate[312000000] volt[1]
+<6>[    0.135906] C0     1 (      swapper/0) clk[gcsh_clk] rate[416000000] volt[2]
+<6>[    0.135911] C0     1 (      swapper/0) clk[gcsh_clk] rate[416000000] volt[3]
+<6>[    0.135916] C0     1 (      swapper/0) clk[gcsh_clk] rate[624000000] volt[4]
+<6>[    0.135922] C0     1 (      swapper/0) clk[gcsh_clk] rate[624000000] volt[5]
+<6>[    0.135927] C0     1 (      swapper/0) clk[gcsh_clk] rate[705000000] volt[6]
+<6>[    0.135932] C0     1 (      swapper/0) clk[gcsh_clk] rate[832000000] volt[7]
+<6>[    0.135937] C0     1 (      swapper/0) Rail vcc_main_ap_lpm
+<6>[    0.135946] C0     1 (      swapper/0) clk[gcbus_clk] rate[0] volt[0]
+<6>[    0.135951] C0     1 (      swapper/0) clk[gcbus_clk] rate[312000000] volt[1]
+<6>[    0.135956] C0     1 (      swapper/0) clk[gcbus_clk] rate[416000000] volt[2]
+<6>[    0.135961] C0     1 (      swapper/0) clk[gcbus_clk] rate[416000000] volt[3]
+<6>[    0.135967] C0     1 (      swapper/0) clk[gcbus_clk] rate[416000000] volt[4]
+<6>[    0.135972] C0     1 (      swapper/0) clk[gcbus_clk] rate[416000000] volt[5]
+<6>[    0.135977] C0     1 (      swapper/0) clk[gcbus_clk] rate[624000000] volt[6]
+<6>[    0.135982] C0     1 (      swapper/0) clk[gcbus_clk] rate[624000000] volt[7]
+<6>[    0.135987] C0     1 (      swapper/0) Rail vcc_main_ap_lpm
+<6>[    0.135996] C0     1 (      swapper/0) clk[vpufunc_clk] rate[208000000] volt[0]
+<6>[    0.136001] C0     1 (      swapper/0) clk[vpufunc_clk] rate[312000000] volt[1]
+<6>[    0.136006] C0     1 (      swapper/0) clk[vpufunc_clk] rate[312000000] volt[2]
+<6>[    0.136012] C0     1 (      swapper/0) clk[vpufunc_clk] rate[416000000] volt[3]
+<6>[    0.136017] C0     1 (      swapper/0) clk[vpufunc_clk] rate[416000000] volt[4]
+<6>[    0.136022] C0     1 (      swapper/0) clk[vpufunc_clk] rate[416000000] volt[5]
+<6>[    0.136027] C0     1 (      swapper/0) clk[vpufunc_clk] rate[533000000] volt[6]
+<6>[    0.136033] C0     1 (      swapper/0) clk[vpufunc_clk] rate[533000000] volt[7]
+<6>[    0.136037] C0     1 (      swapper/0) Rail vcc_main_ap_lpm
+<6>[    0.136045] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[0] volt[0]
+<6>[    0.136051] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[208000000] volt[1]
+<6>[    0.136056] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[208000000] volt[2]
+<6>[    0.136061] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[3]
+<6>[    0.136067] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[4]
+<6>[    0.136072] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[5]
+<6>[    0.136077] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[6]
+<6>[    0.136082] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[7]
+<6>[    0.136087] C0     1 (      swapper/0) Rail vcc_main_ap_lpm
+<6>[    0.136095] C0     1 (      swapper/0) clk[sdh0_dummy] rate[1000000] volt[0]
+<6>[    0.136101] C0     1 (      swapper/0) clk[sdh0_dummy] rate[2000000] volt[1]
+<6>[    0.136106] C0     1 (      swapper/0) clk[sdh0_dummy] rate[3000000] volt[2]
+<6>[    0.136111] C0     1 (      swapper/0) clk[sdh0_dummy] rate[4000000] volt[3]
+<6>[    0.136116] C0     1 (      swapper/0) clk[sdh0_dummy] rate[5000000] volt[4]
+<6>[    0.136122] C0     1 (      swapper/0) clk[sdh0_dummy] rate[6000000] volt[5]
+<6>[    0.136127] C0     1 (      swapper/0) clk[sdh0_dummy] rate[7000000] volt[6]
+<6>[    0.136132] C0     1 (      swapper/0) clk[sdh0_dummy] rate[8000000] volt[7]
+<6>[    0.136137] C0     1 (      swapper/0) Rail vcc_main_ap_lpm
+<6>[    0.136143] C0     1 (      swapper/0) clk[sdh1_dummy] rate[1000000] volt[0]
+<6>[    0.136148] C0     1 (      swapper/0) clk[sdh1_dummy] rate[2000000] volt[1]
+<6>[    0.136153] C0     1 (      swapper/0) clk[sdh1_dummy] rate[3000000] volt[2]
+<6>[    0.136158] C0     1 (      swapper/0) clk[sdh1_dummy] rate[4000000] volt[3]
+<6>[    0.136164] C0     1 (      swapper/0) clk[sdh1_dummy] rate[5000000] volt[4]
+<6>[    0.136169] C0     1 (      swapper/0) clk[sdh1_dummy] rate[6000000] volt[5]
+<6>[    0.136174] C0     1 (      swapper/0) clk[sdh1_dummy] rate[7000000] volt[6]
+<6>[    0.136179] C0     1 (      swapper/0) clk[sdh1_dummy] rate[8000000] volt[7]
+<6>[    0.136184] C0     1 (      swapper/0) Rail vcc_main_ap_lpm
+<6>[    0.136190] C0     1 (      swapper/0) clk[sdh2_dummy] rate[1000000] volt[0]
+<6>[    0.136195] C0     1 (      swapper/0) clk[sdh2_dummy] rate[2000000] volt[1]
+<6>[    0.136200] C0     1 (      swapper/0) clk[sdh2_dummy] rate[3000000] volt[2]
+<6>[    0.136206] C0     1 (      swapper/0) clk[sdh2_dummy] rate[4000000] volt[3]
+<6>[    0.136211] C0     1 (      swapper/0) clk[sdh2_dummy] rate[5000000] volt[4]
+<6>[    0.136216] C0     1 (      swapper/0) clk[sdh2_dummy] rate[6000000] volt[5]
+<6>[    0.136221] C0     1 (      swapper/0) clk[sdh2_dummy] rate[7000000] volt[6]
+<6>[    0.136226] C0     1 (      swapper/0) clk[sdh2_dummy] rate[8000000] volt[7]
+<6>[    0.136232] C0     1 (      swapper/0) Rail vcc_main_apsub_idle
+<6>[    0.136239] C0     1 (      swapper/0) clk[cpu] rate[0] volt[0]
+<6>[    0.136244] C0     1 (      swapper/0) clk[cpu] rate[624000000] volt[1]
+<6>[    0.136249] C0     1 (      swapper/0) clk[cpu] rate[624000000] volt[2]
+<6>[    0.136254] C0     1 (      swapper/0) clk[cpu] rate[832000000] volt[3]
+<6>[    0.136259] C0     1 (      swapper/0) clk[cpu] rate[832000000] volt[4]
+<6>[    0.136265] C0     1 (      swapper/0) clk[cpu] rate[1057000000] volt[5]
+<6>[    0.136270] C0     1 (      swapper/0) clk[cpu] rate[1248000000] volt[6]
+<6>[    0.136275] C0     1 (      swapper/0) clk[cpu] rate[1526000000] volt[7]
+<6>[    0.136280] C0     1 (      swapper/0) Rail vcc_main_apsub_idle
+<6>[    0.136287] C0     1 (      swapper/0) clk[ddr] rate[0] volt[0]
+<6>[    0.136292] C0     1 (      swapper/0) clk[ddr] rate[312000000] volt[1]
+<6>[    0.136298] C0     1 (      swapper/0) clk[ddr] rate[312000000] volt[2]
+<6>[    0.136303] C0     1 (      swapper/0) clk[ddr] rate[416000000] volt[3]
+<6>[    0.136308] C0     1 (      swapper/0) clk[ddr] rate[528000000] volt[4]
+<6>[    0.136313] C0     1 (      swapper/0) clk[ddr] rate[528000000] volt[5]
+<6>[    0.136318] C0     1 (      swapper/0) clk[ddr] rate[624000000] volt[6]
+<6>[    0.136324] C0     1 (      swapper/0) clk[ddr] rate[667000000] volt[7]
+<6>[    0.136329] C0     1 (      swapper/0) Rail vcc_main_apsub_idle
+<6>[    0.136339] C0     1 (      swapper/0) clk[gc3d_clk] rate[312000000] volt[0]
+<6>[    0.136344] C0     1 (      swapper/0) clk[gc3d_clk] rate[312000000] volt[1]
+<6>[    0.136349] C0     1 (      swapper/0) clk[gc3d_clk] rate[312000000] volt[2]
+<6>[    0.136354] C0     1 (      swapper/0) clk[gc3d_clk] rate[416000000] volt[3]
+<6>[    0.136360] C0     1 (      swapper/0) clk[gc3d_clk] rate[624000000] volt[4]
+<6>[    0.136365] C0     1 (      swapper/0) clk[gc3d_clk] rate[705000000] volt[5]
+<6>[    0.136370] C0     1 (      swapper/0) clk[gc3d_clk] rate[705000000] volt[6]
+<6>[    0.136375] C0     1 (      swapper/0) clk[gc3d_clk] rate[832000000] volt[7]
+<6>[    0.136380] C0     1 (      swapper/0) Rail vcc_main_apsub_idle
+<6>[    0.136389] C0     1 (      swapper/0) clk[gc2d_clk] rate[156000000] volt[0]
+<6>[    0.136395] C0     1 (      swapper/0) clk[gc2d_clk] rate[156000000] volt[1]
+<6>[    0.136400] C0     1 (      swapper/0) clk[gc2d_clk] rate[156000000] volt[2]
+<6>[    0.136405] C0     1 (      swapper/0) clk[gc2d_clk] rate[312000000] volt[3]
+<6>[    0.136410] C0     1 (      swapper/0) clk[gc2d_clk] rate[312000000] volt[4]
+<6>[    0.136416] C0     1 (      swapper/0) clk[gc2d_clk] rate[312000000] volt[5]
+<6>[    0.136421] C0     1 (      swapper/0) clk[gc2d_clk] rate[416000000] volt[6]
+<6>[    0.136426] C0     1 (      swapper/0) clk[gc2d_clk] rate[624000000] volt[7]
+<6>[    0.136431] C0     1 (      swapper/0) Rail vcc_main_apsub_idle
+<6>[    0.136440] C0     1 (      swapper/0) clk[gcsh_clk] rate[312000000] volt[0]
+<6>[    0.136445] C0     1 (      swapper/0) clk[gcsh_clk] rate[312000000] volt[1]
+<6>[    0.136450] C0     1 (      swapper/0) clk[gcsh_clk] rate[416000000] volt[2]
+<6>[    0.136456] C0     1 (      swapper/0) clk[gcsh_clk] rate[416000000] volt[3]
+<6>[    0.136461] C0     1 (      swapper/0) clk[gcsh_clk] rate[624000000] volt[4]
+<6>[    0.136466] C0     1 (      swapper/0) clk[gcsh_clk] rate[624000000] volt[5]
+<6>[    0.136471] C0     1 (      swapper/0) clk[gcsh_clk] rate[705000000] volt[6]
+<6>[    0.136477] C0     1 (      swapper/0) clk[gcsh_clk] rate[832000000] volt[7]
+<6>[    0.136482] C0     1 (      swapper/0) Rail vcc_main_apsub_idle
+<6>[    0.136491] C0     1 (      swapper/0) clk[gcbus_clk] rate[0] volt[0]
+<6>[    0.136496] C0     1 (      swapper/0) clk[gcbus_clk] rate[312000000] volt[1]
+<6>[    0.136501] C0     1 (      swapper/0) clk[gcbus_clk] rate[416000000] volt[2]
+<6>[    0.136506] C0     1 (      swapper/0) clk[gcbus_clk] rate[416000000] volt[3]
+<6>[    0.136512] C0     1 (      swapper/0) clk[gcbus_clk] rate[416000000] volt[4]
+<6>[    0.136517] C0     1 (      swapper/0) clk[gcbus_clk] rate[416000000] volt[5]
+<6>[    0.136522] C0     1 (      swapper/0) clk[gcbus_clk] rate[624000000] volt[6]
+<6>[    0.136528] C0     1 (      swapper/0) clk[gcbus_clk] rate[624000000] volt[7]
+<6>[    0.136533] C0     1 (      swapper/0) Rail vcc_main_apsub_idle
+<6>[    0.136541] C0     1 (      swapper/0) clk[vpufunc_clk] rate[208000000] volt[0]
+<6>[    0.136547] C0     1 (      swapper/0) clk[vpufunc_clk] rate[312000000] volt[1]
+<6>[    0.136552] C0     1 (      swapper/0) clk[vpufunc_clk] rate[312000000] volt[2]
+<6>[    0.136557] C0     1 (      swapper/0) clk[vpufunc_clk] rate[416000000] volt[3]
+<6>[    0.136562] C0     1 (      swapper/0) clk[vpufunc_clk] rate[416000000] volt[4]
+<6>[    0.136568] C0     1 (      swapper/0) clk[vpufunc_clk] rate[416000000] volt[5]
+<6>[    0.136573] C0     1 (      swapper/0) clk[vpufunc_clk] rate[533000000] volt[6]
+<6>[    0.136578] C0     1 (      swapper/0) clk[vpufunc_clk] rate[533000000] volt[7]
+<6>[    0.136583] C0     1 (      swapper/0) Rail vcc_main_apsub_idle
+<6>[    0.136591] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[0] volt[0]
+<6>[    0.136596] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[208000000] volt[1]
+<6>[    0.136602] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[208000000] volt[2]
+<6>[    0.136607] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[3]
+<6>[    0.136613] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[4]
+<6>[    0.136618] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[5]
+<6>[    0.136623] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[6]
+<6>[    0.136628] C0     1 (      swapper/0) clk[isp_pipe_clk] rate[312000000] volt[7]
+<6>[    0.136633] C0     1 (      swapper/0) Rail vcc_main_apsub_idle
+<6>[    0.136639] C0     1 (      swapper/0) clk[sdh0_dummy] rate[1000000] volt[0]
+<6>[    0.136645] C0     1 (      swapper/0) clk[sdh0_dummy] rate[2000000] volt[1]
+<6>[    0.136650] C0     1 (      swapper/0) clk[sdh0_dummy] rate[3000000] volt[2]
+<6>[    0.136655] C0     1 (      swapper/0) clk[sdh0_dummy] rate[4000000] volt[3]
+<6>[    0.136660] C0     1 (      swapper/0) clk[sdh0_dummy] rate[5000000] volt[4]
+<6>[    0.136665] C0     1 (      swapper/0) clk[sdh0_dummy] rate[6000000] volt[5]
+<6>[    0.136671] C0     1 (      swapper/0) clk[sdh0_dummy] rate[7000000] volt[6]
+<6>[    0.136676] C0     1 (      swapper/0) clk[sdh0_dummy] rate[8000000] volt[7]
+<6>[    0.136680] C0     1 (      swapper/0) Rail vcc_main_apsub_idle
+<6>[    0.136686] C0     1 (      swapper/0) clk[sdh1_dummy] rate[1000000] volt[0]
+<6>[    0.136692] C0     1 (      swapper/0) clk[sdh1_dummy] rate[2000000] volt[1]
+<6>[    0.136697] C0     1 (      swapper/0) clk[sdh1_dummy] rate[3000000] volt[2]
+<6>[    0.136702] C0     1 (      swapper/0) clk[sdh1_dummy] rate[4000000] volt[3]
+<6>[    0.136707] C0     1 (      swapper/0) clk[sdh1_dummy] rate[5000000] volt[4]
+<6>[    0.136712] C0     1 (      swapper/0) clk[sdh1_dummy] rate[6000000] volt[5]
+<6>[    0.136717] C0     1 (      swapper/0) clk[sdh1_dummy] rate[7000000] volt[6]
+<6>[    0.136723] C0     1 (      swapper/0) clk[sdh1_dummy] rate[8000000] volt[7]
+<6>[    0.136727] C0     1 (      swapper/0) Rail vcc_main_apsub_idle
+<6>[    0.136733] C0     1 (      swapper/0) clk[sdh2_dummy] rate[1000000] volt[0]
+<6>[    0.136739] C0     1 (      swapper/0) clk[sdh2_dummy] rate[2000000] volt[1]
+<6>[    0.136744] C0     1 (      swapper/0) clk[sdh2_dummy] rate[3000000] volt[2]
+<6>[    0.136749] C0     1 (      swapper/0) clk[sdh2_dummy] rate[4000000] volt[3]
+<6>[    0.136754] C0     1 (      swapper/0) clk[sdh2_dummy] rate[5000000] volt[4]
+<6>[    0.136759] C0     1 (      swapper/0) clk[sdh2_dummy] rate[6000000] volt[5]
+<6>[    0.136764] C0     1 (      swapper/0) clk[sdh2_dummy] rate[7000000] volt[6]
+<6>[    0.136770] C0     1 (      swapper/0) clk[sdh2_dummy] rate[8000000] volt[7]
+<6>[    0.137077] C0     1 (      swapper/0) arm-smmu c0010000.smmu: Add to power domain power-domain-common-vpu
+<5>[    0.160167] C0     1 (      swapper/0) arm-smmu c0010000.smmu: probing hardware configuration...
+<5>[    0.160175] C0     1 (      swapper/0) arm-smmu c0010000.smmu: SMMUv1 with:
+<5>[    0.160182] C0     1 (      swapper/0) arm-smmu c0010000.smmu: 	stage 2 translation
+<5>[    0.160190] C0     1 (      swapper/0) arm-smmu c0010000.smmu: 	stream matching with 4 register groups, mask 0xf
+<5>[    0.160197] C0     1 (      swapper/0) arm-smmu c0010000.smmu: 	1 context banks (1 stage-2 only)
+<5>[    0.160205] C0     1 (      swapper/0) arm-smmu c0010000.smmu: 	32-bit VA, 40-bit IPA, 40-bit PA
+<5>[    0.160224] C0     1 (      swapper/0) arm-smmu c0010000.smmu: registered 1 master devices
+<6>[    0.170816] C0     1 (      swapper/0) [SENSORS CORE] sensors_class_init
+<6>[    0.171336] C0     1 (      swapper/0) input: meta_event as /devices/virtual/input/input0
+<6>[    0.171653] C0     1 (      swapper/0) Advanced Linux Sound Architecture Driver Initialized.
+<6>[    0.172536] C0     4 (    kworker/0:0) cfg80211: Calling CRDA to update world regulatory domain
+<6>[    0.172622] C0     4 (    kworker/0:0) cfg80211: World regulatory domain updated:
+<6>[    0.172627] C0     4 (    kworker/0:0) cfg80211:  DFS Master region: unset
+<6>[    0.172633] C0     4 (    kworker/0:0) cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+<6>[    0.172641] C0     4 (    kworker/0:0) cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+<6>[    0.172647] C0     4 (    kworker/0:0) cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+<6>[    0.172653] C0     4 (    kworker/0:0) cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+<6>[    0.172660] C0     4 (    kworker/0:0) cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz), (300 mBi, 2000 mBm)
+<6>[    0.172666] C0     4 (    kworker/0:0) cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (300 mBi, 2000 mBm)
+<6>[    0.172672] C0     4 (    kworker/0:0) cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm)
+<6>[    0.173565] C0     1 (      swapper/0) Switched to clocksource arch_sys_counter
+<6>[    0.201913] C0     1 (      swapper/0) devfreq-ddr c0100000.devfreq-ddr: mck5 controller is detected!
+<6>[    0.202036] C0     1 (      swapper/0) devfreq-ddr c0100000.devfreq-ddr: ddr burst length = 8
+<6>[    0.202644] C0     1 (      swapper/0) NET: Registered protocol family 2
+<6>[    0.203088] C0     1 (      swapper/0) TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+<6>[    0.203161] C0     1 (      swapper/0) TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+<6>[    0.203290] C0     1 (      swapper/0) TCP: Hash tables configured (established 8192 bind 8192)
+<6>[    0.203351] C0     1 (      swapper/0) TCP: reno registered
+<6>[    0.203359] C0     1 (      swapper/0) UDP hash table entries: 512 (order: 2, 16384 bytes)
+<6>[    0.203386] C0     1 (      swapper/0) UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+<6>[    0.203538] C0     1 (      swapper/0) NET: Registered protocol family 1
+<6>[    0.203735] C0     1 (      swapper/0) Unpacking initramfs...
+<0>[    0.273754] C0     1 (      swapper/0) Initramfs unpacking failed: junk in compressed archive
+<6>[    0.277619] C0     1 (      swapper/0) Freeing initrd memory: 5120K (ffffffc003b00000 - ffffffc004000000)
+<6>[    0.277832] C0     1 (      swapper/0) pxa-ion ion.9: Add to power domain power-domain-smmu
+<6>[    0.278997] C0     1 (      swapper/0) >>>Create Supper Kmalloc start
+<6>[    0.279007] C0     1 (      swapper/0) Supper Kmalloc skm_dbg_level=1
+<6>[    0.279107] C0     1 (      swapper/0) skm_dbg_flags=0x4000000
+<6>[    0.279112] C0     1 (      swapper/0) <<<Create Supper Kmalloc end
+<6>[    0.279117] C0     1 (      swapper/0) RSV_PAGE: init_module
+<6>[    0.279122] C0     1 (      swapper/0) RSV_PAGE: do not get rsv_mem, use kmalloc instead
+<6>[    0.281958] C0     1 (      swapper/0) futex hash table entries: 1024 (order: 4, 65536 bytes)
+<6>[    0.282086] C0     1 (      swapper/0) audit: initializing netlink subsys (enabled)
+<6>[    0.292038] C0     1 (      swapper/0) Registering sdcardfs 2.1.4
+<6>[    0.293184] C0     1 (      swapper/0) exFAT: Core Version 1.2.15
+<6>[    0.293192] C0     1 (      swapper/0) exFAT: FS Version 1.2.15
+<6>[    0.294168] C0     1 (      swapper/0) fuse init (API version 7.22)
+<6>[    0.294859] C0     1 (      swapper/0) msgmni has been set to 1803
+<7>[    0.295134] C0     1 (      swapper/0) SELinux:  Registering netfilter hooks
+<1>[    0.295507] C0     1 (      swapper/0) tima_uevent_init
+<7>[    0.295691] C0     1 (      swapper/0) TIMA uevent driver (tima_uevent) is initialized.
+<6>[    0.296446] C0     1 (      swapper/0) io scheduler noop registered
+<6>[    0.296453] C0     1 (      swapper/0) io scheduler deadline registered
+<6>[    0.296779] C0     1 (      swapper/0) io scheduler cfq registered (default)
+<6>[    0.296908] C0     1 (      swapper/0) [secgpio_dvs] secgpio_dvs_probe has been created!!!
+<6>[    0.297201] C0     1 (      swapper/0) [secgpio_dvs] secgpio_dvs_init has been initialized!!!
+<6>[    0.298011] C0     1 (      swapper/0) ktd3102_parse_dt_gpio, get gpio(97)
+<6>[    0.298020] C0     1 (      swapper/0) ktd3102_parse_dt_gpio, get gpio(76)
+<6>[    0.298026] C0     1 (      swapper/0) ktd3102_backlight_probe: ctrl=97, pwm=76
+<6>[    0.298036] C0     1 (      swapper/0) ktd3102_backlight_probe: cur brt=144, prev tune lev=17
+<6>[    0.298175] C0     1 (      swapper/0) ktd3102_backlight_set_brightness: brightness(144), tune_level(17)
+<6>[    0.298185] C0     1 (      swapper/0) kinetic,backlight-ktd3102 ktd3102-bl.24: ktd3102_backlight resumed.
+<6>[    0.298355] C0     1 (      swapper/0) mmp-vdma d4209000.vdma: vdma probe succeed
+<6>[    0.298715] C0     1 (      swapper/0) mmp-disp mmp-disp: Add to power domain power-domain-display
+<6>[    0.298893] C0     1 (      swapper/0) mmp-disp mmp-disp: path_init: mmp_pnpath
+<6>[    0.298903] C0     1 (      swapper/0) mmp-disp mmp-disp: register mmp_pnpath, overlay_num 1
+<6>[    0.299335] C0     1 (      swapper/0) mmp-disp mmp-disp: device init done
+<6>[    0.300017] C0     1 (      swapper/0) called mmp_panel_probe
+<6>[    0.300816] C0     1 (      swapper/0) found (gen-panel-s6d78a0-boe-qHD-video) by id(0x53B810)
+<6>[    0.301135] C0     1 (      swapper/0) lcd panel: device init done
+<6>[    0.301144] C0     1 (      swapper/0) mmp-dsi-panel panel.25: connect to path mmp_pnpath
+<6>[    0.302594] C0     1 (      swapper/0) mmp-fb fbbase.3: path mmp_pnpath get
+<6>[    0.303480] C0     1 (      swapper/0) mmp-fb fbbase.3: fb phys_addr 0xa080000, virt_addr 0xffffff80000f1000, size 6120k
+<6>[    0.303894] C0     1 (      swapper/0) mmp-fb fbbase.3: loaded to /dev/fb0 <mmp-fb>.
+<4>[    0.303936] C0     1 (      swapper/0) d420b800.dsi supply dsi_avdd not found, using dummy regulator
+<6>[    0.315987] C0     1 (      swapper/0) called gen_panel_set_status with status 2
+<4>[    0.316014] C0     1 (      swapper/0) gen_panel_set_power: power already on state
+<6>[    0.316026] C0     1 (      swapper/0) sec_getlog_supply_fbinfo: 0xffffffc009080000 544 960 32 3
+<6>[    0.316874] C0     1 (      swapper/0) mmp-tdma d128d800.adma: initialized
+<6>[    0.320686] C0     1 (      swapper/0) mmp-pdma d4000000.pdma: initialized 30 channels
+<6>[    0.321666] C0     1 (      swapper/0) d4017000.uart: ttyS1 at MMIO 0xd4017000 (irq = 59, base_baud = 921250) is a UART2
+<6>[    0.321934] C0     1 (      swapper/0) pxa2xx-uart d4018000.uart: no edge-wakeup-gpio defined
+<6>[    0.321949] C0     1 (      swapper/0) d4018000.uart: ttyS2 at MMIO 0xd4018000 (irq = 60, base_baud = 921250) is a UART3
+<6>[    0.322184] C0     1 (      swapper/0) pxa2xx-uart d4036000.uart: no edge-wakeup-gpio defined
+<6>[    0.322198] C0     1 (      swapper/0) d4036000.uart: ttyS0 at MMIO 0xd4036000 (irq = 91, base_baud = 0) is a UART1
+<6>[    0.324716] C0     1 (      swapper/0) pxa9xx AM-IPC initialized!
+<6>[    0.325249] C0     1 (      swapper/0) pxa9xx AC-IPC initialized!
+<6>[    0.328888] C0     1 (      swapper/0) loop: module loaded
+<6>[    0.329356] C0     1 (      swapper/0) zram: Created 1 device(s) ...
+<3>[    0.329661] C0     1 (      swapper/0) sd8x-rfkill sd8x-rfkill: could not get off pinstate.
+<3>[    0.329681] C0     1 (      swapper/0) sd8x-rfkill sd8x-rfkill: could not get on pinstate.
+<6>[    0.329715] C0     1 (      swapper/0) platform sd8x-rfkill: Driver sd8x-rfkill requests probe deferral
+<6>[    0.330335] C0     1 (      swapper/0) mmp-map d1230000.map: MAP config, please wait...
+<6>[    0.331064] C0     1 (      swapper/0) mmp-map d1230000.map: DSP1 firmware version: 0x1110103
+<6>[    0.331071] C0     1 (      swapper/0) mmp-map d1230000.map: DSP2 firmware version: 0x0
+<6>[    0.331078] C0     1 (      swapper/0) mmp-map d1230000.map: DSP1A firmware version: 0x1130105
+<6>[    0.332292] C0     1 (      swapper/0) 88pm860 2-0038: pmic id: 0x10
+<6>[    0.333117] C0     1 (      swapper/0) tun: Universal TUN/TAP device driver, 1.6
+<6>[    0.333123] C0     1 (      swapper/0) tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<6>[    0.333312] C0     1 (      swapper/0) PPP generic driver version 2.4.2
+<6>[    0.333535] C0     1 (      swapper/0) PPP BSD Compression module registered
+<6>[    0.333541] C0     1 (      swapper/0) PPP Deflate Compression module registered
+<6>[    0.333583] C0     1 (      swapper/0) PPP MPPE Compression module registered
+<6>[    0.333589] C0     1 (      swapper/0) NET: Registered protocol family 24
+<6>[    0.333715] C0     1 (      swapper/0) usbcore: registered new interface driver asix
+<6>[    0.333821] C0     1 (      swapper/0) usbcore: registered new interface driver ax88179_178a
+<6>[    0.333909] C0     1 (      swapper/0) usbcore: registered new interface driver cdc_ether
+<6>[    0.333995] C0     1 (      swapper/0) usbcore: registered new interface driver net1080
+<6>[    0.334083] C0     1 (      swapper/0) usbcore: registered new interface driver cdc_subset
+<6>[    0.334171] C0     1 (      swapper/0) usbcore: registered new interface driver zaurus
+<6>[    0.334277] C0     1 (      swapper/0) usbcore: registered new interface driver cdc_ncm
+<6>[    0.334441] C0     1 (      swapper/0) pxa-coda7542 d420d000.coda7542: Add to power domain power-domain-smmu
+<6>[    0.334553] C0     1 (      swapper/0) pxa-coda7542 d420d000.coda7542: [1] internal addr[ffffffc003900000], addr[0x04900000] size[1048576]
+<6>[    0.334561] C0     1 (      swapper/0) pxa-coda7542 d420d000.coda7542: [2] addr[0x00000000] size[0]
+<6>[    0.335219] C0     1 (      swapper/0) ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<6>[    0.335339] C0     1 (      swapper/0) platform pxa-u2oehci: Driver mv-ehci requests probe deferral
+<6>[    0.335699] C0     1 (      swapper/0) usbcore: registered new interface driver cdc_acm
+<6>[    0.335705] C0     1 (      swapper/0) cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+<6>[    0.335805] C0     1 (      swapper/0) usbcore: registered new interface driver usb-storage
+<6>[    0.335999] C0     1 (      swapper/0) usbcore: registered new interface driver usbserial
+<6>[    0.336083] C0     1 (      swapper/0) usbcore: registered new interface driver pl2303
+<6>[    0.336170] C0     1 (      swapper/0) usbserial: USB Serial support registered for pl2303
+<6>[    0.336231] C0     1 (      swapper/0) No PHY revision found, use the default setting!
+<6>[    0.336559] C0     1 (      swapper/0) usb: mv_otg_probe
+<6>[    0.339015] C0     1 (      swapper/0) mv-otg mv-otg: successful probe OTG device with clock gating.
+<6>[    0.339367] C0     1 (      swapper/0) mv-udc mv-udc: UDC: (null) enable udc
+<6>[    0.339374] C0     1 (      swapper/0) usb:  _mv_usb2_phy_28nm_tune state Peripheral 
+<6>[    0.339380] C0     1 (      swapper/0) usb: _mv_usb2_phy_28nm_tune original phy tx_reg0=0x008e7f6f
+<6>[    0.339386] C0     1 (      swapper/0) usb: _mv_usb2_phy_28nm_tune original phy rx_reg0=0x00009657
+<6>[    0.339391] C0     1 (      swapper/0) usb: _mv_usb2_phy_28nm_tune original phy rx_reg1=0x00000004
+<6>[    0.341601] C0     1 (      swapper/0) usb: _mv_usb2_phy_28nm_tune modified phy tx_reg0=0x03ce7f6f
+<6>[    0.341606] C0     1 (      swapper/0) usb: _mv_usb2_phy_28nm_tune modified phy rx_reg0=0x10009657
+<6>[    0.341612] C0     1 (      swapper/0) usb: _mv_usb2_phy_28nm_tune modified phy rx_reg1=0x80000009
+<6>[    0.342460] C0     1 (      swapper/0) mv-udc mv-udc: successful probe UDC device with clock gating.
+<6>[    0.342833] C0     1 (      swapper/0) usb_notify: ovc_init
+<6>[    0.343168] C0     1 (      swapper/0) mousedev: PS/2 mouse device common for all mice
+<6>[    0.343816] C0     1 (      swapper/0) usbcore: registered new interface driver xpad
+<6>[    0.343913] C0     1 (      swapper/0) usbcore: registered new interface driver usb_acecad
+<6>[    0.343998] C0     1 (      swapper/0) usbcore: registered new interface driver aiptek
+<6>[    0.344088] C0     1 (      swapper/0) usbcore: registered new interface driver gtco
+<6>[    0.344174] C0     1 (      swapper/0) usbcore: registered new interface driver hanwang
+<6>[    0.344258] C0     1 (      swapper/0) usbcore: registered new interface driver kbtab
+<6>[    0.344341] C0     1 (      swapper/0) usbcore: registered new interface driver wacom
+<6>[    0.344527] C0     6 (   kworker/u8:0) bt541_ts 3-0020: bt541_power_control, 2
+<6>[    0.347162] C0     6 (   kworker/u8:0) bt541_ts 3-0020: bt541_power, expected power[2], actural power[1]
+<6>[    0.348349] C0     1 (      swapper/0) input: 88pm88x_on as /devices/platform/soc.2/d4000000.apb/d4037000.i2c/i2c-2/2-0030/88pm88x-onkey/input/input2
+<6>[    0.351947] C0     1 (      swapper/0) input_boost: touchboost_connect: connect to 88pm88x_on
+<6>[    0.352478] C0     1 (      swapper/0) sa1100-rtc d4010000.rtc: rtc core: registered d4010000.rtc as rtc0
+<6>[    0.353921] C0     1 (      swapper/0) 88pm88x-rtc 88pm88x-rtc: pmic rtc initial time: 117-1-24-->19:40:0
+<6>[    0.356894] C0     1 (      swapper/0) 88pm88x-rtc 88pm88x-rtc: rtc core: registered 88pm88x-rtc as rtc1
+<6>[    0.358982] C0     1 (      swapper/0) i2c /dev entries driver
+<5>[    0.360013] C0     1 (      swapper/0) x: add driver<1> 'sp0a20'
+<6>[    0.361595] C0     1 (      swapper/0) ovt-isp-drv c0200000.b52isp: Add to power domain power-domain-common-isp-v3
+<6>[    0.361679] C0     1 (      swapper/0) ovt-isp-drv c0200000.b52isp: Probe OVT ISP with 1 pipeline, 1 AXI Master
+<4>[    0.364893] C0     1 (      swapper/0) 1-0037 supply dovdd_1v8 not found, using dummy regulator
+<6>[    0.374607] C0     6 (   kworker/u8:0) bt541_ts 3-0020: bt541_power_sequence: chip code = 0xe240
+<6>[    0.425948] C0     1 (      swapper/0) sensor samsung.s5k4h5 detected, i2c addr 0x37
+<3>[    0.428616] C0     1 (      swapper/0) error: update_otp not defined
+<4>[    0.428708] C0     1 (      swapper/0) 1-0010 supply dovdd_1v8 not found, using dummy regulator
+<6>[    0.444240] C0     6 (   kworker/u8:0) bt541_ts 3-0020: init_touch: Check checksum
+<6>[    0.444492] C2     1 (      swapper/0) sensor ssa.s5k5e3 detected, i2c addr 0x10
+<6>[    0.444904] C0     6 (   kworker/u8:0) bt541_ts 3-0020: 0x55AA
+<6>[    0.445574] C0     6 (   kworker/u8:0) bt541_ts 3-0020: init_touch: Send reset command
+<6>[    0.448518] C0     6 (   kworker/u8:0) bt541_ts 3-0020: BOE pannel : touch tsp type = 1,  lcd_id = 0x53b810
+<6>[    0.451811] C0     6 (   kworker/u8:0) bt541_ts[init_touch        : 1952] Shift value = 2
+<6>[    0.452475] C0     6 (   kworker/u8:0) bt541_ts[init_touch        : 1958] N count = 10
+<6>[    0.453139] C0     6 (   kworker/u8:0) bt541_ts[init_touch        : 1963] u count = 513
+<6>[    0.453803] C0     6 (   kworker/u8:0) bt541_ts[init_touch        : 1968] afe frequency = 74
+<6>[    0.455911] C0     6 (   kworker/u8:0) bt541_ts 3-0020: cur version = 0x4, new version = 0x4
+<6>[    0.455919] C0     6 (   kworker/u8:0) bt541_ts 3-0020: cur minor version = 0x3, new minor version = 0x3
+<6>[    0.455927] C0     6 (   kworker/u8:0) bt541_ts 3-0020: cur reg data version = 0x14, new reg data version = 0x14
+<6>[    0.458085] C0     6 (   kworker/u8:0) bt541_ts[init_touch        : 2061] max supported finger num = 2
+<6>[    0.458091] C0     6 (   kworker/u8:0) bt541_ts[init_touch        : 2064] set other configuration
+<4>[    0.459575] C0     6 (   kworker/u8:0) use i2s checksum = 0
+<6>[    0.460114] C0     6 (   kworker/u8:0) bt541_ts 3-0020: TA setting changed to 0
+<6>[    0.460779] C0     1 (      swapper/0) 88pm88x 2-0030: pm88x_battery_probe Starting 
+<6>[    0.460807] C0     1 (      swapper/0) 88pm88x 2-0030: pm88x_battery_probe : gpadc_det_no : 2
+<3>[    0.461303] C0     1 (      swapper/0) 88pm88x-battery 88pm88x-battery: get vbat iio channel defers.
+<6>[    0.461329] C0     1 (      swapper/0) platform 88pm88x-battery: Driver 88pm88x-battery requests probe deferral
+<6>[    0.461727] C0     1 (      swapper/0) pm88x_charger_probe: 88PM88X Charger Probe Start
+<6>[    0.466592] C0     6 (   kworker/u8:0) bt541_ts 3-0020: Esd timer register = 100
+<6>[    0.466598] C0     6 (   kworker/u8:0) bt541_ts[init_touch        : 2118] successfully initialized
+<6>[    0.466609] C0     6 (   kworker/u8:0) bt541_ts[bt541_ts_probe    : 5369] register sec_touchscreen input device 
+<6>[    0.466978] C0     6 (   kworker/u8:0) input: sec_touchscreen as /devices/platform/soc.2/d4000000.apb/d4013800.i2c/i2c-3/3-0020/input/input1
+<6>[    0.467389] C0     6 (   kworker/u8:0) input_boost: touchboost_connect: connect to sec_touchscreen
+<6>[    0.467397] C0     6 (   kworker/u8:0) input_boost: touchboost_connect: connect to sec_touchscreen
+<6>[    0.467407] C0     6 (   kworker/u8:0) bt541_ts[bt541_ts_probe    : 5385] request irq (irq = 154, pin = 78) 
+<6>[    0.467760] C0     6 (   kworker/u8:0) bt541_ts 3-0020: Started esd timer
+<6>[    0.467851] C0     6 (   kworker/u8:0) bt541_ts 3-0020: zinitix touch probe.
+<6>[    0.469441] C0     1 (      swapper/0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x02
+<3>[    0.469453] C0     1 (      swapper/0) pm88x_get_charging_health: Fail to get psy (battery)
+<3>[    0.469470] C0     1 (      swapper/0) pm88x_get_charging_health: Fail to get psy (battery)
+<6>[    0.469814] C0     1 (      swapper/0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_health : PM88X_CHG_STATUS2 : 0x02
+<6>[    0.469822] C0     1 (      swapper/0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_health : Charger Health UVLO 
+<6>[    0.470600] C0     1 (      swapper/0) power_supply sec-charger: power_supply_changed
+<6>[    0.473609] C0   604 (    kworker/0:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x02
+<3>[    0.473619] C0   604 (    kworker/0:1) pm88x_get_charging_health: Fail to get psy (battery)
+<3>[    0.473634] C0   604 (    kworker/0:1) pm88x_get_charging_health: Fail to get psy (battery)
+<6>[    0.474290] C0   604 (    kworker/0:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_health : PM88X_CHG_STATUS2 : 0x02
+<6>[    0.474298] C0   604 (    kworker/0:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_health : Charger Health UVLO 
+<6>[    0.478250] C0     1 (      swapper/0) 88pm88x-charger 88pm88x-charger: pm88x_charger_probe is successful!
+<6>[    0.478591] C0     1 (      swapper/0) sec-thermistor sec-thermistor: sec_therm_probe: SEC Thermistor Driver Loading #1
+<3>[    0.478694] C0     1 (      swapper/0) sec-thermistor sec-thermistor: sec_therm_probe: fail to get iio channel
+<6>[    0.478721] C0     1 (      swapper/0) platform sec-thermistor: Driver sec-thermistor requests probe deferral
+<6>[    0.479279] C0     1 (      swapper/0) thermal status fine
+<6>[    0.479326] C0     1 (      swapper/0) *************THERMAL RANG & POLICY*********************
+<6>[    0.479332] C0     1 (      swapper/0) *************THERMAL POLICY POWER_SAVING_MODE********
+<6>[    0.479338] C0     1 (      swapper/0) * Thermal Stage:0(up:Temp <64000C; down:Temp<61000C)
+<6>[    0.479344] C0     1 (      swapper/0)         (vl_show)vl:6(gcsh use vl:7);
+<6>[    0.479350] C0     1 (      swapper/0)         (vl_master)cpu:state_0(freq:1248000000hz)
+<6>[    0.479355] C0     1 (      swapper/0)         cpu_num:4
+<6>[    0.479361] C0     1 (      swapper/0)         (private))ddr:state_0(freq:528000000hz)
+<6>[    0.479367] C0     1 (      swapper/0)         (private))gc3d:state_0(freq:705000000hz)
+<6>[    0.479372] C0     1 (      swapper/0)         (vl_slave)gc2d:state_0(frq:416000000hz)
+<6>[    0.479378] C0     1 (      swapper/0)         (private))gcsh:state_0(frq:624000000hz)
+<6>[    0.479384] C0     1 (      swapper/0)         (vl_slave)vpu:state_0(freq:528000000hz)
+<6>[    0.479390] C0     1 (      swapper/0) * Thermal Stage:1(up:64000<Temp<68000C; down:61000<Temp<65000C)
+<6>[    0.479395] C0     1 (      swapper/0)         (vl_show)vl:6;
+<6>[    0.479401] C0     1 (      swapper/0)         (vl_master)cpu:state_0(freq:1248000000hz)
+<6>[    0.479405] C0     1 (      swapper/0)         cpu_num:4
+<6>[    0.479411] C0     1 (      swapper/0)         (private))ddr:state_0(freq:528000000hz)
+<6>[    0.479416] C0     1 (      swapper/0)         (private))gc3d:state_0(freq:705000000hz)
+<6>[    0.479421] C0     1 (      swapper/0)         (vl_slave)gc2d:state_0(frq:416000000hz)
+<6>[    0.479427] C0     1 (      swapper/0)         (private))gcsh:state_1(frq:416000000hz)
+<6>[    0.479432] C0     1 (      swapper/0)         (vl_slave)vpu:state_0(freq:528000000hz)
+<6>[    0.479438] C0     1 (      swapper/0) * Thermal Stage:2(up:68000<Temp<72000C; down:65000<Temp<69000C)
+<6>[    0.479443] C0     1 (      swapper/0)         (vl_show)vl:5;
+<6>[    0.479449] C0     1 (      swapper/0)         (vl_master)cpu:state_1(freq:1057000000hz)
+<6>[    0.479453] C0     1 (      swapper/0)         cpu_num:4
+<6>[    0.479459] C0     1 (      swapper/0)         (private))ddr:state_0(freq:528000000hz)
+<6>[    0.479464] C0     1 (      swapper/0)         (private))gc3d:state_0(freq:705000000hz)
+<6>[    0.479469] C0     1 (      swapper/0)         (vl_slave)gc2d:state_1(frq:312000000hz)
+<6>[    0.479475] C0     1 (      swapper/0)         (private))gcsh:state_1(frq:416000000hz)
+<6>[    0.479480] C0     1 (      swapper/0)         (vl_slave)vpu:state_1(freq:416000000hz)
+<6>[    0.479486] C0     1 (      swapper/0) * Thermal Stage:3(up:72000<Temp<75000C; down:69000<Temp<72000C)
+<6>[    0.479491] C0     1 (      swapper/0)         (vl_show)vl:3;
+<6>[    0.479497] C0     1 (      swapper/0)         (vl_master)cpu:state_2(freq:832000000hz)
+<6>[    0.479501] C0     1 (      swapper/0)         cpu_num:4
+<6>[    0.479507] C0     1 (      swapper/0)         (private))ddr:state_1(freq:416000000hz)
+<6>[    0.479512] C0     1 (      swapper/0)         (private))gc3d:state_2(freq:416000000hz)
+<6>[    0.479517] C0     1 (      swapper/0)         (vl_slave)gc2d:state_1(frq:312000000hz)
+<6>[    0.479523] C0     1 (      swapper/0)         (private))gcsh:state_2(frq:312000000hz)
+<6>[    0.479528] C0     1 (      swapper/0)         (vl_slave)vpu:state_1(freq:416000000hz)
+<6>[    0.479534] C0     1 (      swapper/0) * Thermal Stage:4(up:75000<Temp<78000C; down:72000<Temp<75000C)
+<6>[    0.479539] C0     1 (      swapper/0)         (vl_show)vl:1;
+<6>[    0.479544] C0     1 (      swapper/0)         (vl_master)cpu:state_3(freq:624000000hz)
+<6>[    0.479549] C0     1 (      swapper/0)         cpu_num:4
+<6>[    0.479554] C0     1 (      swapper/0)         (private))ddr:state_1(freq:416000000hz)
+<6>[    0.479560] C0     1 (      swapper/0)         (private))gc3d:state_3(freq:312000000hz)
+<6>[    0.479565] C0     1 (      swapper/0)         (vl_slave)gc2d:state_2(frq:156000000hz)
+<6>[    0.479570] C0     1 (      swapper/0)         (private))gcsh:state_3(frq:156000000hz)
+<6>[    0.479576] C0     1 (      swapper/0)         (vl_slave)vpu:state_2(freq:312000000hz)
+<6>[    0.479582] C0     1 (      swapper/0) * Thermal Stage:5(up:78000<Temp<81000C; down:75000<Temp<78000C)
+<6>[    0.479587] C0     1 (      swapper/0)         (vl_show)vl:0;
+<6>[    0.479592] C0     1 (      swapper/0)         (vl_master)cpu:state_3(freq:624000000hz)
+<6>[    0.479597] C0     1 (      swapper/0)         cpu_num:4
+<6>[    0.479602] C0     1 (      swapper/0)         (private))ddr:state_2(freq:312000000hz)
+<6>[    0.479607] C0     1 (      swapper/0)         (private))gc3d:state_3(freq:312000000hz)
+<6>[    0.479613] C0     1 (      swapper/0)         (vl_slave)gc2d:state_2(frq:156000000hz)
+<6>[    0.479618] C0     1 (      swapper/0)         (private))gcsh:state_3(frq:156000000hz)
+<6>[    0.479623] C0     1 (      swapper/0)         (vl_slave)vpu:state_3(freq:208000000hz)
+<6>[    0.479630] C0     1 (      swapper/0) * Thermal Stage:6(up:81000<Temp<83000C; down:78000<Temp<81000C)
+<6>[    0.479635] C0     1 (      swapper/0)         (vl_show)vl:0;
+<6>[    0.479640] C0     1 (      swapper/0)         (vl_master)cpu:state_3(freq:624000000hz)
+<6>[    0.479644] C0     1 (      swapper/0)         cpu_num:3
+<6>[    0.479650] C0     1 (      swapper/0)         (private))ddr:state_3(freq:156000000hz)
+<6>[    0.479655] C0     1 (      swapper/0)         (private))gc3d:state_4(freq:156000000hz)
+<6>[    0.479660] C0     1 (      swapper/0)         (vl_slave)gc2d:state_2(frq:156000000hz)
+<6>[    0.479666] C0     1 (      swapper/0)         (private))gcsh:state_3(frq:156000000hz)
+<6>[    0.479671] C0     1 (      swapper/0)         (vl_slave)vpu:state_3(freq:208000000hz)
+<6>[    0.479677] C0     1 (      swapper/0) * Thermal Stage:7(up:Temp>83000C; down:Temp>81000C)
+<6>[    0.479682] C0     1 (      swapper/0)         (vl_show)vl:0;
+<6>[    0.479687] C0     1 (      swapper/0)         (vl_master)cpu:state_3(freq:624000000hz)
+<6>[    0.479691] C0     1 (      swapper/0)         cpu_num:2
+<6>[    0.479697] C0     1 (      swapper/0)         (private))ddr:state_3(freq:156000000hz)
+<6>[    0.479702] C0     1 (      swapper/0)         (private))gc3d:state_4(freq:156000000hz)
+<6>[    0.479707] C0     1 (      swapper/0)         (vl_slave)gc2d:state_2(frq:156000000hz)
+<6>[    0.479713] C0     1 (      swapper/0)         (private))gcsh:state_3(frq:156000000hz)
+<6>[    0.479718] C0     1 (      swapper/0)         (vl_slave)vpu:state_3(freq:208000000hz)
+<6>[    0.480946] C0     1 (      swapper/0) helan2 thermal probed
+<6>[    0.481451] C0     1 (      swapper/0) device-mapper: uevent: version 1.0.3
+<6>[    0.481814] C0     1 (      swapper/0) device-mapper: ioctl: 4.27.0-ioctl (2013-10-30) initialised: dm-devel@redhat.com
+<3>[    0.481980] C0     1 (      swapper/0) cpufreq: cpufreq_generic_get: No policy associated to cpu: 0
+<3>[    0.482004] C0     1 (      swapper/0) cpufreq: cpufreq_generic_get: No policy associated to cpu: 0
+<6>[    0.482741] C0     1 (      swapper/0) cpunum_qos_init, cpu numnber qos init function
+<6>[    0.482958] C0     1 (      swapper/0) standalone_hotplug_device_init: 0
+<6>[    0.482965] C0     1 (      swapper/0) stand_alone_hotplug_init, PM-hotplug init function
+<6>[    0.483039] C0     1 (      swapper/0) init max_performance : 4992000
+<6>[    0.483052] C0     1 (      swapper/0) --------------------
+<6>[    0.483052] |CPU|LOW(%)|HIGH(%)|
+<6>[    0.483052] |  1|     0|     16|
+<6>[    0.483052] |  2|    12|     32|
+<6>[    0.483052] |  3|    16|     48|
+<6>[    0.483052] |  4|    32|    100|
+<6>[    0.483052] --------------------
+<6>[    0.494495] C0     1 (      swapper/0) lm3532_init: enter
+<6>[    0.494825] C0     1 (      swapper/0) pm828x_init: enter
+<6>[    0.501492] C0     6 (   kworker/u8:0) leds flash: turning flash off!
+<6>[    0.506225] C0     1 (      swapper/0) hidraw: raw HID events driver (C) Jiri Kosina
+<6>[    0.509686] C0     1 (      swapper/0) Successfully registered hid_synaptics_driver
+<6>[    0.512587] C0     1 (      swapper/0) usbcore: registered new interface driver usbhid
+<6>[    0.512596] C0     1 (      swapper/0) usbhid: USB HID core driver
+<6>[    0.513212] C0     1 (      swapper/0) ashmem: initialized
+<6>[    0.513413] C0     1 (      swapper/0) logger: created 256K log 'log_main'
+<6>[    0.513421] C0     1 (      swapper/0) sec_getlog_supply_loggerinfo: log_main, 0xffffff8000724000
+<6>[    0.513761] C0     1 (      swapper/0) logger: created 256K log 'log_events'
+<6>[    0.513767] C0     1 (      swapper/0) sec_getlog_supply_loggerinfo: log_events, 0xffffff8000881000
+<6>[    0.513950] C0     1 (      swapper/0) logger: created 256K log 'log_radio'
+<6>[    0.513956] C0     1 (      swapper/0) sec_getlog_supply_loggerinfo: log_radio, 0xffffff80008c2000
+<6>[    0.514130] C0     1 (      swapper/0) logger: created 256K log 'log_system'
+<6>[    0.514136] C0     1 (      swapper/0) sec_getlog_supply_loggerinfo: log_system, 0xffffff8000903000
+<6>[    0.516231] C0     1 (      swapper/0) PMIC level 0: 988 mV, cur 988 mV
+<6>[    0.516567] C0     1 (      swapper/0) PMIC level 1: 1025 mV, cur 1025 mV
+<6>[    0.516901] C0     1 (      swapper/0) PMIC level 2: 1025 mV, cur 1025 mV
+<6>[    0.517236] C0     1 (      swapper/0) PMIC level 3: 1075 mV, cur 1075 mV
+<6>[    0.517570] C0     1 (      swapper/0) PMIC level 4: 1075 mV, cur 1075 mV
+<6>[    0.517904] C0     1 (      swapper/0) PMIC level 5: 1125 mV, cur 1125 mV
+<6>[    0.518238] C0     1 (      swapper/0) PMIC level 6: 1163 mV, cur 1163 mV
+<6>[    0.518572] C0     1 (      swapper/0) PMIC level 7: 1300 mV, cur 1300 mV
+<6>[    0.518579] C0     1 (      swapper/0) AP active 6, M2 6, D1P: 6
+<6>[    0.518732] C0     1 (      swapper/0) sdhci: Secure Digital Host Controller Interface driver
+<6>[    0.518738] C0     1 (      swapper/0) sdhci: Copyright(c) Pierre Ossman
+<3>[    0.519187] C0     1 (      swapper/0) mmc0 failed to get fackclk-fixed
+<6>[    0.519245] C0     1 (      swapper/0) mmc0: no vqmmc regulator found
+<6>[    0.519253] C0     1 (      swapper/0) mmc0: no vmmc regulator found
+<3>[    0.614288] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    0.614779] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    0.615258] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    0.615736] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    0.616216] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    0.616693] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    0.617171] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    0.617560] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    0.621135] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 8
+<3>[    0.621613] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 5
+<3>[    0.622091] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 5
+<3>[    0.622568] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 5
+<3>[    0.623045] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 5
+<3>[    0.623526] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 55
+<3>[    0.624006] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 55
+<3>[    0.624483] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 55
+<3>[    0.624961] C0     0 (      swapper/0) mmc0: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 55
+<6>[    0.660682] C1    29 (   kworker/u8:1) mmc0: BKOPS_EN bit is not set
+<4>[    0.680463] C1    29 (   kworker/u8:1) mmc0: no valid pretuned data, start real tuning
+<5>[    0.996068] C0     0 (      swapper/0) random: nonblocking pool is initialized
+<3>[    1.163944] C0    29 (   kworker/u8:1) RSV_PAGE: can't update to block device!
+<6>[    1.163963] C0    29 (   kworker/u8:1) mmc0: final tuning value = 271, dvfs level = 1
+<6>[    1.165310] C0    29 (   kworker/u8:1) mmc0: new HS200 MMC card at address 0001
+<6>[    1.165317] C0    29 (   kworker/u8:1) mmc0: ios: 156000000 hz, 8 bit width
+<6>[    1.166358] C0    29 (   kworker/u8:1) mmcblk0: mmc0:0001 P1J95K 7.28 GiB 
+<6>[    1.166844] C0    29 (   kworker/u8:1) mmcblk0boot0: mmc0:0001 P1J95K partition 1 4.00 MiB
+<6>[    1.167334] C0    29 (   kworker/u8:1) mmcblk0boot1: mmc0:0001 P1J95K partition 2 4.00 MiB
+<6>[    1.167800] C0    29 (   kworker/u8:1) mmcblk0rpmb: mmc0:0001 P1J95K partition 3 4.00 MiB
+<6>[    1.173001] C1    29 (   kworker/u8:1)  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19
+<6>[    1.181516] C0    29 (   kworker/u8:1)  mmcblk0boot1: unknown partition table
+<6>[    1.182815] C0    29 (   kworker/u8:1)  mmcblk0boot0: unknown partition table
+<6>[    1.183065] C0     1 (      swapper/0) mmc0: SDHCI controller on d4281000.sdh [d4281000.sdh] using ADMA
+<6>[    1.183983] C0     1 (      swapper/0) sdhci-pxav3 d4280000.sdh: Got CD GPIO #11.
+<3>[    1.184056] C0     1 (      swapper/0) mmc1 failed to get fackclk-fixed
+<4>[    1.283583] C0    29 (   kworker/u8:1) mmc1 :  device_create sdcard 
+<3>[    1.284279] C0     0 (      swapper/0) mmc1: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    1.284812] C0     0 (      swapper/0) mmc1: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    1.285339] C0     0 (      swapper/0) mmc1: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    1.285820] C0     0 (      swapper/0) mmc1: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    1.286215] C0     0 (      swapper/0) mmc1: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    1.286604] C0     0 (      swapper/0) mmc1: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    1.286994] C0     0 (      swapper/0) mmc1: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    1.287384] C0     0 (      swapper/0) mmc1: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 52
+<3>[    1.291277] C0     0 (      swapper/0) mmc1: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 5
+<3>[    1.291667] C0     0 (      swapper/0) mmc1: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 5
+<3>[    1.292056] C0     0 (      swapper/0) mmc1: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 5
+<3>[    1.292447] C0     0 (      swapper/0) mmc1: [MMC] CMD TIMEOUT, STATUS: 10000, CMD: 5
+<6>[    1.442671] C0    29 (   kworker/u8:1) mmc1: new high speed SDHC card at address 1234
+<6>[    1.442678] C0    29 (   kworker/u8:1) mmc1: ios: 52000000 hz, 4 bit width
+<6>[    1.443126] C0    29 (   kworker/u8:1) mmcblk1: mmc1:1234 SA04G 3.70 GiB 
+<6>[    1.444212] C1    29 (   kworker/u8:1)  mmcblk1: p1
+<6>[    1.444906] C0     1 (      swapper/0) mmc1: SDHCI controller on d4280000.sdh [d4280000.sdh] using ADMA
+<3>[    1.445425] C0     1 (      swapper/0) mmc2 failed to get fackclk-fixed
+<6>[    1.445485] C0     1 (      swapper/0) mmc2: no vqmmc regulator found
+<6>[    1.445493] C0     1 (      swapper/0) mmc2: no vmmc regulator found
+<6>[    1.496232] C0     1 (      swapper/0) mmc2: SDHCI controller on d4280800.sdh [d4280800.sdh] using ADMA
+<6>[    1.544375] C0     1 (      swapper/0) sdhci-pltfm: SDHCI platform and OF driver helper
+<6>[    1.544502] C0     1 (      swapper/0) devfreq-vpu devfreq-vpu.4: Add to power domain power-domain-common-vpu
+<6>[    1.544833] C0     1 (      swapper/0) devfreq-vpu devfreq-vpu.4: use govenor userspace!
+<6>[    1.546770] C0     1 (      swapper/0) sm5504 4-0014: The First INT1&2 R/C
+<7>[    1.547097] C0     1 (      swapper/0) sm5504 4-0014: I2C Read REG[0x03] DATA[0x00]
+<7>[    1.547416] C0     1 (      swapper/0) sm5504 4-0014: I2C Read REG[0x04] DATA[0x02]
+<6>[    1.548559] C0     1 (      swapper/0) extcon-sec extcon-sec.20: connected to sm5504
+<6>[    1.550628] C1     1 (      swapper/0) iio iio:device0: pm88x_gpadc_probe is successful to be probed.
+<6>[    1.551064] C1     1 (      swapper/0) [SENSOR] gp2a_i2c_probe, start
+<6>[    1.551082] C1     1 (      swapper/0) [SENSOR] gp2a_leda_onoff on
+<6>[    1.574090] C1     1 (      swapper/0) [SENSOR] sensors_iio_configure_buffer, name = gp2a-i2c
+<6>[    1.575095] C1     1 (      swapper/0) [SENSOR] gp2a_setup_irq, request_irq(2) success for gpio 2
+<6>[    1.576121] C1     1 (      swapper/0) [SENSOR] gp2a_leda_onoff off
+<6>[    1.603883] C1     1 (      swapper/0) [SENSOR] gp2a_i2c_probe done
+<6>[    1.604761] C1     1 (      swapper/0) [SENSOR]: k2hh_probe - Probe Start!
+<6>[    1.604767] C1     1 (      swapper/0) [SENSOR] k2hh_regulator_onoff
+<6>[    1.605084] C1     1 (      swapper/0) [SENSOR]: k2hh_probe - chip id success 0x41
+<6>[    1.605548] C1     1 (      swapper/0) [SENSOR] sensors_iio_configure_buffer, name = k2hh
+<6>[    1.607896] C1     1 (      swapper/0) [SENSOR] k2hh_set_range - 0x20
+<6>[    1.608443] C1     1 (      swapper/0) [SENSOR] k2hh_set_mode - change mode 0
+<6>[    1.608448] C1     1 (      swapper/0) [SENSOR] k2hh_regulator_onoff
+<6>[    1.608453] C1     1 (      swapper/0) [SENSOR]: k2hh_probe - Probe done!
+<6>[    1.608965] C1     1 (      swapper/0) [SENSOR]: yas_probe - Probe Start!
+<6>[    1.615522] C1     1 (      swapper/0) [SENSOR] yas_parse_dt: chip_pos = 4
+<6>[    1.616315] C1     1 (      swapper/0) [SENSOR]: yas_probe - Probe done!
+<6>[    1.617261] C1     1 (      swapper/0) tzdd tzdd.15: TEEC Drvier Version 1.1.4 16MB, kernel_3_10/3_14
+<3>[    1.618500] C1     1 (      swapper/0) remap rb to 0xffffff8000980000
+<3>[    1.618531] C1     1 (      swapper/0) remap rc to 0xffffff8000b00000
+<3>[    1.618816] C1     1 (      swapper/0) proc log buf: ffffff8000a00000, ctl: ffffff8000b80000
+<1>[    1.624684] C1     1 (      swapper/0) wlan: Loading MWLAN driver
+<1>[    1.625252] C1     1 (      swapper/0) wlan: Driver loaded successfully
+<1>[    1.625266] C1     1 (      swapper/0) BT: Loading driver
+<1>[    1.625670] C0     1 (      swapper/0) BT: Driver loaded successfully
+<6>[    1.625844] C0     1 (      swapper/0) *************************************
+<6>[    1.625850] C0     1 (      swapper/0) Fabric/LPM/DFC/DVC held status dump:
+<6>[    1.625855] C0     1 (      swapper/0) DVC[5b0ec]
+<6>[    1.625859] C0     1 (      swapper/0) FCDONE[0]
+<6>[    1.625864] C0     1 (      swapper/0) PMULPM[0]
+<6>[    1.625868] C0     1 (      swapper/0) CORELPM[a50001]
+<6>[    1.625873] C0     1 (      swapper/0) PLL[2c12201]
+<6>[    1.625877] C0     1 (      swapper/0) *************************************
+<6>[    1.636670] C0     1 (      swapper/0) cp_load_probe: seagull_remap_smc_funcid is set to 0xd0002001
+<6>[    1.636683] C0     1 (      swapper/0) cp_load_probe : por-offset is 0x00000000<6>[    1.637027] C0     1 (      swapper/0) seh d4080000.seh: cp_watchdog_probe: watchdog type 1
+<6>[    1.637038] C0     1 (      swapper/0) seh d4080000.seh: cp_watchdog_probe: timer-num 2, match-num 0
+<6>[    1.637061] C0     1 (      swapper/0) soc_init: base ffffff800096a000, timer_num 2, match_num 0
+<6>[    1.637068] C0     1 (      swapper/0) seh d4080000.seh: cp_watchdog_probe: init watchdog success
+<4>[    1.638475] C0     1 (      swapper/0) apsenhb.7 supply senpwr not found, using dummy regulator
+<6>[    1.638885] C0     1 (      swapper/0) crmdev module init finished with status:0 ipver=2
+<6>[    1.644100] C0     1 (      swapper/0) Pseudo CI TTY driver v1.0
+<6>[    1.652423] C0     1 (      swapper/0) CI Data TTY driver v1.0
+<6>[    1.653526] C0     1 (      swapper/0) pcm master=1, audiostub_inited=0
+<6>[    1.654893] C1  1474 ( audio_rcv_task) audio_rcv_task start...
+<6>[    1.655185] C0     1 (      swapper/0) SSIPC MISC: umts_boot0 is created
+<6>[    1.655404] C0     1 (      swapper/0) SSIPC MISC: umts_ipc0 is created
+<6>[    1.655623] C0     1 (      swapper/0) SSIPC MISC: umts_attest0 is created
+<6>[    1.655825] C0     1 (      swapper/0) SSIPC MISC: umts_atdun0 is created
+<6>[    1.656030] C0     1 (      swapper/0) SSIPC MISC: umts_atprod0 is created
+<6>[    1.656233] C0     1 (      swapper/0) SSIPC MISC: umts_atsimal0 is created
+<6>[    1.656439] C0     1 (      swapper/0) SSIPC MISC: umts_atsol0 is created
+<6>[    1.656639] C0     1 (      swapper/0) SSIPC MISC: umts_atunsol0 is created
+<6>[    1.656847] C0     1 (      swapper/0) SSIPC MISC: umts_at0 is created
+<6>[    1.657082] C0     1 (      swapper/0) SSIPC MISC: umts_atgps0 is created
+<6>[    1.657285] C0     1 (      swapper/0) SSIPC MISC: umts_rfs0 is created
+<6>[    1.657484] C0     1 (      swapper/0) SSIPC MISC: umts_at0_1 is created
+<6>[    1.657702] C0     1 (      swapper/0) SSIPC MISC: umts_ipc1 is created
+<6>[    1.657897] C0     1 (      swapper/0) SSIPC MISC: umts_attest1 is created
+<6>[    1.658099] C0     1 (      swapper/0) SSIPC MISC: umts_atdun1 is created
+<6>[    1.658287] C0     1 (      swapper/0) SSIPC MISC: umts_atprod1 is created
+<6>[    1.658478] C0     1 (      swapper/0) SSIPC MISC: umts_atsimal1 is created
+<6>[    1.658661] C0     1 (      swapper/0) SSIPC MISC: umts_atsol1 is created
+<6>[    1.658848] C0     1 (      swapper/0) SSIPC MISC: umts_atunsol1 is created
+<6>[    1.659034] C0     1 (      swapper/0) SSIPC MISC: umts_atgps1 is created
+<6>[    1.659240] C0     1 (      swapper/0) SSIPC MISC: umts_at1 is created
+<6>[    1.659432] C0     1 (      swapper/0) SSIPC MISC: umts_at1_1 is created
+<6>[    1.659574] C0     1 (      swapper/0) galcore2D d420c000.gpu2d: Add to power domain power-domain-common-gc2d
+<6>[    1.659979] C0     1 (      swapper/0) galcore c0400000.gpu: Add to power domain power-domain-common-gc
+<6>[    1.659996] C0     1 (      swapper/0) [galcore] info: GC use DT to reserve video memory.
+<4>[    1.660026] C0     1 (      swapper/0) 
+<4>[    1.660026] [galcore] GC Version: GC version rls_5011p6_GC5.5.14
+<4>[    1.660033] C0     1 (      swapper/0) 
+<4>[    1.660033] contiguousBase: 0x09000000, contiguousSize: 0x01000000
+<6>[    1.660848] C0     1 (      swapper/0) Galcore version 5.0.11.31013
+<4>[    1.660854] C0     1 (      swapper/0) Galcore options:
+<4>[    1.660858] C0     1 (      swapper/0)   irqLine           = 40
+<4>[    1.660863] C0     1 (      swapper/0)   registerMemBase   = 0xC0400000
+<4>[    1.660868] C0     1 (      swapper/0)   registerMemSize   = 0x00001000
+<4>[    1.660873] C0     1 (      swapper/0)   irqLine2D         = 104
+<4>[    1.660877] C0     1 (      swapper/0)   registerMemBase2D = 0xD420C000
+<4>[    1.660882] C0     1 (      swapper/0)   registerMemSize2D = 0x00001000
+<4>[    1.660887] C0     1 (      swapper/0)   contiguousSize    = 16777216
+<4>[    1.660891] C0     1 (      swapper/0)   contiguousBase    = 0x09000000
+<4>[    1.660896] C0     1 (      swapper/0)   bankSize          = 0x00000000
+<4>[    1.660900] C0     1 (      swapper/0)   fastClear         = -1
+<4>[    1.660905] C0     1 (      swapper/0)   compression       = -1
+<4>[    1.660910] C0     1 (      swapper/0)   signal            = 48
+<4>[    1.660914] C0     1 (      swapper/0)   powerManagement   = 1
+<4>[    1.660919] C0     1 (      swapper/0)   baseAddress       = 0x00000000
+<4>[    1.660923] C0     1 (      swapper/0)   physSize          = 0x40000000
+<4>[    1.660928] C0     1 (      swapper/0)   logFileSize       = 0 KB 
+<4>[    1.660933] C0     1 (      swapper/0)   recovery          = 0
+<4>[    1.660937] C0     1 (      swapper/0)   stuckDump         = 2
+<4>[    1.660942] C0     1 (      swapper/0)   coreClock         = 624
+<4>[    1.660946] C0     1 (      swapper/0)   coreClock2D       = 312
+<4>[    1.660951] C0     1 (      swapper/0)   gpuProfiler       = 0
+<4>[    1.660956] C0     1 (      swapper/0)   physSize modified to          = 0x80000000
+<4>[    1.661193] C0     1 (      swapper/0) [galcore] Print out 3D chip informations:
+<4>[    1.661200] C0     1 (      swapper/0)   chipModel              = 0x00001500
+<4>[    1.661206] C0     1 (      swapper/0)   chipRevision           = 0x00005246
+<4>[    1.661211] C0     1 (      swapper/0)   chipFeatures           = 0xE0287CAD
+<4>[    1.661217] C0     1 (      swapper/0)   chipMinorFeatures      = 0xC1799EFB
+<4>[    1.661222] C0     1 (      swapper/0)   chipMinorFeatures1     = 0xFEFBFAD9
+<4>[    1.661228] C0     1 (      swapper/0)   chipMinorFeatures2     = 0xCA9E4BBF
+<4>[    1.661233] C0     1 (      swapper/0)   chipMinorFeatures3     = 0xED019CA1
+<4>[    1.661239] C0     1 (      swapper/0)   chipMinorFeatures4     = 0x02000807
+<4>[    1.661244] C0     1 (      swapper/0)   chipMinorFeatures5     = 0x00020110
+<4>[    1.661251] C0     1 (      swapper/0)   gcChipSpecs            = 0x92210968
+<4>[    1.661257] C0     1 (      swapper/0)   gcChipSpecs2           = 0x01400100
+<4>[    1.661262] C0     1 (      swapper/0)   gcChipSpecs3           = 0x02000100
+<4>[    1.661269] C0     1 (      swapper/0)   streamCount            = 8
+<4>[    1.661275] C0     1 (      swapper/0)   registerMax            = 64
+<4>[    1.661280] C0     1 (      swapper/0)   threadCount            = 512
+<4>[    1.661285] C0     1 (      swapper/0)   shaderCoreCount        = 2
+<4>[    1.661290] C0     1 (      swapper/0)   vertexCacheSize        = 16
+<4>[    1.661296] C0     1 (      swapper/0)   vertexOutputBufferSize = 512
+<4>[    1.661301] C0     1 (      swapper/0)   pixelPipes             = 1
+<4>[    1.661306] C0     1 (      swapper/0)   instructionCount       = 1024
+<4>[    1.661311] C0     1 (      swapper/0)   numConstants           = 320
+<4>[    1.661316] C0     1 (      swapper/0)   bufferSize             = 0
+<4>[    1.661321] C0     1 (      swapper/0)   varyingsCount          = 15
+<4>[    1.669925] C0     1 (      swapper/0) [galcore] Print out 2D chip informations:
+<4>[    1.669933] C0     1 (      swapper/0)   chipModel              = 0x00000300
+<4>[    1.669939] C0     1 (      swapper/0)   chipRevision           = 0x00004650
+<4>[    1.669944] C0     1 (      swapper/0)   chipFeatures           = 0xE02C7ECA
+<4>[    1.669950] C0     1 (      swapper/0)   chipMinorFeatures      = 0xE1399FFF
+<4>[    1.669955] C0     1 (      swapper/0)   chipMinorFeatures1     = 0xBE13B219
+<4>[    1.669961] C0     1 (      swapper/0)   chipMinorFeatures2     = 0xCE190000
+<4>[    1.669966] C0     1 (      swapper/0)   chipMinorFeatures3     = 0x08000001
+<4>[    1.669971] C0     1 (      swapper/0)   chipMinorFeatures4     = 0x20020102
+<4>[    1.669977] C0     1 (      swapper/0)   chipMinorFeatures5     = 0x00020080
+<4>[    1.669984] C0     1 (      swapper/0)   gcChipSpecs            = 0x92108864
+<4>[    1.669989] C0     1 (      swapper/0)   gcChipSpecs2           = 0x01400000
+<4>[    1.669995] C0     1 (      swapper/0)   gcChipSpecs3           = 0x00000000
+<4>[    1.670002] C0     1 (      swapper/0)   streamCount            = 4
+<4>[    1.670007] C0     1 (      swapper/0)   registerMax            = 64
+<4>[    1.670012] C0     1 (      swapper/0)   threadCount            = 256
+<4>[    1.670017] C0     1 (      swapper/0)   shaderCoreCount        = 1
+<4>[    1.670022] C0     1 (      swapper/0)   vertexCacheSize        = 8
+<4>[    1.670027] C0     1 (      swapper/0)   vertexOutputBufferSize = 512
+<4>[    1.670032] C0     1 (      swapper/0)   pixelPipes             = 1
+<4>[    1.670038] C0     1 (      swapper/0)   instructionCount       = 256
+<4>[    1.670043] C0     1 (      swapper/0)   numConstants           = 320
+<4>[    1.670048] C0     1 (      swapper/0)   bufferSize             = 0
+<4>[    1.670053] C0     1 (      swapper/0)   varyingsCount          = 8
+<4>[    1.677204] C0     1 (      swapper/0) [galcore] gpufreq inited
+<6>[    1.725084] C0     1 (      swapper/0) usbcore: registered new interface driver snd-usb-audio
+<6>[    1.747043] C0     1 (      swapper/0) MAP: add widgets and routes
+<4>[    1.748344] C0     1 (      swapper/0) snd-soc-dummy snd-soc-dummy: ASoC: Failed to create platform debugfs directory
+<6>[    1.750881] C0     1 (      swapper/0) marvell-map-audio sound: map-i2s4-dai <-> d128dc00.sspa mapping ok
+<6>[    1.750984] C0     1 (      swapper/0) marvell-map-audio sound: map-i2s2-dai <-> mmp-dummy-dai-0 mapping ok
+<6>[    1.751082] C0     1 (      swapper/0) marvell-map-audio sound: map-i2s3-dai <-> mmp-dummy-dai-1 mapping ok
+<6>[    1.751143] C0     1 (      swapper/0) marvell-map-audio sound: snd-soc-dummy-dai <-> map-be-aux-dai mapping ok
+<6>[    1.751206] C0     1 (      swapper/0) marvell-map-audio sound: 88pm860-tdm-out1 <-> tdm-out1 mapping ok
+<6>[    1.751266] C0     1 (      swapper/0) marvell-map-audio sound: 88pm860-tdm-out2 <-> tdm-out2 mapping ok
+<6>[    1.751325] C0     1 (      swapper/0) marvell-map-audio sound: 88pm860-tdm-mic1 <-> tdm-codec-mic1 mapping ok
+<6>[    1.751385] C0     1 (      swapper/0) marvell-map-audio sound: 88pm860-tdm-mic2 <-> tdm-codec-mic2 mapping ok
+<6>[    1.752191] C0     1 (      swapper/0) input: map asoc Hook as /devices/platform/sound/sound/card0/input4
+<6>[    1.752384] C0     1 (      swapper/0) input_boost: touchboost_connect: connect to map asoc Hook
+<6>[    1.752563] C0     1 (      swapper/0) input: map asoc Headset as /devices/platform/sound/sound/card0/input3
+<6>[    1.754402] C0     1 (      swapper/0) u32 classifier
+<6>[    1.754410] C0     1 (      swapper/0)     Actions configured
+<6>[    1.754417] C0     1 (      swapper/0) Netfilter messages via NETLINK v0.30.
+<6>[    1.754463] C0     1 (      swapper/0) nf_conntrack version 0.5.0 (7214 buckets, 28856 max)
+<6>[    1.754782] C0     1 (      swapper/0) ctnetlink v0.93: registering with nfnetlink.
+<6>[    1.755822] C0     1 (      swapper/0) xt_time: kernel timezone is -0000
+<6>[    1.755984] C0     1 (      swapper/0) ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    1.756122] C0     1 (      swapper/0) arp_tables: (C) 2002 David S. Miller
+<6>[    1.756151] C0     1 (      swapper/0) TCP: cubic registered
+<6>[    1.756156] C0     1 (      swapper/0) Initializing XFRM netlink socket
+<6>[    1.757210] C0     1 (      swapper/0) NET: Registered protocol family 10
+<6>[    1.758326] C0     1 (      swapper/0) mip6: Mobile IPv6
+<6>[    1.758357] C0     1 (      swapper/0) ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    1.759083] C0     1 (      swapper/0) sit: IPv6 over IPv4 tunneling driver
+<6>[    1.760087] C0     1 (      swapper/0) ip6_gre: GRE over IPv6 tunneling driver
+<6>[    1.760582] C0     1 (      swapper/0) NET: Registered protocol family 17
+<6>[    1.760615] C0     1 (      swapper/0) NET: Registered protocol family 15
+<5>[    1.760661] C0     1 (      swapper/0) Key type dns_resolver registered
+<5>[    1.761326] C0     1 (      swapper/0) Registered cp15_barrier emulation handler
+<5>[    1.761504] C0     1 (      swapper/0) Registered setend emulation handler
+<3>[    1.765158] C0     1 (      swapper/0) TIMA: Total shared memory size for TIMA PKM = 0xfac000, _stext = 0x1000, _end = 0xfad000
+<3>[    1.766320] C0     1 (      swapper/0) TIMA: virt_addr_store, success
+<6>[    1.768697] C0     1 (      swapper/0) regulator-dummy: disabling
+<3>[    1.768974] C0    29 (   kworker/u8:1) sd8x-rfkill sd8x-rfkill: could not get off pinstate.
+<3>[    1.768992] C0    29 (   kworker/u8:1) sd8x-rfkill sd8x-rfkill: could not get on pinstate.
+<3>[    1.769038] C0    29 (   kworker/u8:1) sd8x-rfkill sd8x-rfkill: rst-gpio undefined
+<3>[    1.769054] C0    29 (   kworker/u8:1) sd8x-rfkill sd8x-rfkill: 3v3-ldo-gpio undefined
+<3>[    1.769071] C0    29 (   kworker/u8:1) sd8x-rfkill sd8x-rfkill: 1v8-ldo-gpio undefined
+<4>[    1.769835] C0    29 (   kworker/u8:1) sd8x-rfkill supply wib_sdio_1v8 not found, using dummy regulator
+<6>[    1.769865] C0    29 (   kworker/u8:1) sd8x_pwr_ctrl: on=0
+<6>[    1.769872] C0    29 (   kworker/u8:1) sd8x_pwr_ctrl : pd to low
+<3>[    1.770835] C0    29 (   kworker/u8:1) regulator-dummy: operation not allowed
+<6>[    1.771042] C0    29 (   kworker/u8:1) mv-ehci pxa-u2oehci: successful find EHCI device with regs 0xffffff80013cc140 irq 76 working in OTG mode
+<6>[    1.771204] C0    29 (   kworker/u8:1) 88pm88x 2-0030: pm88x_battery_probe Starting 
+<6>[    1.771237] C0    29 (   kworker/u8:1) 88pm88x 2-0030: pm88x_battery_probe : gpadc_det_no : 2
+<6>[    1.778304] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: ---> pm88x_init_soc_cycles: slp_volt = 3719mV
+<6>[    1.778313] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: ---> pm88x_init_soc_cycles: soc_from_vbat_slp = 16
+<6>[    1.778320] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: ---> pm88x_init_soc_cycles: active_volt = 3705mV
+<6>[    1.778328] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: ---> pm88x_init_soc_cycles: soc_from_vbat_active = 14
+<6>[    1.779660] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: ---> pm88x_init_soc_cycles: soc_from_saved = 29, realiable_from_saved = 0
+<6>[    1.779993] C0    29 (   kworker/u8:1) pm88x_init_soc_cycles: PM88X_GPADC_RTC_SPARE0: 0x0
+<6>[    1.780945] C0    29 (   kworker/u8:1) pm88x_init_soc_cycles: PM88X_GPADC_RTC_SPARE0 after set bit 1: 0x2
+<6>[    1.781279] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: system_may_reboot: powerdown1 = 0x10
+<6>[    1.781287] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: system_may_reboot: powerdown2 = 0x1
+<6>[    1.781294] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: system_may_reboot: powerup = 0x20
+<6>[    1.781301] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: ---> pm88x_init_soc_cycles: arrive here from reboot.
+<6>[    1.781309] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: <---- pm88x_init_soc_cycles: initial soc = 29
+<6>[    1.782946] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x02
+<6>[    1.785662] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x02
+<6>[    1.819069] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x02
+<6>[    1.821057] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x02
+<3>[    1.821065] C0    29 (   kworker/u8:1) pm88x_battery_get_battery_status: Fail to get psy (battery)
+<6>[    1.821768] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3666, ibat: 0, soc: 29%, charger status: 2, temp: 320, batt health: 1, last_cc: 2714400, slp_cnt: 0
+<6>[    1.823527] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x02
+<6>[    1.914906] C0    29 (   kworker/u8:1) power_supply sec-fuelgauge: power_supply_changed
+<6>[    1.918289] C0  1573 (    kworker/0:2) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x02
+<6>[    1.925999] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_battery_probe is successful to be probed.
+<6>[    1.926215] C0    29 (   kworker/u8:1) sec-thermistor sec-thermistor: sec_therm_probe: SEC Thermistor Driver Loading #1
+<7>[    1.926363] C0     1 (      swapper/0) usb: init
+<7>[    1.926784] C0     1 (      swapper/0) usb: android_bind disconnect
+<6>[    1.928614] C1     1 (      swapper/0) file system registered
+<7>[    1.929381] C1     1 (      swapper/0) [mtp_setup] 	line = [1686]
+<7>[    1.929889] C1     1 (      swapper/0) usb: usb_string_id cdev(0xffffffc03ae08000)->next_string_id=1
+<6>[    1.929975] C1     1 (      swapper/0) android_usb gadget: Mass Storage Function, version: 2009/09/11
+<6>[    1.929981] C1     1 (      swapper/0) android_usb gadget: Number of LUNs=1
+<6>[    1.929988] C1     1 (      swapper/0)  lun0: LUN: removable file: (no medium)
+<7>[    1.930698] C1     1 (      swapper/0) usb: usb_string_id cdev(0xffffffc03ae08000)->next_string_id=2
+<7>[    1.930706] C1     1 (      swapper/0) usb: usb_string_id cdev(0xffffffc03ae08000)->next_string_id=3
+<7>[    1.930714] C1     1 (      swapper/0) usb: usb_string_id cdev(0xffffffc03ae08000)->next_string_id=4
+<6>[    1.930721] C1     1 (      swapper/0) android_usb gadget: android_usb ready
+<6>[    1.930797] C1     1 (      swapper/0) usb_notifier: usb_notifier_init
+<6>[    1.931017] C1     1 (      swapper/0) usb_notifier: usb_notifier_probe +
+<6>[    1.931024] C1     1 (      swapper/0) usb_notifier: usb: of_get_usb_redriver_dt, gpios_redriver_en count -2
+<6>[    1.931029] C1     1 (      swapper/0) usb_notify: set_otg_notify ++++
+<6>[    1.931034] C1     1 (      swapper/0) usb_notify: registered otg_notify +
+<6>[    1.931158] C1     1 (      swapper/0) usb_notify: registered otg_notify -
+<6>[    1.931163] C1     1 (      swapper/0) usb_notify: set_notify_data +++
+<6>[    1.931168] C1     1 (      swapper/0) usb_notify: set_notify_data ---
+<6>[    1.931177] C1     1 (      swapper/0) usb_notifier: usb_notifier_probe done
+<6>[    1.931674] C1     1 (      swapper/0) gpio 50 is requested as edge wakeup source
+<6>[    1.932001] C1     1 (      swapper/0) input: gpio_keys.17 as /devices/platform/gpio_keys.17/input/input5
+<6>[    1.932016] C1     1 (      swapper/0) [KEY] gpio_key Release
+<6>[    1.932023] C1     1 (      swapper/0) [KEY] gpio_key Release
+<6>[    1.932028] C1     1 (      swapper/0) [KEY] gpio_key Release
+<6>[    1.932211] C1     1 (      swapper/0) input_boost: touchboost_connect: connect to gpio_keys.17
+<6>[    1.932649] C1     1 (      swapper/0) input_booster input_booster.18: device_type:0, label :TOUCH, type: 0x00, num_level[3]
+<6>[    1.932657] C1     1 (      swapper/0) input_booster input_booster.18: Level 0 : frequency[0]
+<6>[    1.932664] C1     1 (      swapper/0) input_booster input_booster.18: Level 0 : chg_frequency[0]
+<6>[    1.932671] C1     1 (      swapper/0) input_booster input_booster.18: Level 0 : times[0,0,0]
+<6>[    1.932678] C1     1 (      swapper/0) input_booster input_booster.18: Level 1 : frequency[832000]
+<6>[    1.932685] C1     1 (      swapper/0) input_booster input_booster.18: Level 1 : chg_frequency[0]
+<6>[    1.932692] C1     1 (      swapper/0) input_booster input_booster.18: Level 1 : times[200,0,0]
+<6>[    1.932699] C1     1 (      swapper/0) input_booster input_booster.18: Level 2 : frequency[832000]
+<6>[    1.932706] C1     1 (      swapper/0) input_booster input_booster.18: Level 2 : chg_frequency[624000]
+<6>[    1.932714] C1     1 (      swapper/0) input_booster input_booster.18: Level 2 : times[200,300,0]
+<6>[    1.932721] C1     1 (      swapper/0) input_booster input_booster.18: Level 3 : frequency[624000]
+<6>[    1.932728] C1     1 (      swapper/0) input_booster input_booster.18: Level 3 : chg_frequency[0]
+<6>[    1.932735] C1     1 (      swapper/0) input_booster input_booster.18: Level 3 : times[200,0,0]
+<6>[    1.932743] C1     1 (      swapper/0) input_booster input_booster.18: input_booster_probe: data->devices[0] : desc=TOUCH, type=0x00
+<6>[    1.932950] C1     1 (      swapper/0) input_booster input_booster.18: input_booster_init_dvfs: TOUCH is registered and intialized for touch dvfs
+<6>[    1.932958] C1     1 (      swapper/0) input_booster input_booster.18: #############################################################
+<6>[    1.932967] C1     1 (      swapper/0) input_booster input_booster.18: input_booster_lookup_freqs: touch's LEVEL1 cpu 832000
+<6>[    1.932974] C1     1 (      swapper/0) input_booster input_booster.18: input_booster_lookup_freqs: touch's LEVEL2 cpu 832000
+<6>[    1.932982] C1     1 (      swapper/0) input_booster input_booster.18: input_booster_lookup_freqs: touch's LEVEL3 cpu 624000
+<6>[    1.932988] C1     1 (      swapper/0) input_booster input_booster.18: #############################################################
+<6>[    1.932995] C1     1 (      swapper/0) input_booster input_booster.18: #############################################################
+<6>[    1.933003] C1     1 (      swapper/0) input_booster input_booster.18: input_booster_lookup_chg_freqs: touch's LEVEL2 chg_cpu 624000
+<6>[    1.933010] C1     1 (      swapper/0) input_booster input_booster.18: #############################################################
+<6>[    1.933016] C1     1 (      swapper/0) input_booster input_booster.18: #############################################################
+<6>[    1.933025] C1     1 (      swapper/0) input_booster input_booster.18: input_booster_lookup_times: touch's LEVEL1 head 200 tail 0 phase 0
+<6>[    1.933033] C1     1 (      swapper/0) input_booster input_booster.18: input_booster_lookup_times: touch's LEVEL2 head 200 tail 300 phase 0
+<6>[    1.933041] C1     1 (      swapper/0) input_booster input_booster.18: input_booster_lookup_times: touch's LEVEL3 head 200 tail 0 phase 0
+<6>[    1.933048] C1     1 (      swapper/0) input_booster input_booster.18: #############################################################
+<6>[    1.933191] C1     1 (      swapper/0) timekeeping: old time 1s 15596640069784106ns, new time 1487965202s 8388608000000000ns
+<6>[    1.933331] C1     1 (      swapper/0) sa1100-rtc d4010000.rtc: setting system clock to 2017-02-24 19:40:02 UTC (1487965202)
+<6>[    1.933338] C1     1 (      swapper/0) [secgpio_dvs][pxa_check_mfp_configuration] state : init
+<6>[    1.933627] C1     1 (      swapper/0) [secgpio_dvs][pxa_check_mfp_configuration]-
+<6>[    1.933797] C1     1 (      swapper/0) sec-battery sec-battery.27: sec_battery_probe: SEC Battery Driver Loading
+<6>[    1.933819] C1     1 (      swapper/0) sec_bat_parse_dt: Wirelss charger name is Empty
+<6>[    1.933844] C1     1 (      swapper/0) sec_bat_parse_dt : chg_temp_check is Empty
+<6>[    1.933854] C1     1 (      swapper/0) sec_bat_parse_dt : inbat_voltage is Empty
+<6>[    1.933930] C1     1 (      swapper/0) sec_bat_parse_dt : Temp adc type is Empty
+<6>[    1.933997] C1     1 (      swapper/0) sec_bat_parse_dt : HIGHLIMIT_THRESHOLD_EVENT(800), HIGHLIMIT_RECOVERY_EVENT(750)
+<6>[    1.933997] HIGH_THRESHOLD_EVENT(600), HIGH_RECOVERY_EVENT(460) LOW_THRESHOLD_EVENT(-50), LOW_RECOVERY_EVENT(0)
+<6>[    1.933997] HIGHLIMIT_THRESHOLD_NOLMAL(800), HIGHLIMIT_RECOVERY_NORMAL(750)
+<6>[    1.933997] HIGH_THRESHOLD_NORMAL(600), HIGH_RECOVERY_NORMAL(460) LOW_THRESHOLD_NORMAL(-50), LOW_RECOVERY_NORMAL(0)
+<6>[    1.933997] HIGHLIMIT_THRESHOLD_LPM(800), HIGHLIMIT_RECOVERY_LPM(750)
+<6>[    1.933997] HIGH_THRESHOLD_LPM(600), HIGH_RECOVERY_LPM(460) LOW_THRESHOLD_LPM(-50), LOW_RECOVERY_LPM(0)
+<6>[    1.934334] C1     1 (      swapper/0) power_supply ps: power_supply_changed
+<6>[    1.934611] C1     1 (      swapper/0) power_supply wireless: power_supply_changed
+<6>[    1.934831] C1     1 (      swapper/0) power_supply usb: power_supply_changed
+<6>[    1.935049] C1     1 (      swapper/0) power_supply ac: power_supply_changed
+<6>[    1.935700] C1     1 (      swapper/0) power_supply battery: power_supply_changed
+<6>[    1.935863] C1     1 (      swapper/0) cable_initial_check : current_cable_type : (1)
+<6>[    1.935883] C1     1 (      swapper/0) sec-battery sec-battery.27: sec_battery_probe: SEC Battery Driver Monitorwork
+<6>[    1.935894] C1     1 (      swapper/0) sec-battery sec-battery.27: sec_battery_probe: SEC Battery Driver Loaded
+<6>[    1.936345] C1     1 (      swapper/0)  alarm_dev_init, rtc power up : 536940544, alarm time: 1476800988
+<6>[    1.940313] C1     1 (      swapper/0) Default cp active: 2, lpm: 0
+<6>[    1.940323] C1     1 (      swapper/0) Default dp active: 2, lpm: 0
+<6>[    1.940489] C1     1 (      swapper/0) sm5504 4-0014: sm5504_init_detect
+<7>[    1.940747] C1     1 (      swapper/0) sm5504 4-0014: I2C Write REG[0x3A] DATA[0x01]
+<7>[    1.941070] C1     1 (      swapper/0) sm5504 4-0014: I2C Read REG[0x03] DATA[0x00]
+<7>[    1.941390] C1     1 (      swapper/0) sm5504 4-0014: I2C Read REG[0x04] DATA[0x02]
+<7>[    1.941709] C1     1 (      swapper/0) sm5504 4-0014: I2C Read REG[0x0A] DATA[0x00]
+<7>[    1.942028] C1     1 (      swapper/0) sm5504 4-0014: I2C Read REG[0x0B] DATA[0x00]
+<7>[    1.942347] C1     1 (      swapper/0) sm5504 4-0014: I2C Read REG[0x07] DATA[0x1F]
+<7>[    1.942666] C1     1 (      swapper/0) sm5504 4-0014: I2C Read REG[0x24] DATA[0x00]
+<6>[    1.942674] C1     1 (      swapper/0) sm5504 4-0014: [muic]sm5504_detect_cable cable : (null)
+<4>[    1.942681] C1     1 (      swapper/0) sm5504 4-0014: couldn't find any cables
+<6>[    1.942687] C1     1 (      swapper/0) sm5504 4-0014: VBUS Disappeared
+<6>[    1.942694] C1     1 (      swapper/0) usb_notifier: sec_vbus_notifier vbus is off
+<6>[    1.942701] C1     1 (      swapper/0) usb_notify: send_otg_notify event=vbus_power(15) enable=0
+<6>[    1.942707] C1     1 (      swapper/0) usb_notify: extra_notifier_callback event=vbus_power(15)
+<6>[    1.942713] C1     1 (      swapper/0) usb_notify: extra_notify_state+ event=vbus_power(15), enable=off
+<6>[    1.942719] C1     1 (      swapper/0) usb_notify: extra_notify_state- event=vbus_power(15), cable=none
+<6>[    1.942730] C1     1 (      swapper/0) sec-battery sec-battery.27: batt_process_cable_type: current_cable(1), wc_status(0), wire_status(1)
+<6>[    1.942737] C1     1 (      swapper/0) sec-battery sec-battery.27: batt_process_cable_type: Cable is Not Changed(1)
+<6>[    1.942743] C1     1 (      swapper/0) vbus_handle_notification: CMD=VBUS DETACH, attached_dev=2
+<6>[    1.942751] C1     1 (      swapper/0) ALSA device list:
+<6>[    1.942756] C1     1 (      swapper/0)   #0: map asoc
+<6>[    1.943344] C1     1 (      swapper/0) Freeing unused kernel memory: 632K (ffffffc000c45000 - ffffffc000ce3000)
+<4>[    1.944561] C2     1 (           init) !@Boot: start init process
+<7>[    1.950851] C2     1 (           init) SELinux: 2048 avtab hash slots, 18906 rules.
+<6>[    1.953931] C0   604 (    kworker/0:1) pm886_headset_handler: KSND Headset Interrupt!! 
+<6>[    1.958436] C0   604 (    kworker/0:1) pm886_headset_work: NONE State [0 mV] 
+<7>[    1.958902] C2     1 (           init) SELinux: 2048 avtab hash slots, 18906 rules.
+<7>[    1.958945] C2     1 (           init) SELinux:  1 users, 2 roles, 1537 types, 0 bools, 1 sens, 1024 cats
+<7>[    1.958955] C2     1 (           init) SELinux:  86 classes, 18906 rules
+<7>[    1.961959] C2     1 (           init) SELinux:  Completing initialization.
+<7>[    1.961967] C2     1 (           init) SELinux:  Setting up existing superblocks.
+<7>[    1.961989] C2     1 (           init) SELinux: initialized (dev rootfs, type rootfs), uses genfs_contexts
+<7>[    1.962052] C2     1 (           init) SELinux: initialized (dev bdev, type bdev), not configured for labeling
+<7>[    1.962068] C2     1 (           init) SELinux: initialized (dev proc, type proc), uses genfs_contexts
+<7>[    1.962091] C2     1 (           init) SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    1.962111] C2     1 (           init) SELinux: initialized (dev devtmpfs, type devtmpfs), uses transition SIDs
+<7>[    1.962911] C2     1 (           init) SELinux: initialized (dev debugfs, type debugfs), uses genfs_contexts
+<7>[    1.967882] C2     1 (           init) SELinux: initialized (dev sockfs, type sockfs), uses task SIDs
+<7>[    1.967899] C2     1 (           init) SELinux: initialized (dev pipefs, type pipefs), uses task SIDs
+<7>[    1.967913] C2     1 (           init) SELinux: initialized (dev anon_inodefs, type anon_inodefs), uses genfs_contexts
+<7>[    1.967922] C2     1 (           init) SELinux: initialized (dev aio, type aio), not configured for labeling
+<7>[    1.967934] C2     1 (           init) SELinux: initialized (dev devpts, type devpts), uses transition SIDs
+<7>[    1.967954] C2     1 (           init) SELinux: initialized (dev mqueue, type mqueue), uses transition SIDs
+<7>[    1.967971] C2     1 (           init) SELinux: initialized (dev selinuxfs, type selinuxfs), uses genfs_contexts
+<7>[    1.968029] C2     1 (           init) SELinux: initialized (dev configfs, type configfs), not configured for labeling
+<7>[    1.968038] C2     1 (           init) SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    1.968073] C2     1 (           init) SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+<6>[    1.986876] C0     6 (   kworker/u8:0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x02
+<6>[    2.017996] C0     6 (   kworker/u8:0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x02
+<6>[    2.076696] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3644mV),Inow(0mA),Imax(0mA),SOC(29%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[    2.080716] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[    2.080728] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[    2.080737] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[    2.081176] C0     6 (   kworker/u8:0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x02
+<6>[    2.081872] C0     6 (   kworker/u8:0) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3655, ibat: 0, soc: 29%, charger status: 2, temp: 320, batt health: 1, last_cc: 2714400, slp_cnt: 0
+<6>[    2.081881] C0     6 (   kworker/u8:0) power_supply sec-fuelgauge: power_supply_changed
+<6>[    2.081894] C0     6 (   kworker/u8:0) 88pm88x-battery 88pm88x-battery: cap=29, temp=32, volt=3655, ocv_is_realiable=0
+<6>[    2.084209] C0     4 (    kworker/0:0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x02
+<4>[    2.098733] C2     1 (           init) SELinux: Loaded policy from /sepolicy
+<6>[    2.333640] C0     6 (   kworker/u8:0) mv-otg mv-otg: mv_otg_update_inputs: 
+<6>[    2.333653] C0     6 (   kworker/u8:0) mv-otg mv-otg: id 1
+<6>[    2.333660] C0     6 (   kworker/u8:0) mv-otg mv-otg: b_sess_vld 0
+<6>[    2.333666] C0     6 (   kworker/u8:0) mv-otg mv-otg: b_sess_end 1
+<6>[    2.333673] C0     6 (   kworker/u8:0) mv-otg mv-otg: a_vbus_vld 0
+<6>[    2.333679] C0     6 (   kworker/u8:0) mv-otg mv-otg: a_sess_vld 0
+<6>[    2.333686] C0     6 (   kworker/u8:0) mv-otg mv-otg: change from state undefined to b_idle
+<6>[    2.344361] C0     6 (   kworker/u8:0) 88pm886 pm88x_usb_sw_setting: USB_SW manual open
+<3>[    2.517601] C2     1 (           init) init: could not import file '/init.recovery.pxa1908.rc' from '/init.rc'
+<6>[    2.521194] C2  1680 (        healthd) healthd: Healthd mode is android
+<6>[    2.521240] C2  1680 (        healthd) healthd: Healthd mode is recovery
+<3>[    2.522287] C1  1679 (        ueventd) init: invalid mode 'system'
+<3>[    2.522315] C1  1679 (        ueventd) init: invalid line ueventd.rc line for 'chmod'
+<3>[    2.523119] C2  1680 (        healthd) healthd: Could not open '/efs/Battery/batt_capacity_max'
+<3>[    2.523149] C2  1680 (        healthd) healthd: initial Capacity max: '0'
+<4>[    2.523270] C2  1680 (        healthd) healthd: batteryPogoOnlnePath not found
+<3>[    2.523292] C2  1680 (        healthd) healthd: Could not open /efs/FactoryApp/batt_cable_counthealthd: battery l=29 v=3644 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[    3.061062] C2  1680 (        healthd) healthd: battery l=29 v=3644 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[    3.061997] C2  1680 (        healthd) healthd: battery l=29 v=3644 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[    3.063027] C2  1680 (        healthd) healthd: battery l=29 v=3644 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[    3.064079] C2  1680 (        healthd) healthd: battery l=29 v=3644 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[    3.065027] C2  1680 (        healthd) healthd: battery l=29 v=3644 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[    3.084632] C0  1679 (        ueventd) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[    3.146790] C2  1680 (        healthd) healthd: battery l=29 v=3644 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[    3.151743] C0  1679 (        ueventd) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[    3.152097] C0  1679 (        ueventd) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_health : PM88X_CHG_STATUS2 : 0x01
+<6>[    3.152105] C0  1679 (        ueventd) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_health : Charger Health OVP 
+<6>[    3.153957] C2  1680 (        healthd) healthd: battery l=29 v=3644 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<3>[    3.391336] C2     1 (           init) init: /dev/hw_random not found
+<7>[    3.393502] C2     1 (           init) SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    3.394207] C2     1 (           init) usb: enable_store enabled=0, !dev->enabled=1
+<3>[    3.394217] C2     1 (           init) android_usb: already disabled
+<7>[    3.394340] C2     1 (           init) usb: functions_store buff=adb
+<7>[    3.394348] C2     1 (           init) usb: android_enable_function name=adb
+<3>[    3.395555] C2     1 (           init) init: /dev/hw_random not found
+<3>[    3.396661] C2     1 (           init) init: Unable to open persistent property directory /data/property errno: 2
+<6>[    3.406136] C0  2424 (       recovery) EXT4-fs (mmcblk0p17): mounted filesystem with ordered data mode. Opts: errors=continue
+<7>[    3.406166] C0  2424 (       recovery) SELinux: initialized (dev mmcblk0p17, type ext4), uses xattr
+<6>[    3.412885] C0  2424 (       recovery) EXT4-fs (mmcblk0p16): mounted filesystem with ordered data mode. Opts: errors=continue
+<7>[    3.412908] C0  2424 (       recovery) SELinux: initialized (dev mmcblk0p16, type ext4), uses xattr
+<6>[    3.511450] C0  2424 (       recovery) EXT4-fs (mmcblk0p17): mounted filesystem with ordered data mode. Opts: errors=continue
+<7>[    3.511473] C0  2424 (       recovery) SELinux: initialized (dev mmcblk0p17, type ext4), uses xattr
+<6>[    3.556767] C1  2424 (       recovery) graphics fb0: mmpfb open: op_count = 1
+<6>[    3.560286] C1  2424 (       recovery) ktd3102_backlight_set_brightness: brightness(0), tune_level(0)
+<6>[    3.563295] C1  2424 (       recovery) kinetic,backlight-ktd3102 ktd3102-bl.24: ktd3102_backlight suspended
+<6>[    3.704452] C0  2424 (       recovery) called gen_panel_set_status with status 0
+<6>[    3.709606] C0  2424 (       recovery) mmp_dsi d420b800.dsi: dsi_set_on status 0
+<6>[    3.709768] C0  2424 (       recovery) ktd3102_backlight_set_brightness: brightness(0), tune_level(0)
+<6>[    3.724158] C0  2424 (       recovery) called gen_panel_set_status with status 1
+<6>[    4.063896] C0  2424 (       recovery) ktd3102_backlight_set_brightness: brightness(0), tune_level(0)
+<6>[    4.063902] C0  2424 (       recovery) kinetic,backlight-ktd3102 ktd3102-bl.24: ktd3102_backlight resumed.
+<6>[    4.063908] C0  2424 (       recovery) mmp_dsi d420b800.dsi: dsi_set_on status 1
+<6>[    4.063913] C0  2424 (       recovery) ktd3102_backlight_set_brightness: brightness(144), tune_level(17)
+<6>[    4.064019] C0  2424 (       recovery) ktd3102_set_bl_level: pre lev=0, cur lev=17, pulse=15
+<6>[    4.466281] C0  2424 (       recovery) EXT4-fs (mmcblk0p6): mounted filesystem with ordered data mode. Opts: errors=continue
+<7>[    4.466304] C0  2424 (       recovery) SELinux: initialized (dev mmcblk0p6, type ext4), uses xattr
+<4>[   10.545084] C2  1206 (         krtccd) reclaimed 1 (swapped 0) pages.
+<6>[   11.953769] C1  1660 (    kworker/1:2) usb_notify: reserve_state_check booting delay finished
+<6>[   16.953801] C1  1660 (    kworker/1:2) [secgpio_dvs][pxa_check_mfp_configuration] state : init
+<6>[   16.954046] C1  1660 (    kworker/1:2) [secgpio_dvs][pxa_check_mfp_configuration]-
+<4>[   20.543712] C2  1206 (         krtccd) reclaimed 1 (swapped 0) pages.
+<6>[   24.885496] C2  2439 (  update_binary) EXT4-fs (mmcblk0p16): mounted filesystem with ordered data mode. Opts: 
+<7>[   24.885520] C2  2439 (  update_binary) SELinux: initialized (dev mmcblk0p16, type ext4), uses xattr
+<6>[   24.890205] C2  2439 (  update_binary) EXT4-fs (mmcblk0p18): mounted filesystem with ordered data mode. Opts: 
+<7>[   24.890225] C2  2439 (  update_binary) SELinux: initialized (dev mmcblk0p18, type ext4), uses xattr
+<4>[   30.571982] C2  1206 (         krtccd) reclaimed 1 (swapped 0) pages.
+<6>[   32.143675] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3656mV),Inow(-344mA),Imax(0mA),SOC(29%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[   32.146075] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[   32.146093] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[   32.146102] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[   32.147483] C2  1680 (        healthd) healthd: battery l=29 v=3656 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[   32.176076] C0     6 (   kworker/u8:0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[   32.207447] C0     6 (   kworker/u8:0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[   32.209503] C0     6 (   kworker/u8:0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[   32.210215] C0     6 (   kworker/u8:0) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3652, ibat: -344, soc: 29%, charger status: 2, temp: 320, batt health: 1, last_cc: 2705967, slp_cnt: 0
+<4>[   40.722371] C2  1206 (         krtccd) reclaimed 1 (swapped 0) pages.
+<4>[   50.837089] C2  1206 (         krtccd) reclaimed 1 (swapped 0) pages.
+<4>[   60.867259] C2  1206 (         krtccd) reclaimed 1 (swapped 0) pages.
+<4>[   60.867269] C2  1206 (         krtccd) time out, swapped 0MB, exit boost mode.
+<5>[   62.034252] C0     6 (   kworker/u8:0) CPU1: shutdown
+<6>[   62.203960] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3656mV),Inow(-334mA),Imax(0mA),SOC(29%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[   62.206272] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[   62.206284] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[   62.206293] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[   62.207691] C2  1680 (        healthd) healthd: battery l=29 v=3656 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[   62.236006] C0     6 (   kworker/u8:0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[   62.267258] C0     6 (   kworker/u8:0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[   62.269241] C0     6 (   kworker/u8:0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[   62.269937] C0     6 (   kworker/u8:0) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3664, ibat: -334, soc: 29%, charger status: 2, temp: 320, batt health: 1, last_cc: 2695604, slp_cnt: 0
+<4>[   64.134323] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[   64.134545] C0     6 (   kworker/u8:0) CPU3: shutdown
+<4>[   70.881447] C2  1206 (         krtccd) reclaimed 1 (swapped 0) pages.
+<6>[   92.263997] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3638mV),Inow(-337mA),Imax(0mA),SOC(29%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[   92.266387] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[   92.266402] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[   92.266411] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[   92.267963] C2  1680 (        healthd) healthd: battery l=29 v=3638 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[   92.315976] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[   92.347285] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[   92.349267] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[   92.349962] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3660, ibat: -337, soc: 29%, charger status: 2, temp: 320, batt health: 1, last_cc: 2685225, slp_cnt: 0
+<4>[  102.744145] C2    18 (    migration/2) IRQ96 no longer affine to CPU2
+<5>[  102.744370] C0    29 (   kworker/u8:1) CPU2: shutdown
+<4>[  103.244895] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<4>[  109.803900] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  109.804119] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  110.304941] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<4>[  118.873938] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  118.874173] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  119.374913] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<6>[  122.323986] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3658mV),Inow(-337mA),Imax(0mA),SOC(29%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[  122.326307] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[  122.326320] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[  122.326329] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[  122.327524] C0  1680 (        healthd) healthd: battery l=29 v=3658 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[  122.396186] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  122.430600] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  122.432602] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  122.433306] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3658, ibat: -337, soc: 29%, charger status: 2, temp: 320, batt health: 1, last_cc: 2675264, slp_cnt: 0
+<4>[  130.923912] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  130.924145] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  131.424889] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<5>[  142.504019] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  144.005063] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<6>[  152.385745] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3652mV),Inow(-336mA),Imax(0mA),SOC(29%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[  152.388490] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[  152.388503] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[  152.388512] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[  152.389686] C0  1680 (        healthd) healthd: battery l=29 v=3652 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[  152.476940] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  152.508624] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  152.510615] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  152.511314] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3651, ibat: -336, soc: 28%, charger status: 2, temp: 320, batt health: 1, last_cc: 2665173, slp_cnt: 0
+<6>[  152.511324] C0    29 (   kworker/u8:1) power_supply sec-fuelgauge: power_supply_changed
+<6>[  152.511339] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: cap=28, temp=32, volt=3651, ocv_is_realiable=0
+<6>[  152.513705] C0     4 (    kworker/0:0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  152.577968] C0  1680 (        healthd) healthd: battery l=29 v=3652 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<5>[  157.594310] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  161.594894] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<4>[  179.673936] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  179.674164] C0    29 (   kworker/u8:1) CPU3: shutdown
+<6>[  182.443944] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3658mV),Inow(-324mA),Imax(0mA),SOC(28%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[  182.446252] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[  182.446264] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[  182.446272] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[  182.449549] C0  1680 (        healthd) healthd: battery l=28 v=3658 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[  182.556013] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  182.587381] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  182.589458] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  182.590252] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3653, ibat: -324, soc: 28%, charger status: 2, temp: 320, batt health: 1, last_cc: 2655458, slp_cnt: 0
+<4>[  183.674898] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<5>[  186.264213] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  190.765125] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<6>[  212.504480] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3660mV),Inow(-339mA),Imax(0mA),SOC(28%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[  212.507116] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[  212.507129] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[  212.507138] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[  212.508307] C0  1680 (        healthd) healthd: battery l=28 v=3660 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[  212.656610] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  212.691177] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  212.693167] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  212.693868] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3655, ibat: -339, soc: 28%, charger status: 2, temp: 320, batt health: 1, last_cc: 2645634, slp_cnt: 0
+<6>[  215.375367] C0  1069 (irq/154-bt541_t) bt541_ts 3-0020: Finger down
+<6>[  215.375382] C0  1069 (irq/154-bt541_t) bt541_ts 3-0020: Finger up
+<6>[  215.387758] C0  1069 (irq/154-bt541_t) bt541_ts 3-0020: Finger up
+<6>[  215.446262] C0  1069 (irq/154-bt541_t) bt541_ts 3-0020: Finger down
+<6>[  215.656461] C0  1069 (irq/154-bt541_t) bt541_ts 3-0020: Finger up
+<6>[  215.663574] C0     4 (    kworker/0:0) [KEY] gpio_key Press
+<6>[  215.770769] C0  1069 (irq/154-bt541_t) bt541_ts 3-0020: Finger down
+<6>[  215.782997] C0  1069 (irq/154-bt541_t) bt541_ts 3-0020: Finger up
+<6>[  215.827247] C0  1069 (irq/154-bt541_t) bt541_ts 3-0020: Finger down
+<6>[  215.839435] C0  1069 (irq/154-bt541_t) bt541_ts 3-0020: Finger up
+<6>[  215.853607] C0     4 (    kworker/0:0) [KEY] gpio_key Release
+<4>[  217.843805] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  217.844019] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  218.345097] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<4>[  224.423947] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  224.424174] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  225.925069] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<4>[  232.014430] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  232.014659] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  232.515107] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<6>[  242.566934] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3658mV),Inow(-352mA),Imax(0mA),SOC(28%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[  242.569273] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[  242.569285] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[  242.569294] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[  242.570459] C0  1680 (        healthd) healthd: battery l=28 v=3658 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[  242.737137] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  242.771559] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  242.773585] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  242.774285] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3655, ibat: -352, soc: 28%, charger status: 2, temp: 320, batt health: 1, last_cc: 2635747, slp_cnt: 0
+<4>[  243.604168] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  243.604390] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  244.605280] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<4>[  247.684367] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  247.684582] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  248.184920] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<5>[  255.764162] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  258.264973] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<6>[  272.624600] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3669mV),Inow(-330mA),Imax(0mA),SOC(28%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[  272.628312] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[  272.628325] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[  272.628333] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[  272.629511] C0  1680 (        healthd) healthd: battery l=28 v=3669 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[  272.805974] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  272.840975] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  272.842975] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  272.843679] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3649, ibat: -292, soc: 28%, charger status: 2, temp: 320, batt health: 1, last_cc: 2625558, slp_cnt: 0
+<4>[  273.354374] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  273.354591] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  273.854985] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<4>[  292.933961] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  292.934180] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  293.434949] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<6>[  302.684599] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3647mV),Inow(-343mA),Imax(0mA),SOC(28%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[  302.688462] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[  302.688476] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[  302.688485] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[  302.689698] C0  1680 (        healthd) healthd: battery l=28 v=3647 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[  302.877737] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  302.912566] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  302.914565] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  302.915266] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3648, ibat: -340, soc: 28%, charger status: 2, temp: 320, batt health: 1, last_cc: 2615642, slp_cnt: 0
+<5>[  314.024091] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  315.024892] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<4>[  319.083896] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  319.084110] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  319.584940] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<6>[  332.746529] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3649mV),Inow(-339mA),Imax(0mA),SOC(28%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[  332.749061] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[  332.749074] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[  332.749083] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[  332.750625] C0  1680 (        healthd) healthd: battery l=28 v=3649 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[  332.956075] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  332.987444] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  332.989526] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  332.990321] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3644, ibat: -291, soc: 28%, charger status: 2, temp: 320, batt health: 1, last_cc: 2605681, slp_cnt: 0
+<4>[  333.163906] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  333.164128] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  333.664896] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<5>[  346.743957] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  348.244896] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<6>[  362.807170] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3643mV),Inow(-357mA),Imax(0mA),SOC(28%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[  362.809903] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[  362.809917] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[  362.809925] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[  362.811132] C0  1680 (        healthd) healthd: battery l=28 v=3643 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[  363.036756] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  363.069021] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  363.071027] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  363.071731] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3641, ibat: -357, soc: 28%, charger status: 2, temp: 320, batt health: 1, last_cc: 2595464, slp_cnt: 0
+<5>[  366.324310] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  368.324908] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<4>[  383.403920] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  383.404216] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  383.904899] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<5>[  391.484276] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  392.484885] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<6>[  392.864564] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3648mV),Inow(-340mA),Imax(0mA),SOC(28%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[  392.866880] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[  392.866893] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[  392.866902] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[  392.868103] C0  1680 (        healthd) healthd: battery l=28 v=3648 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[  393.115993] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  393.147335] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  393.149330] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  393.150029] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3656, ibat: -340, soc: 28%, charger status: 2, temp: 320, batt health: 1, last_cc: 2585525, slp_cnt: 0
+<4>[  398.063914] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  398.064137] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  399.064902] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<5>[  412.644240] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  414.644908] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<6>[  422.932183] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3644mV),Inow(-357mA),Imax(0mA),SOC(28%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[  422.935324] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[  422.935336] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[  422.935345] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[  422.936526] C0  1680 (        healthd) healthd: battery l=28 v=3644 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[  423.217588] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  423.253315] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  423.255310] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  423.256009] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3647, ibat: -357, soc: 28%, charger status: 2, temp: 320, batt health: 1, last_cc: 2575394, slp_cnt: 0
+<4>[  427.733861] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  427.734080] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  431.234923] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<5>[  442.814303] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  443.814899] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<5>[  452.394070] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  452.895160] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<6>[  452.993988] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3647mV),Inow(-310mA),Imax(0mA),SOC(28%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[  452.996302] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[  452.996315] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[  452.996323] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[  452.999138] C0  1680 (        healthd) healthd: battery l=28 v=3647 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[  453.275985] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  453.307261] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  453.309250] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  453.309947] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3656, ibat: -310, soc: 27%, charger status: 2, temp: 320, batt health: 1, last_cc: 2565315, slp_cnt: 0
+<6>[  453.309957] C0    29 (   kworker/u8:1) power_supply sec-fuelgauge: power_supply_changed
+<6>[  453.309973] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: cap=27, temp=32, volt=3656, ocv_is_realiable=0
+<6>[  453.313852] C0     4 (    kworker/0:0) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  453.375527] C0  1680 (        healthd) healthd: battery l=28 v=3647 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<4>[  461.453920] C3    23 (    migration/3) IRQ96 no longer affine to CPU3
+<5>[  461.454145] C0    29 (   kworker/u8:1) CPU3: shutdown
+<4>[  476.454919] C3     0 (      swapper/3) CPU3: Booted secondary processor
+<6>[  477.806537] C0  2424 (       recovery) EXT4-fs (mmcblk0p16): mounted filesystem with ordered data mode. Opts: errors=continue
+<7>[  477.806562] C0  2424 (       recovery) SELinux: initialized (dev mmcblk0p16, type ext4), uses xattr
+<6>[  477.811486] C0  2424 (       recovery) EXT4-fs (mmcblk0p6): mounted filesystem with ordered data mode. Opts: errors=continue
+<7>[  477.811507] C0  2424 (       recovery) SELinux: initialized (dev mmcblk0p6, type ext4), uses xattr
+<6>[  477.955433] C0  2424 (       recovery) EXT4-fs (mmcblk0p16): mounted filesystem with ordered data mode. Opts: 
+<7>[  477.955457] C0  2424 (       recovery) SELinux: initialized (dev mmcblk0p16, type ext4), uses xattr
+<5>[  479.534094] C0    29 (   kworker/u8:1) CPU3: shutdown
+<6>[  483.054174] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_get_battery_info:Vnow(3655mV),Inow(-294mA),Imax(0mA),SOC(27%),Tbat(320),Tchg(0),is_hc_usb(0)
+<6>[  483.056503] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_battery_cable_check: Battery Connected
+<6>[  483.056516] C0     4 (    kworker/0:0) sec-battery sec-battery.27: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[  483.056525] C0     4 (    kworker/0:0) power_supply battery: power_supply_changed
+<6>[  483.057747] C0  1680 (        healthd) healthd: battery l=27 v=3655 t=32.0 h=2 st=3 c=0 o=1 ca=0 ct=0 ps=0 hv=0 chg=
+<6>[  483.140996] C0  2424 (       recovery) EXT4-fs (mmcblk0p17): mounted filesystem with ordered data mode. Opts: errors=continue
+<7>[  483.141019] C0  2424 (       recovery) SELinux: initialized (dev mmcblk0p17, type ext4), uses xattr
+<6>[  483.253166] C0  2424 (       recovery) EXT4-fs (mmcblk0p19): 6 orphan inodes deleted
+<6>[  483.253177] C0  2424 (       recovery) EXT4-fs (mmcblk0p19): recovery complete
+<6>[  483.279453] C0  2424 (       recovery) EXT4-fs (mmcblk0p19): mounted filesystem with ordered data mode. Opts: errors=continue
+<7>[  483.279485] C0  2424 (       recovery) SELinux: initialized (dev mmcblk0p19, type ext4), uses xattr
+<6>[  483.356017] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  483.388679] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  483.390678] C0    29 (   kworker/u8:1) 88pm88x-charger 88pm88x-charger: pm88x_get_charging_status : PM88X_CHG_STATUS2 : 0x01
+<6>[  483.391379] C0    29 (   kworker/u8:1) 88pm88x-battery 88pm88x-battery: pm88x_bat_update_status: volt: 3653, ibat: -294, soc: 27%, charger status: 2, temp: 320, batt health: 1, last_cc: 2555797, slp_cnt: 0
+<6>[  484.393887] C0  2424 (       recovery) EXT4-fs (mmcblk0p17): mounted filesystem with ordered data mode. Opts: errors=continue
+<7>[  484.393911] C0  2424 (       recovery) SELinux: initialized (dev mmcblk0p17, type ext4), uses xattr
+<6>[  484.447785] C0  2424 (       recovery) EXT4-fs (mmcblk0p17): mounted filesystem with ordered data mode. Opts: errors=continue
+<7>[  484.447809] C0  2424 (       recovery) SELinux: initialized (dev mmcblk0p17, type ext4), uses xattr

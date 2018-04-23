@@ -1,0 +1,62 @@
+audit(0.259:1): initialized
+audit(1486910496.639:12): policy loaded auid=4294967295 ses=4294967295
+audit(1486910496.679:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(0.249:1): initialized
+audit(1486915043.689:12): policy loaded auid=4294967295 ses=4294967295
+audit(1486915043.729:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(1486915064.339:204): audit_pid=3903 old=0 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+audit(0.249:1): initialized
+audit(1486915043.689:12): policy loaded auid=4294967295 ses=4294967295
+audit(1486915043.729:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(1486915064.339:205): audit_enabled=1 old=1 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+audit(0.259:1): initialized
+audit(1486922487.659:12): policy loaded auid=4294967295 ses=4294967295
+audit(1486922487.699:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(1486922508.679:204): audit_pid=3894 old=0 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+audit(0.259:1): initialized
+audit(1486922487.659:12): policy loaded auid=4294967295 ses=4294967295
+audit(1486922487.699:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(1486922508.679:205): audit_enabled=1 old=1 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+audit(0.249:1): initialized
+audit(1487014245.689:12): policy loaded auid=4294967295 ses=4294967295
+audit(1487014245.729:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(1487014267.149:204): audit_pid=3922 old=0 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+audit(0.249:1): initialized
+audit(1487014245.689:12): policy loaded auid=4294967295 ses=4294967295
+audit(1487014245.729:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(1487014267.149:205): audit_enabled=1 old=1 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+audit(0.259:1): initialized
+audit(1487075459.659:12): policy loaded auid=4294967295 ses=4294967295
+audit(1487075459.699:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(1487075480.549:204): audit_pid=3884 old=0 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+audit(0.259:1): initialized
+audit(1487075459.659:12): policy loaded auid=4294967295 ses=4294967295
+audit(1487075459.699:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(1487075480.549:205): audit_enabled=1 old=1 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+audit(0.249:1): initialized
+audit(1487363512.659:12): policy loaded auid=4294967295 ses=4294967295
+audit(1487363512.699:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(1487363534.519:204): audit_pid=3913 old=0 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+audit(0.249:1): initialized
+audit(1487363512.659:12): policy loaded auid=4294967295 ses=4294967295
+audit(1487363512.699:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(1487363534.519:205): audit_enabled=1 old=1 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+audit(0.249:1): initialized
+audit(1487652186.639:12): policy loaded auid=4294967295 ses=4294967295
+audit(1487652186.679:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(1487652209.139:204): audit_pid=3944 old=0 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+audit(0.249:1): initialized
+audit(1487652186.639:12): policy loaded auid=4294967295 ses=4294967295
+audit(1487652186.679:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(1487652209.139:205): audit_enabled=1 old=1 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+audit(0.259:1): initialized
+audit(1487944978.629:12): policy loaded auid=4294967295 ses=4294967295
+audit(1487944978.669:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(1487945000.119:204): audit_pid=3918 old=0 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+audit(0.259:1): initialized
+audit(1487944978.629:12): policy loaded auid=4294967295 ses=4294967295
+audit(1487944978.669:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+audit(1487945000.119:205): audit_enabled=1 old=1 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+audit(0.269:1): initialized
+audit(1487965202.659:12): policy loaded auid=4294967295 ses=4294967295
+audit(1487965202.699:13): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
