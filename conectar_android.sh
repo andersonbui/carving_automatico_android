@@ -47,8 +47,8 @@ while [ $CONTROL -eq 0 ] ; do
 		md5sum device_image.dd  
 		echo -e "\e[0m" 
 		
-		echo -e 'Así se escribe \e[1;34mG\e[0m\e[1;31mo\e[0m\e[1;33mo\e[0m\e[1;34mg\e[0m\e[1;32ml\e[0m\e[1;31me\e[0m'
-		photorec /debug /log /d ./recuperados /cmd device_image.dd partition_none,options,mode_ext2,fileopt,everything,enable,search^C
+		#echo -e 'Así se escribe \e[1;34mG\e[0m\e[1;31mo\e[0m\e[1;33mo\e[0m\e[1;34mg\e[0m\e[1;32ml\e[0m\e[1;31me\e[0m'
+		photorec /debug /log /d ./recuperados /cmd device_image.dd partition_none,options,mode_ext2,fileopt,everything,enable,search
 
 		read -n 1 -s -r -p 'Press any key to continue';
 	fi
