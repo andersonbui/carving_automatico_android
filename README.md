@@ -1,4 +1,4 @@
-# carving_automatico_android
+# Carving automático de dispositivos android
 
 carving automático para dispositivos android rooteados, hacia unidad de almacenamiento USB detectada.
 
