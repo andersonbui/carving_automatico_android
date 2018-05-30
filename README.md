@@ -1,2 +1,8 @@
-# carving_automatico_android
-carving automatico para dispositivos android rooteados
+# Carving automático de dispositivos android
+
+carving automático para dispositivos android rooteados, hacia unidad de almacenamiento USB detectada.
+
+
+Trabajo de clase,
+Introducción a informática Forense,
+Universidad del Cauca
