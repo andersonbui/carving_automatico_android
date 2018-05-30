@@ -25981,3 +25981,46 @@ Total: 0 file found
 
 4608 sectors contains unknown data, 0 invalid files found and rejected.
 PhotoRec exited normally.
+Using locale 'es_CO.UTF-8'.
+
+
+Mon Apr 23 15:45:11 2018
+Command line: PhotoRec /log /d /media/debian/debian9/recuperados /cmd device_image.dd partition_none,options,mode_ext2,fileopt,everything,enable,search
+
+PhotoRec 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.9.0-6-amd64 (#1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02)) x86_64
+Compiler: GCC 6.2
+ext2fs lib: 1.43.4, ntfs lib: libntfs-3g, ewf lib: none, libjpeg: libjpeg-turbo-1.5.1, curses lib: ncurses 6.0
+User is not root!
+Hard disk list
+Disk device_image.dd - 2306 KB / 2252 KiB - CHS 1 255 63 (RO), sector size=512
+
+Partition table type default to None
+Disk device_image.dd - 2306 KB / 2252 KiB (RO)
+Partition table type: None
+   P Unknown                  0   0  1     0  71 31       4504
+New options :
+ Paranoid : Yes
+ Brute force : No
+ Keep corrupted files : No
+ ext2/ext3 mode : Yes
+ Expert mode : No
+ Low memory : No
+
+Interface File Select
+650 first-level signatures enabled
+
+Analyse
+   P Unknown                  0   0  1     0  71 31       4504
+Pass 0 (blocksize=512) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_ON
+Elapsed time 0h00m00s
+Pass 1 +0 file
+Total: 0 file found
+
+4608 sectors contains unknown data, 0 invalid files found and rejected.
+PhotoRec exited normally.
