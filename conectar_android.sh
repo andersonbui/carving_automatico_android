@@ -21,7 +21,7 @@ function dump {
 		echo "Desempaquetado..."; 
 		sleep 2
 		echo $registro1
-		sqlite3  -header -csv $UBICACION_MUSB_CONECTADO"/"$2".db" "select $4 from "$3";" | cat >> $UBICACION_MUSB_CONECTADO"/"$2".csv"
+		sqlite3  -header -csv $UBICACION_MUSB_CONECTADO"/"$2".db" "select $4 from "$3";" | cat > $UBICACION_MUSB_CONECTADO"/"$2".csv"
 		echo "listo"; 
 		sleep 2
 		else echo "no existe el archivo $nosamsung";
