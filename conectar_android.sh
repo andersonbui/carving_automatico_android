@@ -1,6 +1,33 @@
 #!/bin/bash
 CONTROL=0
 
+function dump {
+	#$1 ubicacion
+	#$2 nombre distinguible
+	#$3 nombre tabla
+	nosamsung=$1
+	existe=`echo -e "ls  $nosamsung \nexit" | adb shell su | grep 'No such file or directory' | wc -l`
+	if [ $existe -eq 0 ]; then
+		echo "existe $nosamsung" 
+		echo "comenzando conexion"
+		sleep 2
+		# comenzando conexion
+		echo `echo "cat $nosamsung | busybox nc -l -p 8888" | adb shell su ` &
+		#adb shell su < trasferencia_registro.sh >> /dev/null &
+		echo "inciando transferencia"
+		sleep 4
+		# inciando transferencia
+		nc 127.0.0.1 8888 | bar | cat > $UBICACION_MUSB_CONECTADO"/"$2".db"
+		echo "Desempaquetado..."; 
+		sleep 2
+		echo $registro1
+		sqlite3  -header -csv $UBICACION_MUSB_CONECTADO"/"$2".db" "select $4 from "$3";" | cat >> $UBICACION_MUSB_CONECTADO"/"$2".csv"
+		echo "listo"; 
+		sleep 2
+		else echo "no existe el archivo $nosamsung";
+	fi
+}
+
 #PS1='\[$(tput setaf 1)(\t)$(tput sgr0)\][\u-\W]\$> '
 while [ $CONTROL -eq 0 ] ; do
 	cat /etc/mtab | grep media >> /dev/null
@@ -48,9 +75,9 @@ while [ $CONTROL -eq 0 ] ; do
 			###sleep 5
 			###nc 127.0.0.1 8888 | bar | cat > $UBICACION_MUSB_CONECTADO"/"device_image.dd
 		
-			echo -e "\e[0;33m" 
+			###echo -e "\e[0;33m" 
 			###cat $UBICACION_MUSB_CONECTADO"/"device_image.dd |  bar | md5sum  
-			echo -e "\e[0m" 
+			###echo -e "\e[0m" 
 			
 			#echo -e 'Así se escribe \e[1;34mG\e[0m\e[1;31mo\e[0m\e[1;33mo\e[0m\e[1;34mg\e[0m\e[1;32ml\e[0m\e[1;31me\e[0m'
 			
@@ -58,23 +85,18 @@ while [ $CONTROL -eq 0 ] ; do
 			###photorec /log /d $UBICACION_MUSB_CONECTADO"/"recuperados /cmd device_image.dd partition_none,options,mode_ext2,fileopt,everything,enable,search
 			# obtener registro de llamadas
 			
-			adb shell su < trasferencia_registro.sh >> /dev/null &
-			sleep 4
-			nc 127.0.0.1 8888 | bar | cat > $UBICACION_MUSB_CONECTADO"/"logs.db
-			sleep 2
-			registro1=`echo "ls /data/data/com.android.providers.contacts/databases/contacts2.db" | adb shell su &` &
-			echo "$registro1 --------------"
-			if [ echo $registro1 | wc -l  -eq 0 ]; then
-				echo "existe /data/data/com.android.providers.contacts/databases/contacts2.db"; 
-				else echo "no existe";
-			fi
-			sleep 2
+			nosamsung="/data/data/com.android.providers.contacts/databases/contacts2.db";
+			samsung="/data/data/com.sec.android.provider.logsprovider/databases/logs.db";
 			
-			sqlite3  -header -csv $UBICACION_MUSB_CONECTADO"/"logs.db "select _id, number,duration,name,date from logs;" | cat >> $UBICACION_MUSB_CONECTADO"/"registro.csv
-			sqlite3  -header -csv $UBICACION_MUSB_CONECTADO"/"logs.db "select _id, number,duration,name,date from calls;" | cat >> $UBICACION_MUSB_CONECTADO"/"registro.csv
+			
+			dump $nosamsung "contacts2" "calls" "_id, number,duration,name,date"
+			
+			dump $samsung "logs" "logs" "_id, number,duration,name,date, messageid, m_content"
+			
+			
 		fi
-		
 		read -n 1 -s -r -p 'Press any key to continue';
 	fi
 done
+
 exit 0
